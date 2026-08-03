@@ -1,0 +1,7 @@
+﻿input_id,required_granularity,unit_or_boundary,status,decision_link
+labour_force_participation,sex-age-year,20-69,MISSING,D7/D8
+employment_rate,sex-age-year,20-69; 65-69 actual,MISSING,D7/D8
+output_per_effective_worker,year,2025 CNY,MISSING,D7
+labour_output_elasticity,scalar/scenario,unitless,MISSING,D7
+disease_productivity_loss,outcome-age-sex,absence/presenteeism/exit/caregiver,MISSING,D6/D7
+wage_input,sex-age-year,2025 CNY,MISSING_SENSITIVITY_ONLY,D7

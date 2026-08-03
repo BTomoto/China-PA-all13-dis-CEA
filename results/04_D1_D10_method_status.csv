@@ -1,0 +1,11 @@
+﻿decision_id,choice,locked_rule,implementation_status,notes
+D1,A,疾病组特异性累积滞后,IMPLEMENTED,主分析按fast/medium/cancer/dementia分组；即时和+2年敏感性已运行
+D2,A,S0 0.84%至2034；2035—2040衰减至0,IMPLEMENTED,2034后稳定和持续趋势敏感性已运行
+D3,A,2010—2023年龄—性别疾病率趋势，并于2035—2040衰减,IMPLEMENTED_GBD_FINAL_HISTORY,主分析使用2010—2023；2018—2023近期窗口、2023固定率和趋势持续作为结构敏感性
+D4,A,新发病例/首次事件×首年直接医疗费用,PARTIAL,IHD、卒中和7癌可算；T2D、抑郁、痴呆及高血压严格接口仍缺
+D5,A,公共支付方主视角；总直接费用扩展,FRAMEWORK_READY_NOT_HEADLINE,公共支付比例缺失，暂报政策实施成本桥接CEA
+D6,A,劳动生产率卫星模块；RAND外部对标,INTERFACE_READY_NO_ESTIMATE,父数据库不含劳动参数
+D7,A,有效劳动×产出弹性；工资法敏感性,INTERFACE_READY_NO_ESTIMATE,父数据库不含年龄性别就业和生产率参数
+D8,A,20—69岁，65—69按实际就业率,INTERFACE_READY_NO_ESTIMATE,年龄边界已锁定，数值待劳动输入
+D9,A,政策特异性维护—持续—衰减,IMPLEMENTED_INTERIM_COST,full/reduced75%/stop已运行；2035后资本更新仍为INTERIM
+D10,B,高血压直接诊疗；痴呆长期照护入社会成本,IMPLEMENTED_PROVISIONAL,高血压避免患者年已算；痴呆长期照护为社会成本卫星结果
