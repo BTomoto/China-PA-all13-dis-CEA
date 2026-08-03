@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using the metadata below."
+title: "China physical activity 13-disease cost-effectiveness analysis"
+type: software
+version: "initial structured import"
+date-released: 2026-08-04
+authors:
+  - name: "待项目负责人确认"
+repository-code: "https://github.com/BTomoto/China-PA-all13-dis-CEA"
+license: "LicenseRef-Proprietary"
+abstract: "Code, notebooks, aggregate outputs, and documentation for a China physical-activity policy cost-effectiveness analysis covering 13 disease/outcome groups."

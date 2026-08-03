@@ -1,0 +1,9 @@
+﻿setting_id,value,interpretation
+MAIN_COST_STRUCTURE,STRUCTURAL_ANCHOR,Main PSA fixed; no structure mixture
+MAIN_S1_COST_MODE,extend_recurring_cost_to_horizon,Recurring implementation cost extended to 2034
+MAIN_S1_EFFECT_MODE,sustained_programme,Effect persists only with maintained programme
+MAIN_UPTAKE_TIMING,midyear_linear_ramp,Annual average of linear implementation ramp
+STRUCTURAL_SENSITIVITY,LOWER|STRUCTURAL_ANCHOR|UPPER,Run separately
+LEGACY_STRUCTURE_MIXTURE,DISABLED,0.2/0.6/0.2 not used in main PSA
+S2_S4_COST_BOUNDARY,AUDITED_CORE_NOT_FULL_POLICY,Mandatory reporting label
+IMPLEMENTATION_COST_EFFECT_CORRELATION,OFF,Retains alignment with 13-disease v3.1; future harmonized revision required

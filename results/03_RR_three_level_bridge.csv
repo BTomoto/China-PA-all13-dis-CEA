@@ -1,0 +1,16 @@
+﻿outcome_id,component_id,rr_low,rr_moderate,rr_high,sex_use,rr_bridge_source
+coronary_heart_disease,coronary_heart_disease,1.28270051578188,1.073942995009354,1.0,Both,CVD v16 three-level RR
+stroke,ischemic_stroke,1.265508234730021,1.066902591234309,1.0,Both,CVD v16 three-level RR
+stroke,intracerebral_hemorrhage,1.19,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+stroke,subarachnoid_hemorrhage,1.19,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+type2_diabetes,type2_diabetes,1.17,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+hypertension,hypertension,1.06,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+bladder_cancer,bladder_cancer,1.08,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+breast_cancer,breast_cancer,1.09,1.0,1.0,Female,Parent binary RR bridged as moderate=high=1
+colon_cancer,colon_cancer,1.11,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+endometrial_cancer,endometrial_cancer,1.09,1.0,1.0,Female,Parent binary RR bridged as moderate=high=1
+oesophageal_cancer,oesophageal_cancer,1.28,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+gastric_cancer,gastric_cancer,1.27,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+renal_cancer,renal_cancer,1.28,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+dementia,dementia,1.4,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1
+depression,depression,1.28,1.0,1.0,Both,Parent binary RR bridged as moderate=high=1

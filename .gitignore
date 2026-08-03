@@ -1,0 +1,45 @@
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+conda-env/
+cache/
+temp/
+tmp/
+logs/
+.DS_Store
+Thumbs.db
+~$*
+*.bak
+
+# Restricted/licensed source data: obtain separately; see data/README.md.
+input/gbd_raw_2010_2017/
+input/gbd_standardized/*.csv.gz
+input/cvd_v16_core/gbd_*.csv
+input/parent/*.xlsx
+data/GBD_*.csv.gz
+data/health_*_detail_primary.csv.gz
+data/hypertension_detail_primary.csv.gz
+data/PA_trajectory_primary.csv.gz
+
+# Large or draw-level PSA intermediates and archives.
+formal_psa_raw_archive/
+psa_formal/
+**/01_joint_PSA_draws*.csv.gz
+**/01B_draw_audit.csv.gz
+results/tables/09_S6_vs_S4_incremental_draws.csv.gz
+
+# Generated previews and local audit bundles.
+workbook_previews_v1.3/
+_audit_extract/
+*.rar
+*.zip
