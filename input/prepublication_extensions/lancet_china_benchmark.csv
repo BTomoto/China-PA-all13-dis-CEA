@@ -1,0 +1,7 @@
+﻿outcome_group,lancet_attributable_cases_2020_2030,lancet_direct_cost_2020_usd,unit_cost_2020_usd,cost_value_status,source
+cancers,568870,1100041686,,PUBLISHED_AGGREGATE,Table S6 and Table S8
+coronary_heart_disease,1050261,241613315,205.47,PUBLISHED_UNIT_AND_AGGREGATE,Table S5 Table S6 and Table S8
+depression,19493977,4737789617,243.046852,INFERRED_FROM_PUBLISHED_AGGREGATE_DIVIDED_BY_CASES,Table S6 and Table S8
+hypertension,21897988,5322057198,173.59,PUBLISHED_UNIT_AND_AGGREGATE,Table S5 Table S6 and Table S8
+stroke,1169515,1035991381,791.19,PUBLISHED_UNIT_AND_AGGREGATE,Table S5 Table S6 and Table S8
+type2_diabetes,989399,183114180,185.075154,INTERNAL_CONSISTENCY_CORRECTION_NOT_PUBLISHER_ERRATUM,Table S6 and Table S8; printed aggregate appears 1000-fold too large

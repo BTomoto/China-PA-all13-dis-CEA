@@ -1,0 +1,10 @@
+﻿check_id,passed,observed,expected
+FOUR_OUTCOMES_PRESENT,True,"['dementia', 'depression', 'hypertension', 'type2_diabetes']","['dementia', 'depression', 'hypertension', 'type2_diabetes']"
+NO_NEGATIVE_HEALTH,True,0.0,>=-1e-9
+D4_PLUS_FOUR_STREAMS,True,13,13
+PAYER_SHARE_RANGE,True,0.7128518070158735,"(0,1)"
+LANCET_CALIBRATED_CASE_RATIO,True,0.833-1.377,0.75-1.45
+LANCET_GAP_DECOMPOSITION_IDENTITY,True,8.881784197001252e-16,<1e-10
+GDP_NONNEGATIVE,True,0.0,>=-1e-9
+GDP_VARIANTS,True,"['HIGH', 'LOW', 'MAIN']","['HIGH', 'LOW', 'MAIN']"
+UNCERTAINTY_DRAWS,True,10000,10000

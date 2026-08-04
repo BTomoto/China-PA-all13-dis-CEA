@@ -1,0 +1,9 @@
+﻿outcome_or_stream,selected_basis,status,non_overlap_rule
+coronary_heart_disease,incident-first-year,included,Do not add annual IHD patient-year cost
+stroke,incident-first-year,included,All stroke subtypes share one composite event-cost stream
+type2_diabetes,prevalence-patient-year,included,Use no-complication routine cost; exclude macrovascular complication cost
+depression,prevalence-patient-year,included,No death/YLL stream; depression-index direct cost only
+dementia,prevalence-patient-year,included,Direct medical and social care streams reported separately
+hypertension,hypertension-patient-year,included,Hypertension-specific cost only; downstream CVD excluded
+cancers,incident-first-year,included,Each cancer cost connected only to its own avoided incidence
+informal_care,dementia-patient-year,social-only,Never treated as insurer or public payer saving

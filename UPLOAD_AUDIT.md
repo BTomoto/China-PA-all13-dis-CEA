@@ -46,3 +46,9 @@ No byte-identical duplicates were detected by SHA-256 within the extracted archi
 ## Verification limitations
 
 The audit is technical and conservative; it is not legal advice, a formal privacy certification, or a substitute for the data providers' current terms. See `KNOWN_ISSUES.md` for remaining manual confirmations.
+
+## v2.0 update addendum (2026-08-04)
+
+The pre-publication extension v2.0 added 26 bundle files plus two project-generated DOCX reports and `docs/UPDATE_NOTES_v2.0.md`. The bundle contains no file over 50 MiB or 100 MiB, no byte-identical duplicates, and no detected credential, obvious personal-identifier, or local absolute-path patterns. Its Python script and Notebook code cells passed syntax parsing, and all nine checks in `results/prepublication_v2/00_QC.csv` are marked `True`.
+
+The outer `China-PA-all13-prepublication-extension-v2.0.zip` remains excluded to avoid archive/extracted duplication. The later `身体活动13病种分析模型_口径及Lancet_RAND对标说明_v2.1.docx` is not included in the v2.0 update and requires a separate version review. Existing IHME/GBD restrictions and exclusions remain unchanged.

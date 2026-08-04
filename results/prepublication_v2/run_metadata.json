@@ -1,0 +1,11 @@
+{
+  "analysis_version": "prepublication_v2.0",
+  "authorised_data_root": "LOCAL_AUTHORISED_DATA_NOT_DISTRIBUTED",
+  "public_payer_share_2025_bridge": 0.7128518070158735,
+  "economic_uncertainty_draws": 10000,
+  "economic_uncertainty_seed": 20260803,
+  "strict_cge_completed": false,
+  "gdp_label": "GDP-equivalent productivity benefit; mechanism-based and RAND-calibrated satellite estimates",
+  "main_psa_replaced": false,
+  "qc_passed": true
+}

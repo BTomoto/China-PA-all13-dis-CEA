@@ -11,4 +11,13 @@ This repository intentionally omits individual-level data and restricted or redi
 
 Place authorized local inputs at the paths expected by the scripts. The repository `.gitignore` prevents these files from being staged accidentally. `data/templates/` is reserved for non-sensitive schemas; `data/processed/` is reserved for small, redistribution-approved processed data.
 
+The prepublication extension runner accepts the authorized archive explicitly:
+
+```bash
+python src/run_prepublication_extensions_v2.py \
+  --authorised-data-root /path/to/authorised/full/archive
+```
+
+Only model parameters, aggregate outputs, quality-control tables, and code from this extension are tracked in the public repository. The generated metadata deliberately records a generic local-data marker rather than a workstation path.
+
 No patient-level or personally identifying data was identified in the reviewed bundle. This is a filename/header/pattern audit, not a legal determination or formal de-identification certification.
