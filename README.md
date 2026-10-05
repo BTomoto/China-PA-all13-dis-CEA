@@ -23,9 +23,3 @@ Keep the folder structure intact. After changing the Excel workbook, restart the
 | `reference/` | Manuscript table records and model diagram |
 | `outputs/` | Supplied analysis results and regenerated tables and figures |
 | `work/` | Intermediate files created during execution |
-
-The workbook's `身体活动水平` sheet contains manuscript descriptive values. It is loaded into `excel_tables` but is not among the 27 computational input tables. Model calculations use the existing physical activity resources loaded by `src/aggregate_inputs.py`. See [data and licensing notes](DATA_AND_LICENSES.md).
-
-## Version and verification
-
-This repository snapshot corresponds to the uploaded `PA_Integrated_Notebook_20261004(1).zip`, synchronized on 2026-10-05. Analysis code, inputs, random seeds, and supplied outputs are retained from that archive. Syntax and input-loading checks were performed during synchronization; the full model and probability analyses were not rerun. Existing manuscript comparison records remain in `outputs/verification/`.
