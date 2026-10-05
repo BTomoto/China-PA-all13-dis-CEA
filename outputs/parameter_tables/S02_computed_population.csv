@@ -1,0 +1,23 @@
+﻿year,sex,age_group,population_model,population,wpp_population_2025,baseline_population_2025,parent_to_wpp_2025_ratio,wpp_index_2025,population_source
+2025,Female,20-24,36299576.5,36299576.5,36299576.5,33740825.0,0.9295101555799142,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,25-29,38427453.0,38427453.0,38427453.0,39387825.0,1.0249918203009707,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,30-34,46450905.5,46450905.5,46450905.5,55058250.0,1.1852998215503032,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,35-39,58246667.5,58246667.5,58246667.5,52234750.0,0.8967852109307369,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,40-44,49820496.5,49820496.5,49820496.5,46870100.0,0.940779464130792,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,45-49,45295720.5,45295720.5,45295720.5,49834775.0,1.100209345383964,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,50-54,57034156.5,57034156.5,57034156.5,61834650.0,1.0841687471962524,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,55-59,58561241.0,58561241.0,58561241.0,57317050.0,0.9787540192326184,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,60-64,47741355.5,47741355.5,47741355.5,35293750.0,0.7392699606109844,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,65-69,36668389.5,36668389.5,36668389.5,39670175.0,1.0818630308265924,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Female,70+,79698688.5,79698688.5,79698688.5,40799575.0,0.5119227902978605,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,20-24,42526154.0,42526154.0,42526154.0,38258425.0,0.899644604588508,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,25-29,44377128.0,44377128.0,44377128.0,43764250.0,0.9861893270785798,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,30-34,52145494.5,52145494.5,52145494.5,57881750.0,1.110004815468765,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,35-39,63281937.5,63281937.5,63281937.5,55199425.0,0.8722777332789471,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,40-44,52676265.5,52676265.5,52676265.5,49270075.0,0.9353372820250517,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,45-49,47064933.5,47064933.5,47064933.5,51811225.00000001,1.1008456008973222,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,50-54,58045377.5,58045377.5,58045377.5,62964050.0,1.0847384014342916,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,55-59,58103255.5,58103255.5,58103255.5,57599399.99999999,0.991328274196271,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,60-64,45994642.5,45994642.5,45994642.5,35011400.0,0.7612060469868854,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,65-69,33383371.5,33383371.5,33383371.5,38399600.0,1.1502612910143004,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent
+2025,Male,70+,61409748.5,61409748.5,61409748.5,60987600.0,0.9931257086975368,1.0,UN WPP 2024 Medium annual age-sex population; CVD v16 numeric parent

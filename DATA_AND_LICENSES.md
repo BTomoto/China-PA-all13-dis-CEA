@@ -1,27 +1,14 @@
 # Data and licensing notes
 
-This repository contains project-generated code and outputs together with third-party data inputs. No single license applies to every file.
+The workbook contains population, disease burden, relative-risk, policy, cost, and economic inputs. Its `身体活动水平` sheet reproduces manuscript descriptive data and does not replace the computational physical activity baseline.
 
-## IHME GBD data
+Model-level physical activity summaries are included in packaged resources. The package does not contain individual survey records. Encoding and encryption in the resource module do not prevent a recipient from extracting the summaries; they are included with the analysis package. The model baseline and the manuscript descriptive baseline retain their existing difference.
 
-Files under `input/gbd_raw_2010_2017/`, `input/gbd_standardized/`, selected parts of `input/cvd_v16_core/`, and derived GBD projections under `data/` originate from or are derived from the IHME Global Burden of Disease study.
-
-Use is subject to the current IHME terms and the applicable free-of-charge non-commercial user agreement:
+IHME Global Burden of Disease inputs and derived tables remain subject to their source terms and attribution requirements:
 
 - https://www.healthdata.org/data-tools-practices/data-practices/terms-and-conditions
 - https://www.healthdata.org/data-tools-practices/data-practices/ihme-free-charge-non-commercial-user-agreement
 
-The inclusion of these files does not grant rights beyond those terms. Users must provide the required IHME attribution and must independently verify that their planned use and redistribution are permitted.
+Population inputs are based on United Nations World Population Prospects 2024: https://population.un.org/wpp/. Other parameter sources are recorded in the workbook and reference tables. Including third-party materials here does not grant additional redistribution rights.
 
-## United Nations population data
-
-Population inputs under `input/population/` are based on United Nations World Population Prospects 2024. Users should follow the UN data citation and use requirements: https://population.un.org/wpp/
-
-## External publications
-
-The Lancet and RAND benchmark PDFs are not part of this repository. The Lancet article is available from the publisher under its stated license. RAND's product page states that unauthorized online posting of the publication is prohibited and recommends linking to the official product page.
-
-## Project-generated materials
-
-The repository does not currently include an open-source license for project-generated code or documents. Unless and until the repository owner adds one, normal copyright applies. A future code license must not be interpreted as relicensing third-party data or publications.
-
+No new open-source license is granted by this update. Project-generated code and documents retain the existing repository licensing position; see `LICENSE`.

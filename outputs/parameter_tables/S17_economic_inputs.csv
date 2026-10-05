@@ -1,0 +1,21 @@
+﻿parameter_id,value,unit,price_year,source_url,status,note
+CHINA_GDP,140187900000000.0,CNY,2025,https://www.stats.gov.cn/sj/zxfb/202601/t20260120_1962349.html,OFFICIAL,2025 nominal GDP preliminary accounting
+CHINA_EMPLOYED_PERSONS,725040000.0,persons,2025,https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html,OFFICIAL,Year-end employed persons
+WORKING_DAYS_PER_YEAR,250.0,days,2025,,ASSUMPTION,Used only to translate RAND work-loss days into worker-year equivalents
+RAND_ABSENCE_DAYS_LOW,0.44,days,2019,https://www.rand.org/pubs/research_reports/RR4291.html,EXTERNAL_BENCHMARK,Lower difference between inactive and active workers
+RAND_ABSENCE_DAYS_HIGH,0.86,days,2019,https://www.rand.org/pubs/research_reports/RR4291.html,EXTERNAL_BENCHMARK,Upper difference between inactive and active workers
+RAND_PRESENTEEISM_DAYS_LOW,2.6,days,2019,https://www.rand.org/pubs/research_reports/RR4291.html,EXTERNAL_BENCHMARK,Lower difference between inactive and active workers
+RAND_PRESENTEEISM_DAYS_HIGH,3.71,days,2019,https://www.rand.org/pubs/research_reports/RR4291.html,EXTERNAL_BENCHMARK,Upper difference between inactive and active workers
+LABOUR_OUTPUT_ELASTICITY_LOW,0.5,proportion,2025,,STRUCTURAL_ASSUMPTION,Conservative marginal-output conversion
+LABOUR_OUTPUT_ELASTICITY_MAIN,0.55,proportion,2025,,STRUCTURAL_ASSUMPTION,Mechanism-based GDP-equivalent main value; not a CGE estimate
+LABOUR_OUTPUT_ELASTICITY_HIGH,0.7,proportion,2025,,STRUCTURAL_ASSUMPTION,Upper structural sensitivity
+MORTALITY_STOCK_FACTOR_LOW,0.5,proportion,2025,,STRUCTURAL_ASSUMPTION,Discounts retirement-bound survivor stock for competing mortality
+MORTALITY_STOCK_FACTOR_MAIN,0.75,proportion,2025,,STRUCTURAL_ASSUMPTION,Main survivor-stock adjustment
+MORTALITY_STOCK_FACTOR_HIGH,1.0,proportion,2025,,STRUCTURAL_ASSUMPTION,Upper retirement-bound human-capital stock
+EMPLOYEE_MEDICAL_ENROLMENT,388561200.0,persons,2025,https://www.nhsa.gov.cn/art/2026/7/16/art_7_21451.html,OFFICIAL,All employee basic medical insurance enrollees
+RESIDENT_MEDICAL_ENROLMENT,942132700.0,persons,2025,https://www.nhsa.gov.cn/art/2026/7/16/art_7_21451.html,OFFICIAL,Resident basic medical insurance enrollees
+EMPLOYEE_INPATIENT_FUND_SHARE,0.841,proportion,2025,https://www.nhsa.gov.cn/art/2026/7/16/art_7_21451.html,OFFICIAL,Within-directory inpatient fund payment share
+RESIDENT_INPATIENT_FUND_SHARE,0.66,proportion,2025,https://www.nhsa.gov.cn/art/2026/7/16/art_7_21451.html,OFFICIAL,Within-directory inpatient fund payment share
+PAYER_SHARE_EFFECTIVE_SAMPLE_SIZE,60.0,count,2025,,UNCERTAINTY_ASSUMPTION,Beta precision retained from prior D5 bridge
+RAND_CHINA_INACTIVE_MALE,0.16,proportion,2019,https://www.rand.org/pubs/research_reports/RR4291.html,EXTERNAL_BENCHMARK,RAND Table 4.1
+RAND_CHINA_INACTIVE_FEMALE,0.122,proportion,2019,https://www.rand.org/pubs/research_reports/RR4291.html,EXTERNAL_BENCHMARK,RAND Table 4.1

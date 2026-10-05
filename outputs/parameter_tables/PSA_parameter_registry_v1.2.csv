@@ -1,0 +1,12 @@
+﻿parameter_family,decision,unit,distribution,evidence,status,correlation_or_rule
+GBD_BASELINE,D3,Burden/cases by component-age-sex,Lognormal,GBD 2023 lower/upper,READY,2023 anchor from parent database GBD 2023
+GBD_TREND,D3,2010-2023 log-rate slope,Capped Normal,History residual SE,READY,Damped after 2034; recent-window structural sensitivity deterministic only
+PA_BASELINE,D2,Inactive/active by age-sex,Beta,"Beta(inactive_n+0.5, active_n+0.5)",READY,Active is one minus inactive within each draw
+RR,D1/health,Binary inactive-versus-active outcome/component RR,Lognormal,Approved binary RR decision table,READY,Common stroke PIF main mapping; IS_ONLY structural sensitivity
+POLICY_EFFECT,Policy,Theta by strategy,Beta,Locked policy prior,READY,Coverage fixed in current PSA
+S0_TREND,D2,Low-PA annual trend,Triangular,0.0042/0.0084/0.0126,READY,Damped after 2034
+PROGRAMME_COST,D9,Strategy aggregate multiplier,Lognormal,CVD v16 cost CV,READY_5Y_10Y,Perfect temporal correlation
+D4_FIRST_YEAR_COST,D4,Covered outcome cost,Lognormal,China evidence plus explicit proxies,PARTIAL,Missing outcomes not imputed
+D5_PAYER_SHARE,D5,National bridge,Beta,NHSA 2024,INTERIM,Not disease-specific
+LAG,D1,Group-specific latency,Structural,Locked D1 rule,READY_STRUCTURAL,Not randomized in PSA
+CAPITAL_RENEWAL,D9,2035-2050 renewal,Structural,S3-S6 gap register,OPEN,Long horizon not headline
