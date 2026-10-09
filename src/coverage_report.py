@@ -21,7 +21,7 @@ def build_report(root):
         s=ref[key]['rows'][row_i][col_i]
         numeric_text=s
         if key=='supp_S35' and col_i in [2,3,4]:numeric_text=re.search(r'（(.*?)）',s).group(1)
-        tokens=re.findall(r'(?<![\d.])-?\d+(?:\.\d+)?',numeric_text.replace(',','').replace('–',' ').replace('—',' '))
+        tokens=re.findall(r'(?<![\d.])-?\d+(?:\.\d+)?',numeric_text.replace('−','-').replace(',','').replace('–',' ').replace('—',' '))
         actual=np.atleast_1d(values).astype(float).tolist()
         if not tokens:
             status='未估计（与原表一致）' if all(pd.isna(v) for v in actual) else '展示占位'
@@ -42,7 +42,7 @@ def build_report(root):
     for i,r in enumerate(rows('main_2'),1):
         for h,c in [(5,1),(10,4)]:
             z=one(m2,horizon_years=h,scenario_id=r[0].split()[0])
-            for offset,value in enumerate([z.discounted_dalys_averted/1e6,z.discounted_programme_cost_2025_cny/1e9,z.icer_ratio_of_means]):compare('main_2',i,c+offset,value,'表题称确定性；对应正式PSA均值及均值之比')
+            for offset,value in enumerate([z.discounted_dalys_averted/1e6,z.discounted_programme_cost_2025_cny/1e9,z.icer_ratio_of_means]):compare('main_2',i,c+offset,value,'PSA均值及均值之比')
     uncertainty=read('tables/Main_Table3_uncertainty.csv');medical=read('tables/Main_Table3_medical.csv')
     gdp=pd.read_csv(root/'work/economic/08_gdp_equivalent_mechanism_annual.csv')
     for c,h in [(1,5),(2,10),(3,26)]:
@@ -65,7 +65,13 @@ def build_report(root):
     base=read('paper_baseline_discrepancy.csv')
     for i,r in enumerate(rows('supp_S4'),1):
         z=one(base,sex={'女性':'Female','男性':'Male','总体':'Both'}[r[0]])
-        compare('supp_S4',i,1,z.population/1e8);compare('supp_S4',i,2,z.model_inactive_percent,'稿件描述基线与正式模型基线不一致');compare('supp_S4',i,3,z.population*z.model_inactive_percent/100/1e8)
+        compare('supp_S4',i,1,z.population/1e8);compare('supp_S4',i,2,z.model_inactive_percent,'本轮按稿件S3替换；S4为显示精度校核');compare('supp_S4',i,3,z.population*z.model_inactive_percent/100/1e8)
+    annual_baseline=read('parameter_tables/S05_formal_model_annual_baseline.csv')
+    for i,r in enumerate(rows('supp_S5'),1):
+        year=int(r[0])
+        if year>=2025:
+            for c,sex in [(1,'Female'),(2,'Male'),(3,'Both')]:
+                compare('supp_S5',i,c,one(annual_baseline,year=year,sex=sex).inactive_proportion*100)
     cost=read('cost_reconstruction/annual_closure.csv');tot=read('cost_reconstruction/discounted_totals.csv')
     for i,r in enumerate(rows('supp_S14'),1):
         if i<=10:
@@ -163,8 +169,8 @@ def build_report(root):
         status='已计算并核对' if computed else '已提供冻结参数／方法记录'
         detail=''
         if key in ['supp_S3','supp_S4','supp_S5']:
-            status='作者决定暂缓处理基线对应';detail='依作者决定保留正式模型原有输入；稿件基线对应暂缓处理。'
-        if key=='main_2':detail='数值对应PSA均值及均值之比，表题“确定性”需作者统一。'
+            status='本轮已替换身体活动基线';detail='S3的2025年龄性别比例用于模型；PSA保留旧精度的假设见补充材料表S18和Excel的precision_source列。'
+        if key=='main_2':detail='数值对应PSA均值及均值之比。'
         failed=checks[checks.table.eq(key)&checks.status.isin(['差异','需人工核对'])]
         if len(failed) and status=='已计算并核对':status='已计算，存在展示值差异'
         paths=sorted(str(p.relative_to(root)) for p in (out/'tables').glob(('Main_Table'+str(n)+'*') if key.startswith('main') else f'S{n}.csv'))
@@ -172,7 +178,7 @@ def build_report(root):
         cover.append({'location':key,'title':t['title'],'notebook':'06 / 07 / 09','outputs':';'.join(paths),'status':status,'checked_cells':int(checks.table.eq(key).sum()),'different_cells':len(failed),'note':detail})
     for name in ['Main_Figure1','Main_Figure2','Main_Figure3','Main_Figure4']+[f'Supp_FigureS{i}' for i in range(1,7)]:
         status='已由计算结果重绘'
-        if name=='Main_Figure1':status='基线图已导出；保持原有输入'
+        if name=='Main_Figure1':status='已按本轮替换基线重绘'
         if name=='Supp_FigureS1':status='模型示意原图保留；非数值分析'
         cover.append({'location':name,'title':name,'notebook':'08','outputs':'outputs/figures/'+name+'*','status':status,'checked_cells':0,'different_cells':0,'note':'统计内容与作图数据可追溯；不保证与Word图片像素一致。'})
     save(root,'result_coverage.csv',pd.DataFrame(cover))

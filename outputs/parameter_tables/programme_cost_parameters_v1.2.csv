@@ -1,7 +1,0 @@
-﻿parameter_id,scenario_id,distribution,mean,cv,log_mu,log_sigma,lower_truncation,upper_truncation,temporal_correlation,evidence_basis
-COST_MULT_S1,S1,mean_preserving_lognormal_multiplier,1.0,0.35,-0.0577791703171361,0.3399387307063911,0.25,4.0,perfect within draw across years,CVD v16 v1.4 FINAL_MODEL_BASED
-COST_MULT_S2,S2,mean_preserving_lognormal_multiplier,1.0,0.2,-0.0196103565766406,0.198042200435365,0.25,4.0,perfect within draw across years,CVD v16 v1.4 FINAL_MODEL_BASED
-COST_MULT_S3,S3,mean_preserving_lognormal_multiplier,1.0,0.3,-0.0430888481205261,0.2935603792085238,0.25,4.0,perfect within draw across years,CVD v16 v1.4 FINAL_MODEL_BASED
-COST_MULT_S4,S4,mean_preserving_lognormal_multiplier,1.0,0.3,-0.0430888481205261,0.2935603792085238,0.25,4.0,perfect within draw across years,CVD v16 v1.4 FINAL_MODEL_BASED
-COST_MULT_S5,S5,mean_preserving_lognormal_multiplier,1.0,0.4,-0.0742100025591366,0.3852531701599265,0.25,4.0,perfect within draw across years,CVD v16 v1.4 FINAL_MODEL_BASED
-COST_MULT_S6,S6,mean_preserving_lognormal_multiplier,1.0,0.3,-0.0430888481205261,0.2935603792085238,0.25,4.0,perfect within draw across years,CVD v16 v1.4 FINAL_MODEL_BASED

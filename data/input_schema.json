@@ -1817,5 +1817,35 @@
     "rows": 15,
     "object_types": {},
     "none_cells": []
+  },
+  {
+    "key": "parent/PA_binary_20plus",
+    "sheet": "身体活动水平",
+    "columns": [
+      "year",
+      "sex",
+      "age_group",
+      "population_million",
+      "p_inactive",
+      "p_active",
+      "source",
+      "data_role",
+      "psa_precision_n",
+      "precision_source"
+    ],
+    "dtypes": {
+      "year": "int64",
+      "sex": "object",
+      "age_group": "object",
+      "population_million": "float64",
+      "p_inactive": "float64",
+      "p_active": "float64",
+      "source": "object",
+      "data_role": "object",
+      "psa_precision_n": "int64",
+      "precision_source": "object"
+    },
+    "rows": 22,
+    "none_cells": []
   }
 ]

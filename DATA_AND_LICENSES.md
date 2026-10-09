@@ -1,8 +1,8 @@
 # Data and licensing notes
 
-The workbook contains population, disease burden, relative-risk, policy, cost, and economic inputs. Its `身体活动水平` sheet reproduces manuscript descriptive data and does not replace the computational physical activity baseline.
+The workbook contains population, disease burden, relative-risk, policy, cost, and economic inputs. Its `身体活动水平` sheet directly supplies the model baseline: the 22 age–sex proportions already refer to 2025 and are not extrapolated again. Other input tables retain their existing values.
 
-Model-level physical activity summaries are included in packaged resources. The package does not contain individual survey records. Encoding and encryption in the resource module do not prevent a recipient from extracting the summaries; they are included with the analysis package. The model baseline and the manuscript descriptive baseline retain their existing difference.
+The `psa_precision_n` column retains the original four-province stratum sizes solely as a precision assumption, matching Supplementary Table S18. Beta parameters are n × p + 0.5 and n × (1 − p) + 0.5. These pseudocounts are not national surveillance sample sizes; intervals and probabilities are conditional on this assumption. No individual survey records are included. Inputs and generated outputs are stored in readable formats.
 
 IHME Global Burden of Disease inputs and derived tables remain subject to their source terms and attribution requirements:
 

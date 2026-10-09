@@ -1,7 +1,0 @@
-﻿lag_group,diseases,start_delay_years,time_to_50pct,time_to_full,lower_full,upper_full,effect_profile,analysis_role,parameter_status,notes
-fast,Hypertension; Depressive disorders,0,1,2,1.0,3.0,ramp_to_full,main_structural,structural_assumption,Rapid response group; test immediate and delayed effects.
-medium,IHD; Stroke; Type 2 diabetes,1,3,5,3.0,7.0,ramp_to_full,main_structural,structural_assumption,Consistent with existing gradual effect approach.
-cancer,Seven cancers,3,7,10,7.0,12.0,ramp_to_full,main_structural,structural_assumption,Long latency; 5-year outcomes expected to be conservative.
-dementia,Dementia,5,10,15,10.0,20.0,ramp_to_full,main_structural,structural_assumption,Long latency and older-age concentration.
-immediate,All diseases,0,0,0,0.0,0.0,immediate_full,structural_sensitivity,structural_assumption,Upper-bound sensitivity.
-delayed_plus2,All diseases,main+2,main+2,main+2,,,shift_main,structural_sensitivity,structural_assumption,Conservative latency sensitivity.

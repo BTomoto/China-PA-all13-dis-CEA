@@ -1,8 +1,0 @@
-﻿rule_id,horizon_years,status,scope,evidence,model_use
-D9-5Y,5,FORMAL_PSA_READY,2025-2029,CVD v16 final programme cost; no post-2034 renewal dependency,Main formal health-economic PSA
-D9-10Y,10,FORMAL_PSA_READY,2025-2034,CVD v16 final programme cost; no post-2034 renewal dependency,Main formal health-economic PSA
-D9-26Y,26,INTERIM_STRUCTURAL_SENSITIVITY,2025-2050,2035-2050 holds 2034 steady-state; S3/S4/S5/S6 renewal gaps unresolved,Extended result; not paper headline until renewal audit closes
-D9-S5-SW,26,PARTIAL_EVIDENCE,S5 software,8-year annualization exists in S5 lock; hardware replacement still conditional,Do not add software cash plus annuity
-D9-S3-CAP,26,OPEN_GAP,S3 capital,Cash and EAC are mutually exclusive; lifetime/replacement share not nationally closed,Retain structural sensitivity
-D9-S4-EQP,26,OPEN_GAP,S4 equipment,Equipment economic annualization exists; explicit national replacement timing not separated,Retain structural sensitivity
-D9-S6-DEDUP,26,OPEN_GAP,S6 composite,Renewal ownership and shared-pool deduplication unresolved,Never sum S1-S5 raw modules into S6
