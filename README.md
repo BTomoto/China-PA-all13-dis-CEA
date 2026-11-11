@@ -1,3 +1,5 @@
+> **New study planning — 2026-11-11:** The new research will evaluate potential health and medical expenditure impacts under physical-activity improvement scenarios, without policy cost-effectiveness analysis. See [the new study README](new_study/README.md), [data inventory](new_study/data_inventory.csv), and [data gaps](new_study/data_gaps.csv). The workflow below reproduces the previous policy CEA; it has not been converted or validated for the new study.
+
 # China physical activity policy cost-effectiveness analysis
 
 Analysis code and accompanying results for physical activity promotion policies among Chinese adults aged 20 years or older, covering 13 disease groups.

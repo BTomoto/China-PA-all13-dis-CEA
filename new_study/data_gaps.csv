@@ -1,0 +1,17 @@
+﻿gap_id,priority,required_item,current_evidence,needed_fields,acquisition_route,proposed_register_not_yet_created,acceptance_condition
+G01,P0,2018全国身体活动分层原始表与转换记录,身体活动水平仅存2025年22层点估计，source指向旧补充表,2018按年龄性别不足率、定义、调查权重/标准化口径、原始页表、2018到模型基线的逐步换算,公开原文及补充材料；必要时向数据持有者申请汇总表,pa_baseline_provenance.csv,确定基线来源；不再二次外推2025年值
+G02,P0,全国暴露不确定性,psa_precision_n沿用四省样本量,匹配全国分层率的SE/CI或调查设计有效样本信息；公开资料不足时明确情景范围及依据,监测论文补充表或获准的设计信息,pa_uncertainty_register.csv,不得把四省n当全国调查精度
+G03,P0,RR原文逐结局证据矩阵,已存在RR登记，但多数为proxy；卒中共用IS来源,精确暴露对照、活动领域、结局、随访、年龄性别、混杂调整、RR/HR及CI、适用性结论,已有文献全文和补充材料；不足时补检索,rr_evidence_register.csv,支持直接映射的病种才能进入相应主分析
+G04,P0,卒中及癌症映射依据,ICH/SAH使用共用PIF；结直肠/子宫癌存在代理,亚型特异风险证据或预先明确的限制分析；癌症部位映射,原文与GBD cause定义,outcome_mapping_register.csv,不把IS效应默认为所有卒中效应
+G05,P0,GBD原始下载与可追溯元数据,标准化表有source_file名称，仓库未见对应原始ZIP或下载查询清单,查询条件、下载日期、版本、原始文件校验值、cause/measure/metric清单；可获得时保留联合draw,获准的IHME下载与记录,gbd_source_manifest.csv,核验标准化数值及缺失，不把源名称当作已找到原件
+G06,P0,高龄细分与不确定性聚合,70+已合并，lower/upper逐分量相加,70—74到95+分层数值、合适的人口分母及可获得的draw/相关信息,现有GBD原始下载；WPP同年龄输入,older_age_inputs.csv,先恢复高龄结构再判断是否合并报告
+G07,P0,疾病动态参数和基线一致性,现有calculate_health对各measure分别乘PIF；未见独立病程参数登记,年龄性别发病、患病、病死/超额死亡、缓解/复发及相容性校准；仅获取拟采用模型实际需要的参数,GBD及病种自然史/队列研究,disease_transition_register.csv,从发病和存活推导患者年与费用，停止独立比例缩减
+G08,P0,全因死亡、年龄推进与竞争死亡,WPP人口预测不是干预后生存模型,全因年龄性别死亡率/生命表、年龄推进和开放高龄组处理；动态开放人群才另补迁移等,WPP生命表或国家人口死亡资料,population_survival_inputs.csv,动态队列结果与外部人口预测合理衔接
+G09,P0,疾病风险滞后证据,健康效应滞后是结构假设,结局特异随访与时变证据；不足时列有依据的立即/渐进/延迟结构情景,系统综述与长期随访队列,lag_evidence_register.csv,不直接继承旧分组时间，不把立即改善当立即疾病获益
+G10,P0,新研究目标情景协议,当前只有S0—S7政策情景,基线年、评价期、相对下降/百分点、目标参考年、达成路径、维持/衰减及对照轨迹；标明研究设定,用户确认的协议；政策文件只用于定义目标,scenario_protocol.csv,不再使用theta×coverage×ramp；未确认的目标值不预置为正式方案
+G11,P1,中国疾病医疗费用及边界,已有17条候选及6条扩展，含2007/2015年资料和国际代理,原文费用表、调查地区、样本、医疗边界、事件/首年/后续患者年、并发症与病种重叠、经验区间,中国费用/医保利用研究；代理仅作为明确敏感性,medical_cost_evidence_register.csv,T2D/痴呆优先；无合适费用不作零值，报告覆盖范围
+G12,P1,通胀与汇率的源数据,表内只有转换系数与来源线索,原始年度CPI/医疗价格指数、汇率、目标价格年及逐步转换,国家统计局等官方时间序列,price_conversion_register.csv,保留原价与换算链；旧±30%等范围不冒充经验95%CI
+G13,P0,联合抽样登记与draw传递,旧健康PSA与经济summary-moment重构分开,每参数来源、分布依据、相关组、固定值理由；draw_id贯穿暴露、健康和费用,经核验的数据不确定性；无法识别的依赖另做情景,uncertainty_register.csv,不将结构情景与抽样UI混合；不再重构独立经济均值分布
+G14,P1,外部校验和版本清单,reference/current_paper_tables.json为旧稿记录,独立基线负担/人群外部对照；输入SHA256、代码提交、运行配置、随机种子、图表来源,公开独立数据及运行时自动记录,validation_plan.csv,旧论文结果不作为新模型拟合目标；全文/Highlights从同一运行生成
+G15,条件项,连续活动量分布,当前只有不足/达标二分类,仅在选择RAND活动量提高20%等连续情景时补全活动量分布、领域及相容剂量反应,可获得的活动调查汇总或授权资料,pa_distribution.csv,二分类不足率不能推导整体活动量+20%；若不用连续情景则无需补
+G16,条件项,生产率与照护资料,跨国RAND参数、弹性与死亡stock系数尚为代理/结构假设,仅在另行确认扩展分析后收集中国生产率或照护证据及匹配规则,中国实证研究,extension_evidence_register.csv,当前不安排为主分析必补项，也不为保留旧GDP结果新增假设
