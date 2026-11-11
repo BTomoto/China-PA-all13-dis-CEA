@@ -1,0 +1,3 @@
+__pycache__/
+reports/extracted_text/
+!handoff/continuation/source_data/gbd/*.zip

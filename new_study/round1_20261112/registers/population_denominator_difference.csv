@@ -1,0 +1,23 @@
+﻿sex,age_group,old_baseline,wpp_midyear_approx,difference,old_source,new_source,status
+Female,20-24,33740825.0,36299576.5,2558751.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,25-29,39387825.0,38427453.0,-960372.0,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,30-34,55058250.0,46450905.5,-8607344.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,35-39,52234750.0,58246667.5,6011917.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,40-44,46870100.0,49820496.5,2950396.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,45-49,49834775.0,45295720.5,-4539054.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,50-54,61834650.0,57034156.5,-4800493.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,55-59,57317050.0,58561241.0,1244191.0,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,60-64,35293750.0,47741355.5,12447605.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,65-69,39670175.0,36668389.5,-3001785.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Female,70+,40799575.0,79698688.5,38899113.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,20-24,38258425.0,42526154.0,4267729.0,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,25-29,43764250.0,44377128.0,612878.0,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,30-34,57881750.0,52145494.5,-5736255.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,35-39,55199425.0,63281937.5,8082512.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,40-44,49270075.0,52676265.5,3406190.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,45-49,51811225.00000001,47064933.5,-4746291.500000007,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,50-54,62964050.0,58045377.5,-4918672.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,55-59,57599399.99999999,58103255.5,503855.50000000745,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,60-64,35011400.0,45994642.5,10983242.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,65-69,38399600.0,33383371.5,-5016228.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验
+Male,70+,60987600.0,61409748.5,422148.5,data/Public_model_inputs.xlsx::基线人口; upstream source unresolved,six fixed-commit raw WPP package files,部分核验

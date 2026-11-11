@@ -1,0 +1,12 @@
+﻿field,value,status,reason
+population,China adults; exact 18+/20+ pending protocol,PENDING,公开PA最细起点18-29，旧模型20+；不能无依据拆分。
+study_question,health and direct medical expenditure under PA improvement,CONFIRMED_DIRECTION,不含政策实施成本与CEA。
+baseline_year,,PENDING,2018观测与2025派生基线需明确选用/转换。
+horizon,,PENDING,不自动继承2025-2050。
+PA_exposure,,PENDING,总PA与休闲PA、MET与mMET、二分类与剂量分类需对应。
+WHO_reference_target,0.15,SOURCE_VERIFIED_NOT_SELECTED,2030相对2010减少15%；不得改成相对2025。
+WHO_reference_year,2010,SOURCE_VERIFIED_NOT_SELECTED,https://www.who.int/data/gho/data/themes/topics/indicator-groups/insufficient-physical-activity-indicator-group
+WHO_target_year,2030,SOURCE_VERIFIED_NOT_SELECTED,不等于新研究已选情景。
+target_path,,PENDING,目标幅度、达成时间、维持/衰减与对照轨迹未定。
+model_structure,,PENDING,先明确横断面比较风险或动态疾病模型；仅动态模型需对应转移/生存参数。
+price_year,,PENDING,原价与价格转换链需统一。

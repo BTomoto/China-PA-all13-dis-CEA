@@ -1,0 +1,323 @@
+{
+  "date": "2026-11-12",
+  "passed": true,
+  "checks": [
+    {
+      "check": "old_files_preserved",
+      "passed": true,
+      "detail": "49 base files; only README additions allowed"
+    },
+    {
+      "check": "handoff_workbook_duplicate",
+      "passed": true,
+      "detail": "Both supplied XLSX versions compared by SHA256"
+    },
+    {
+      "check": "zip_crc_IHME-GBD_2023_DATA-29b34249-1.zip",
+      "passed": true,
+      "detail": "ZIP CRC checked"
+    },
+    {
+      "check": "raw_unique_IHME-GBD_2023_DATA-29b34249-1.zip",
+      "passed": true,
+      "detail": "1024 rows"
+    },
+    {
+      "check": "zip_crc_IHME-GBD_2023_DATA-4fe62769-1.zip",
+      "passed": true,
+      "detail": "ZIP CRC checked"
+    },
+    {
+      "check": "raw_unique_IHME-GBD_2023_DATA-4fe62769-1.zip",
+      "passed": true,
+      "detail": "16768 rows"
+    },
+    {
+      "check": "zip_crc_IHME-GBD_2023_DATA-85af7c45-1.zip",
+      "passed": true,
+      "detail": "ZIP CRC checked"
+    },
+    {
+      "check": "raw_unique_IHME-GBD_2023_DATA-85af7c45-1.zip",
+      "passed": true,
+      "detail": "4624 rows"
+    },
+    {
+      "check": "zip_crc_IHME-GBD_2023_DATA-cd550c69-1.zip",
+      "passed": true,
+      "detail": "ZIP CRC checked"
+    },
+    {
+      "check": "raw_unique_IHME-GBD_2023_DATA-cd550c69-1.zip",
+      "passed": true,
+      "detail": "1536 rows"
+    },
+    {
+      "check": "unique_gbd_burden_legacy.csv",
+      "passed": true,
+      "detail": "15440 candidate rows"
+    },
+    {
+      "check": "format_gbd_burden_legacy.csv",
+      "passed": true,
+      "detail": "Finite values and ordered limits; scientific applicability separate"
+    },
+    {
+      "check": "unique_gbd_cases_legacy.csv",
+      "passed": true,
+      "detail": "8140 candidate rows"
+    },
+    {
+      "check": "format_gbd_cases_legacy.csv",
+      "passed": true,
+      "detail": "Finite values and ordered limits; scientific applicability separate"
+    },
+    {
+      "check": "matrix_52",
+      "passed": true,
+      "detail": "13 x 4, existence only; no endpoint-risk decision"
+    },
+    {
+      "check": "gao_Male_18-29",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Male_30-39",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Male_40-49",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Male_50-59",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Male_60-69",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Male_70+",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Female_18-29",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Female_30-39",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Female_40-49",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Female_50-59",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Female_60-69",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Female_70+",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Both_18-29",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Both_30-39",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Both_40-49",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Both_50-59",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Both_60-69",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "gao_Both_70+",
+      "passed": true,
+      "detail": "Visually inspected saved Table 2 image, percent/100"
+    },
+    {
+      "check": "population_source_popFprojHigh.txt",
+      "passed": true,
+      "detail": "Fresh fixed-commit download vs handoff full-source SHA256"
+    },
+    {
+      "check": "population_source_popFprojLow.txt",
+      "passed": true,
+      "detail": "Fresh fixed-commit download vs handoff full-source SHA256"
+    },
+    {
+      "check": "population_source_popFprojMed.txt",
+      "passed": true,
+      "detail": "Fresh fixed-commit download vs handoff full-source SHA256"
+    },
+    {
+      "check": "population_source_popMprojHigh.txt",
+      "passed": true,
+      "detail": "Fresh fixed-commit download vs handoff full-source SHA256"
+    },
+    {
+      "check": "population_source_popMprojLow.txt",
+      "passed": true,
+      "detail": "Fresh fixed-commit download vs handoff full-source SHA256"
+    },
+    {
+      "check": "population_source_popMprojMed.txt",
+      "passed": true,
+      "detail": "Fresh fixed-commit download vs handoff full-source SHA256"
+    },
+    {
+      "check": "population_1716",
+      "passed": true,
+      "detail": "All layers agree within 1 person; confirms algorithm only"
+    },
+    {
+      "check": "denominator_difference",
+      "passed": true,
+      "detail": "1,113,252,959 - 1,063,188,925 = 50,064,034; upstream reason remains unresolved"
+    },
+    {
+      "check": "UN_official_2025_strata",
+      "passed": true,
+      "detail": "Official UN full download, China156 Medium; no choice of denominator made"
+    },
+    {
+      "check": "RR_table1_anchors",
+      "passed": true,
+      "detail": "Saved Katzmarzyk Table1 anchors; dementia mismatch retained"
+    },
+    {
+      "check": "csv_shape_cost_legacy.csv",
+      "passed": true,
+      "detail": "17 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_disease_mapping_legacy.csv",
+      "passed": true,
+      "detail": "16 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_gbd_burden_legacy.csv",
+      "passed": true,
+      "detail": "15440 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_gbd_cases_legacy.csv",
+      "passed": true,
+      "detail": "8140 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_hypertension_legacy.csv",
+      "passed": true,
+      "detail": "22 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_pa_2018_published_verified.csv",
+      "passed": true,
+      "detail": "18 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_pa_2025_legacy.csv",
+      "passed": true,
+      "detail": "22 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_population_baseline_legacy.csv",
+      "passed": true,
+      "detail": "22 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_population_future_legacy.csv",
+      "passed": true,
+      "detail": "1716 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_population_history_legacy.csv",
+      "passed": true,
+      "detail": "308 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_population_UN_official_china_2024_2050.csv",
+      "passed": true,
+      "detail": "459 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_published_table_cells.csv",
+      "passed": true,
+      "detail": "3517 rows; header/row widths"
+    },
+    {
+      "check": "csv_shape_rr_legacy.csv",
+      "passed": true,
+      "detail": "15 rows; header/row widths"
+    },
+    {
+      "check": "pa_2025_format",
+      "passed": true,
+      "detail": "Legacy derived values only; source chain unresolved"
+    },
+    {
+      "check": "population_format",
+      "passed": true,
+      "detail": "1716 source-preserving candidates"
+    },
+    {
+      "check": "pmc_cloud_catalogue",
+      "passed": true,
+      "detail": "41 actual files vs public catalogue ETag"
+    },
+    {
+      "check": "manifest_readback",
+      "passed": true,
+      "detail": "193 files hashed"
+    },
+    {
+      "check": "all_rr_hold",
+      "passed": true,
+      "detail": "No risk endpoint admission changed"
+    },
+    {
+      "check": "no_new_missing_as_zero",
+      "passed": true,
+      "detail": "Missing source values remain blank"
+    }
+  ],
+  "gbd_status_counts": {
+    "已核验": 12296,
+    "部分核验": 1216,
+    "缺失": 10068
+  },
+  "model_run": false,
+  "model_ready": false
+}

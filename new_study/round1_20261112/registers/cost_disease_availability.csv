@@ -1,0 +1,14 @@
+﻿outcome_id,evidence_rows,legacy_cost_rows,source_urls,old_value_provenance,new_admission,issues
+bladder_cancer,0,1,,缺失,HOLD,No direct medical source/value verified; do not substitute other cancer or total social costs
+breast_cancer,0,1,,缺失,HOLD,No direct medical source/value verified; do not substitute other cancer or total social costs
+colon_cancer,1,1,https://pmc.ncbi.nlm.nih.gov/articles/PMC5410077/,部分核验,HOLD,2356人，37院13省，2012-2014调查；治疗课程长短不同，不能直接乘新发数当首年费用。
+coronary_heart_disease,1,1,https://pmc.ncbi.nlm.nih.gov/articles/PMC10203198/,部分核验,HOLD,旧数值匹配；就诊样本不直接等于所有GBD患者。
+dementia,1,2,https://pubmed.ncbi.nlm.nih.gov/29433981/,部分核验,HOLD,3098人81中心；退出直接医疗主线。旧6225美元直接医疗派生数本轮未复核，不以总成本替代。
+depression,1,1,https://pubmed.ncbi.nlm.nih.gov/36171041/,部分核验,HOLD,2013-2016，不能把所有GBD未就诊患者等价为费用样本。
+endometrial_cancer,0,1,,缺失,HOLD,No direct medical source/value verified; do not substitute other cancer or total social costs
+gastric_cancer,0,1,,缺失,HOLD,No direct medical source/value verified; do not substitute other cancer or total social costs
+hypertension,0,2,,缺失,HOLD,No direct medical source/value verified; do not substitute other cancer or total social costs
+oesophageal_cancer,0,1,,缺失,HOLD,No direct medical source/value verified; do not substitute other cancer or total social costs
+renal_cancer,0,1,,缺失,HOLD,No direct medical source/value verified; do not substitute other cancer or total social costs
+stroke,1,1,https://pmc.ncbi.nlm.nih.gov/articles/PMC9278468/,部分核验,HOLD,2013-2016 pooled claims；2015是旧中点假设，未确认为原文价格年。
+type2_diabetes,3,3,https://pubmed.ncbi.nlm.nih.gov/19824187/ | https://pubmed.ncbi.nlm.nih.gov/19824187/ | https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1062903/full,部分核验,HOLD,旧2007价格年/分组均值性质未原文核实，非自然史参数。 | 与IHD和卒中费用可能重叠。 | 44994人，东部城市；不能代表全国；需核实原币/通胀链及去重。

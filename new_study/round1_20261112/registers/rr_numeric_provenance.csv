@@ -1,0 +1,16 @@
+﻿outcome_id,component_id,legacy_value,old_value_source_verified,source,primary_source_status,new_admission,caveat
+depression,depression,1.28 1.01 1.62,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1为最低活动量对150分钟中高强度；非总PA <600对达到600的精确效应。
+coronary_heart_disease,coronary_heart_disease,1.19 1.13 1.26,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1对照为<600与600–3999类别，类别平均风险不等于恰好600的点风险；仅发病证据。
+stroke,ischemic_stroke,1.19 1.09 1.28,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1对照为<600与600–3999类别，类别平均风险不等于恰好600的点风险；仅发病证据。
+stroke,intracerebral_hemorrhage,1.19 1.09 1.28,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1仅称Stroke，引用Kyu缺血性卒中RR；不支持本亚型。
+stroke,subarachnoid_hemorrhage,1.19 1.09 1.28,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1仅称Stroke，引用Kyu缺血性卒中RR；不支持本亚型。
+type2_diabetes,type2_diabetes,1.17 1.11 1.23,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1对照为<600与600–3999类别，类别平均风险不等于恰好600的点风险；仅发病证据。
+hypertension,hypertension,1.06 1.03 1.09,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。
+bladder_cancer,bladder_cancer,1.08 0.93 1.25,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。
+breast_cancer,breast_cancer,1.09 1.03 1.15,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。
+colon_cancer,colon_cancer,1.11 1.03 1.19,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。
+endometrial_cancer,endometrial_cancer,1.09 0.96 1.22,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。
+oesophageal_cancer,oesophageal_cancer,1.28 0.85 1.96,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。
+gastric_cancer,gastric_cancer,1.27 0.93 1.69,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。
+renal_cancer,renal_cancer,1.28 1.06 1.54,True,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。
+dementia,dementia,1.4 1.2 1.7,False,raw/rr/Katzmarzyk2021.html#T1,full text or metadata only; see download_attempts,HOLD,表1 Guure 2017为1.32 (1.06–1.64)，与旧1.40 (1.20–1.70)不一致；旧值来源尚未核定。

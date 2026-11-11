@@ -1,0 +1,3 @@
+﻿price_id,year,index_type,annual_change,index_previous_year_100,source_url,source_location,status,notes
+NBS-CPI-2025,2025,all-items CPI,0.0,100.0,https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html,Table 2,official_value_checked,仅完成2025年；2008-2024序列及汇率仍缺。
+NBS-MED-2025,2025,medical healthcare CPI,0.008,100.8,https://www.stats.gov.cn/sj/zxfb/202602/t20260228_1962662.html,Table 2,official_value_checked,医疗保健消费价格，不直接等于医院服务资源成本指数。

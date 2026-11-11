@@ -1,0 +1,11 @@
+{
+  "version": "data-preparation-20261111",
+  "workbook": "data/New_study_inputs.xlsx",
+  "model_ready": false,
+  "scientific_gaps_closed": false,
+  "old_pipeline_allowed_for_new_study": false,
+  "legacy_precision_n_allowed": false,
+  "new_model_run_performed": false,
+  "admission_registers": ["RR准入登记", "医疗费用证据", "研究协议待定项", "数据缺口进度"],
+  "meaning": "Data collection and partial source verification only. Legacy labels do not approve new-model inputs."
+}

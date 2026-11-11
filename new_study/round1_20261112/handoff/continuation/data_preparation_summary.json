@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-11",
+  "base_commit": "83b6e50b8d5f0321c2d5c3c312d2a58988e55a0b",
+  "source_workbook_sha256": "e880cd9998e3c600454d8ad001fa8a374989047d762ec0b09649bccbb29bb967",
+  "legacy_source_preserved": true,
+  "new_model_executed": false,
+  "workbook_sheets": 31,
+  "PA_observed_rows": 33,
+  "RR_evidence_rows": 22,
+  "medical_cost_evidence_rows": 8,
+  "gbd_audit_counts": {
+    "DIRECT_MATCH": 12296,
+    "POINT_ONLY_MATCH": 1184,
+    "SOURCE_NOT_RECOVERED": 10068,
+    "INTERVAL_METHOD_DIFF": 32
+  },
+  "wpp_reconciliation_counts": {
+    "MATCH": 1716
+  },
+  "archive_tables": 18
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "Guure2017",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5320071/",
+  "obtained_date": "2026-11-12",
+  "path": "raw/rr/Guure2017.html",
+  "bytes": 249298,
+  "sha256": "bec7e22f5d414fe2867826f07405cd6d5eba7bcd2dd0e9c7c333e9491cc0e603",
+  "http_status": 200,
+  "status": "部分核验",
+  "notes": "HTTP bytes archived; content verification recorded separately",
+  "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5320071/"
+}

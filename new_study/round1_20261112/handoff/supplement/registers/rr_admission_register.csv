@@ -1,0 +1,16 @@
+﻿outcome_id,component_id,legacy_rr,legacy_lower,legacy_upper,legacy_label,new_admission,reason,approved_for_model
+depression,depression,1.28,1.01,1.62,proxy,HOLD,暴露领域或对照不等于总活动<600与>=600；原数值尚未逐条定位,False
+coronary_heart_disease,coronary_heart_disease,1.19,1.13,1.26,exact,HOLD,Kyu原表参照<600，活动组600-3999；未合并4000+；旧数值为舍入倒数。,False
+stroke,ischemic_stroke,1.19,1.09,1.28,exact,HOLD,Kyu原表参照<600，活动组600-3999；未合并4000+；旧数值为舍入倒数。,False
+stroke,intracerebral_hemorrhage,1.19,1.09,1.28,exact,HOLD,IS风险不能视为本亚型风险。,False
+stroke,subarachnoid_hemorrhage,1.19,1.09,1.28,exact,HOLD,IS风险不能视为本亚型风险。,False
+type2_diabetes,type2_diabetes,1.17,1.11,1.23,exact,HOLD,Kyu原表参照<600，活动组600-3999；未合并4000+；旧数值为舍入倒数。,False
+hypertension,hypertension,1.06,1.03,1.09,proxy,HOLD,Liu休闲活动固定剂量/增量风险均不是总活动二分类；倒数区间与旧值亦需重核。,False
+bladder_cancer,bladder_cancer,1.08,0.93,1.25,proxy,HOLD,暴露领域或对照不等于总活动<600与>=600；原数值尚未逐条定位,False
+breast_cancer,breast_cancer,1.09,1.03,1.15,proxy,HOLD,暴露领域或对照不等于总活动<600与>=600；原数值尚未逐条定位,False
+colon_cancer,colon_cancer,1.11,1.03,1.19,proxy,HOLD,暴露领域或对照不等于总活动<600与>=600；原数值尚未逐条定位；结肠到结直肠需映射；Matthews正文显著关联限定男性，数值的男女分层需补表。,False
+endometrial_cancer,endometrial_cancer,1.09,0.96,1.22,proxy,HOLD,暴露领域或对照不等于总活动<600与>=600；原数值尚未逐条定位；子宫内膜到子宫癌需病种映射。,False
+oesophageal_cancer,oesophageal_cancer,1.28,0.85,1.96,proxy,HOLD,暴露领域或对照不等于总活动<600与>=600；原数值尚未逐条定位,False
+gastric_cancer,gastric_cancer,1.27,0.93,1.69,proxy,HOLD,暴露领域或对照不等于总活动<600与>=600；原数值尚未逐条定位,False
+renal_cancer,renal_cancer,1.28,1.06,1.54,proxy,HOLD,暴露领域或对照不等于总活动<600与>=600；原数值尚未逐条定位,False
+dementia,dementia,1.4,1.2,1.7,proxy,HOLD,旧1.4未区分随访/反向因果；原文>=10年HR=1.01(0.89-1.14)。,False

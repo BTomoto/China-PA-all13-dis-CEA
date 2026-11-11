@@ -1,0 +1,13 @@
+id,domain,status,exact_missing_item_or_question,attempted,needed_from_user_or_next_action,owner
+PA01,身体活动,缺失,2018观测到2025年22年龄性别组的计算工作簿或脚本,全部远程分支历史和两交接包及旧S03/工作簿/代码静态查找,提供最初2018输入及每步变换文件；不可用旧论文结果倒推,Codex收资料
+PA02,身体活动,部分核验,18-29观察如何对应20-24和25-29；2025外推和对照趋势,Gao原图18条已核验；22条旧2025候选保留,确定年龄边界与外推规则,Work
+POP01,人口,部分核验,旧基线1063188925的上游原文件和时间定义,官方UN与PPgp固定版重下；逐层对照；差额不能归于年末/年中,提供旧基线来源或生成脚本,Codex收资料
+POP02,人口,部分核验,唯一2025人口分母和时间点,官方1113252964与平均法1113252959仅差5人,确定采用哪个来源/时点及旧分母处理,Work
+GBD01,GBD,缺失,IHME-GBD_2023_DATA-142807b4-1.zip,远程历史和两交接包搜索；公开结果工具无原下载,提供原ZIP/citation/查询记录或按gbd_query_requests.csv重导出,Codex收资料
+GBD02,GBD,缺失,IHME-GBD_2023_DATA-5f1ccb48-1.zip,远程历史和两交接包搜索；公开结果工具无原下载,提供原ZIP/citation/查询记录或按gbd_query_requests.csv重导出,Codex收资料
+GBD03,GBD,缺失,IHME-GBD_2023_DATA-c66ef291-1.zip,远程历史和两交接包搜索；公开结果工具无原下载,提供原ZIP/citation/查询记录或按gbd_query_requests.csv重导出,Codex收资料
+GBD04,GBD,缺失,IHME-GBD_2023_DATA-c6f1d9b8-1.zip,远程历史和两交接包搜索；公开结果工具无原下载,提供原ZIP/citation/查询记录或按gbd_query_requests.csv重导出,Codex收资料
+GBD05,GBD,部分核验,70+区间聚合及痴呆年轻死亡/抑郁死亡/女性特异病缺行解释,分别保留原行和部分核验；不填0,取得draw或明确GBD定义与聚合方法,Work与Codex
+RR01,风险,部分核验,旧值出处不等于总PA阈值与各结局适用,14/15旧组件数值可定位Katzmarzyk表1；痴呆不匹配,判断暴露域/度量/亚型/性别/结局证据；维持HOLD,Work
+COST01,费用,部分核验,13病种直接医疗原值/价格年/期间/覆盖/去重,原表及公开全文归档；缺项见cost_disease_availability.csv,补原文/原表；确定费用连接口径及价格年,Work与Codex
+PUB01,来源,部分核验,部分主文PDF或补充材料未成功公开获取,直接下载遇403或中转页；尝试PMC公开云；逐文件记录,仅依据pmc_cloud_files和download_attempts的实际成功状态继续,Codex

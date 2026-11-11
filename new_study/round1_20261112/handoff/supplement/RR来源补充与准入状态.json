@@ -1,0 +1,221 @@
+{
+  "date": "2026-11-11",
+  "source": {
+    "authors": "Katzmarzyk et al.",
+    "journal": "British Journal of Sports Medicine",
+    "doi": "10.1136/bjsports-2020-103640",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+    "location": "Table 1, original primary research"
+  },
+  "scope": "旧RR数值的出处核验，不构成新研究参数准入；数值一致14/15，痴呆不一致1/15。",
+  "rr_component_audit": [
+    {
+      "outcome_id": "depression",
+      "component_id": "depression",
+      "legacy_rr": "1.28",
+      "legacy_lower": "1.01",
+      "legacy_upper": "1.62",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1为最低活动量对150分钟中高强度；非总PA <600对达到600的精确效应。"
+    },
+    {
+      "outcome_id": "coronary_heart_disease",
+      "component_id": "coronary_heart_disease",
+      "legacy_rr": "1.19",
+      "legacy_lower": "1.13",
+      "legacy_upper": "1.26",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1对照为<600与600–3999类别，类别平均风险不等于恰好600的点风险；仅发病证据。"
+    },
+    {
+      "outcome_id": "stroke",
+      "component_id": "ischemic_stroke",
+      "legacy_rr": "1.19",
+      "legacy_lower": "1.09",
+      "legacy_upper": "1.28",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1对照为<600与600–3999类别，类别平均风险不等于恰好600的点风险；仅发病证据。"
+    },
+    {
+      "outcome_id": "stroke",
+      "component_id": "intracerebral_hemorrhage",
+      "legacy_rr": "1.19",
+      "legacy_lower": "1.09",
+      "legacy_upper": "1.28",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1仅称Stroke，引用Kyu缺血性卒中RR；不支持本亚型。"
+    },
+    {
+      "outcome_id": "stroke",
+      "component_id": "subarachnoid_hemorrhage",
+      "legacy_rr": "1.19",
+      "legacy_lower": "1.09",
+      "legacy_upper": "1.28",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1仅称Stroke，引用Kyu缺血性卒中RR；不支持本亚型。"
+    },
+    {
+      "outcome_id": "type2_diabetes",
+      "component_id": "type2_diabetes",
+      "legacy_rr": "1.17",
+      "legacy_lower": "1.11",
+      "legacy_upper": "1.23",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1对照为<600与600–3999类别，类别平均风险不等于恰好600的点风险；仅发病证据。"
+    },
+    {
+      "outcome_id": "hypertension",
+      "component_id": "hypertension",
+      "legacy_rr": "1.06",
+      "legacy_lower": "1.03",
+      "legacy_upper": "1.09",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。"
+    },
+    {
+      "outcome_id": "bladder_cancer",
+      "component_id": "bladder_cancer",
+      "legacy_rr": "1.08",
+      "legacy_lower": "0.93",
+      "legacy_upper": "1.25",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。"
+    },
+    {
+      "outcome_id": "breast_cancer",
+      "component_id": "breast_cancer",
+      "legacy_rr": "1.09",
+      "legacy_lower": "1.03",
+      "legacy_upper": "1.15",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。"
+    },
+    {
+      "outcome_id": "colon_cancer",
+      "component_id": "colon_cancer",
+      "legacy_rr": "1.11",
+      "legacy_lower": "1.03",
+      "legacy_upper": "1.19",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。"
+    },
+    {
+      "outcome_id": "endometrial_cancer",
+      "component_id": "endometrial_cancer",
+      "legacy_rr": "1.09",
+      "legacy_lower": "0.96",
+      "legacy_upper": "1.22",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。"
+    },
+    {
+      "outcome_id": "oesophageal_cancer",
+      "component_id": "oesophageal_cancer",
+      "legacy_rr": "1.28",
+      "legacy_lower": "0.85",
+      "legacy_upper": "1.96",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。"
+    },
+    {
+      "outcome_id": "gastric_cancer",
+      "component_id": "gastric_cancer",
+      "legacy_rr": "1.27",
+      "legacy_lower": "0.93",
+      "legacy_upper": "1.69",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。"
+    },
+    {
+      "outcome_id": "renal_cancer",
+      "component_id": "renal_cancer",
+      "legacy_rr": "1.28",
+      "legacy_lower": "1.06",
+      "legacy_upper": "1.54",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": true,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1主要为休闲身体活动，None对7.5–14.9 MET-h/周或高血压10 MET-h/周；不等于总PA严格<600对600。"
+    },
+    {
+      "outcome_id": "dementia",
+      "component_id": "dementia",
+      "legacy_rr": "1.4",
+      "legacy_lower": "1.2",
+      "legacy_upper": "1.7",
+      "numeric_match_to_Katzmarzyk_2021_Table_1": false,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478970/",
+      "source_location": "Table 1",
+      "admission_for_new_study": "HOLD",
+      "caveat": "表1 Guure 2017为1.32 (1.06–1.64)，与旧1.40 (1.20–1.70)不一致；旧值来源尚未核定。"
+    }
+  ],
+  "protocol_decisions_from_plan": {
+    "age": "20+",
+    "model_start_year": 2025,
+    "observed_pa_year": 2018,
+    "end_year": 2050,
+    "main_counterfactual": "原本不足者达到每周至少600 MET-min",
+    "method": "比较风险情景",
+    "health_outcomes": [
+      "incidence",
+      "deaths",
+      "DALY",
+      "YLL",
+      "YLD",
+      "annual prevalence difference summed as patient-years"
+    ],
+    "economic_outcome": "direct medical expenditure",
+    "excluded": [
+      "policy implementation costs",
+      "CEA",
+      "GDP-equivalent"
+    ]
+  },
+  "data_gate": {
+    "ready_for_formal_13_disease_analysis": false,
+    "ready_for_interface_and_diagnostic_analysis": true,
+    "reason": "2018到2025暴露变换、近年GBD原件、结局相容RR与患病/死亡解释、费用转换仍缺。"
+  },
+  "primary_RR_source_limitation": "该表选用不同身体活动领域和剂量比较；报告的PAR计算并不证明发病RR可直接赋予疾病死亡、DALY或每年患病人数。"
+}

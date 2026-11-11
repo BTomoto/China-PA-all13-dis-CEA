@@ -1,0 +1,12 @@
+﻿sheet,role,formal_model_admission,condition
+PA观测证据,候选来源,PENDING,保留2018粗龄组观测及历史趋势；不能当五岁细龄观测
+人口细年龄,候选来源,PENDING,人口候选；时点与年龄边界待协议统一
+GBD恢复原始,候选来源,PENDING,原导出估计量；先筛选一致粒度，禁止混加70+和细龄
+RR证据核验,候选来源,PENDING,保留原风险度量、对照和活动领域；未整体核准
+医疗费用证据,候选来源,PENDING,候选费用，待期间/覆盖/价格/重叠核准
+身体活动水平,旧值追溯候选,NOT_AUTOMATIC,不得仅凭旧exact/approved标签或表内已有数值自动入模
+二分类RR,旧值追溯候选,NOT_AUTOMATIC,不得仅凭旧exact/approved标签或表内已有数值自动入模
+GBD疾病负担,旧值追溯候选,NOT_AUTOMATIC,不得仅凭旧exact/approved标签或表内已有数值自动入模
+GBD病例,旧值追溯候选,NOT_AUTOMATIC,不得仅凭旧exact/approved标签或表内已有数值自动入模
+高血压参数,旧值追溯候选,NOT_AUTOMATIC,不得仅凭旧exact/approved标签或表内已有数值自动入模
+疾病单位成本,旧值追溯候选,NOT_AUTOMATIC,不得仅凭旧exact/approved标签或表内已有数值自动入模

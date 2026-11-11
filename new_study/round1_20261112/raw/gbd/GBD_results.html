@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+
+<head>
+      <meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+
+
+<title>VizHub - GBD Results</title>
+<meta property="og:title" content="GBD Results" />
+<meta name="twitter:title" content="GBD Results" />
+
+
+
+<meta name="description" content="View and download estimates of the world’s health from 1990 to 2023." />
+<meta property="og:description" content="View and download estimates of the world’s health from 1990 to 2023." />
+<meta name="twitter:description" content="View and download estimates of the world’s health from 1990 to 2023." />
+
+
+
+<meta property="og:url" content="https://vizhub.healthdata.org/gbd-results" />
+
+
+
+<meta property="og:image" content="https://www.healthdata.org/sites/default/files/2025-10/GBDResultsScreenshot_GBD2023.png" />
+<meta name="twitter:image" content="https://www.healthdata.org/sites/default/files/2025-10/GBDResultsScreenshot_GBD2023.png" />
+
+
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:site_name" content="Institute for Health Metrics and Evaluation" />
+<meta name="twitter:site" content="@IHME_UW" />
+
+
+  
+    <link type="text/css" rel="stylesheet" href="/vizhub/static/assets/main.css?v=8e12d9edf9ac" />
+  
+
+  
+    <link
+      rel="preload"
+      type="image/svg+xml"
+      as="image"
+      href="/vizhub/static/assets/IHME_logo_black.svg"
+    />
+  
+
+  <!-- The only channel that carries the stylesheets into the element's shadow root, so it must
+       not depend on analytics being configured. -->
+  <!-- `<` is escaped so no value can close this script element. -->
+  <script>
+    window.__CSS__ = ["/vizhub/static/assets/main.css?v=8e12d9edf9ac"];
+  </script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/vizhub/static/assets/images/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/vizhub/static/assets/images/favicon-16x16.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap"
+  rel="stylesheet"
+/>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CXPWE40SBJ"></script>
+<script>
+  // Calculate viewport dimensions (rounded to nearest 100px)
+  var width = window.innerWidth || document.body.clientWidth;
+  var height = window.innerHeight || document.body.clientHeight;
+
+  width = Math.round(width / 100) * 100;
+  height = Math.round(height / 100) * 100;
+
+  var windowSize = width + "x" + height;
+
+  // Initialize dataLayer array for GA4
+  window.dataLayer = window.dataLayer || [];
+
+  // Declare globally-accessible gtag function for GA4
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  // Configure GA4 with the tracking code
+  gtag('js', new Date());
+  gtag('config', 'G-CXPWE40SBJ');
+
+  // Send the window size as an event to GA4 (Viewport Size is configured as custom dimension)
+  gtag('event', 'viewport_size', {
+    'Viewport Size': windowSize,
+  });
+
+  // Declare ga function to handle both UA and GA4 events. Other commands are passed only to UA.
+  // This maintains compatibility with existing repos sending event data to the globally accessible "ga" variable
+  function ga() {
+    if (typeof arguments[0] === 'string' && arguments[0].includes('send') && arguments[1] === 'event') {
+      // Sending events to both Universal Analytics and GA4
+      gtag('event', arguments[2], { // arguments[2] corresponds to eventAction in UA
+        'event_category': arguments[3], // eventCategory
+        'event_label': arguments[4], // eventLabel
+        'value': arguments[5], // eventValue
+      });
+    } else {
+      // Pass the other arguments to Universal Analytics
+      
+    }
+  }
+</script>
+
+
+
+  <script type="module" src="/vizhub/static/assets/main.js?v=8e12d9edf9ac" defer></script>
+
+
+            <link type="text/css" rel="stylesheet" href="/gbd-results/build/269-5754ca88d1279c1277dc.css" />        <link type="text/css" rel="stylesheet" href="/gbd-results/build/main-262a555cc21ef8ffe8df.css" />  </head>
+
+<body>
+      <vizhub-template
+    id="vizhub-template"
+    
+        app="gbd-results"
+    
+    
+        page-title="GBD Results"
+    
+    
+        release-text="GBD 2023"
+    
+    
+        languages="[&#34;am&#34;,&#34;ar&#34;,&#34;zh&#34;,&#34;fr&#34;,&#34;de&#34;,&#34;id&#34;,&#34;it&#34;,&#34;ja&#34;,&#34;ko&#34;,&#34;no&#34;,&#34;pl&#34;,&#34;pt&#34;,&#34;ru&#34;,&#34;es&#34;,&#34;sv&#34;,&#34;ur&#34;,&#34;en&#34;]"
+    
+    
+        show-account="true"
+    
+    
+    
+    
+        single-page="true"
+    
+>
+    <div id="skip-to-content" tabindex="0"></div>
+    
+        <div id="app-container"></div>
+    
+</vizhub-template>
+
+    <script>
+    /* True only in the collaborator build; JS needs this before React mounts */
+    window.__authentik__ = false;
+    /* Cloudflare Turnstile public site key (org-wide constant; see define_constants.php),
+       read by the HTTP layer before React mounts. Inert until a Cloudflare WAF rule issues
+       a challenge. */
+    window.__turnstile_site_key__ = "0x4AAAAAADfjwAbjgtTaK_Tt";
+    window.__disable_aadb2c__ = false;
+  </script>
+          <script type="text/javascript" src="/gbd-results/build/runtime-9eceaaaaf8a98dc108b9.js"></script>        <script type="text/javascript" src="/gbd-results/build/269-306199398db74eeda678.js"></script>        <script type="text/javascript" src="/gbd-results/build/main-c1dffff8561aedda783f.js"></script></body>
+
+</html>

@@ -1,0 +1,268 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: J Clin Oncol
+Journal ID: J. Clin. Oncol
+NLM Journal ID: 8309333
+Journal ID: JCO
+
+Journal of Clinical Oncology
+
+ISSN: 0732-183X
+EISSN: 1527-7755
+Publisher: American Society of Clinical Oncology
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC7048166
+PMID: 31877085
+DOI: 10.1200/JCO.19.02407
+Article ID: 1902407
+Article version: 1
+Subjects: Original Reports, Prevention
+
+Amount and Intensity of Leisure-Time Physical Activity and Lower Cancer Risk
+
+Amount and Intensity of Activity and Cancer Risk
+
+Matthews Charles E. PhD 1
+Moore Steven C. PhD 1
+Arem Hannah PhD 2
+Cook Michael B. PhD 1
+Trabert Britton PhD 1
+Håkansson Niclas PhD 3
+Larsson Susanna C. PhD 3 4
+Wolk Alicja DrMedSci 3 4
+Gapstur Susan M. PhD 5
+Lynch Brigid M. PhD 6 7
+Milne Roger L. PhD 6 8
+Freedman Neal D. PhD 1
+Huang Wen-Yi PhD 1
+Berrington de Gonzalez Amy DPhil 9
+Kitahara Cari M. PhD 9
+Linet Martha S. MD 9
+Shiroma Eric J. ScD 10
+Sandin Sven PhD 11 12
+Patel Alpa V. PhD 5
+Lee I-Min ScD 13
+1 National Cancer Institute, Division of Cancer Epidemiology and Genetics, Metabolic Epidemiology Branch, Bethesda, MD
+2 George Washington University, School of Public Health, Department of Epidemiology, Washington, DC
+3 Karolinska Institutet, Institute of Environmental Medicine, Unit of Cardiovascular and Nutritional Epidemiology, Stockholm, Sweden
+4 Uppsala University, Department of Surgical Sciences, Uppsala, Sweden
+5 American Cancer Society, Behavioral and Epidemiology Research, Atlanta, GA
+6 Cancer Council Victoria, Cancer Epidemiology Division, and University of Melbourne, School of Population and Global Health, Centre for Epidemiology and Biostatistics, Melbourne, Victoria, Australia
+7 Baker Heart and Diabetes Institute, Physical Activity Laboratory, Melbourne, Victoria, Australia
+8 Monash University, School of Clinical Sciences at Monash Health, Precision Medicine, Melbourne, Victoria, Australia
+9 National Cancer Institute, Division of Cancer Epidemiology and Genetics, Radiation Epidemiology Branch, Bethesda, MD
+10 National Institute on Aging, Laboratory of Epidemiology and Population Sciences, Baltimore, MD
+11 Karolinska Institutet, Department of Medical Epidemiology and Biostatistics, Stockholm, Sweden
+12 Department of Psychiatry, Icahn School of Medicine at Mount Sinai, and Seaver Autism Center for Research and Treatment at Mount Sinai, New York, NY
+13 Brigham and Women’s Hospital and Harvard Medical School, Harvard T.H. Chan School of Public Health, Boston, MA
+Charles E. Matthews, PhD, Division of Cancer Epidemiology and Genetics, National Cancer Institute, 9609 Medical Center Dr, Room 6E340, MSC 9704, Bethesda, MD 20892; e-mail: charles.matthews2@nih.gov.C.E.M., S.C.M., A.V.P., and I.-M.L. contributed equally.
+
+Print publication date: 2020 Mar 1
+Electronic publication date: 2019 Dec 26
+Volume: 38
+Issue: 7
+First page: 686
+Last page: 697
+Accepted 2019 Nov 26
+Copyright: © 2019 by American Society of Clinical Oncology
+Copyright year: 2019
+Copyright holder: American Society of Clinical Oncology
+License: Creative Commons Attribution Non-Commercial No Derivatives 4.0 License: https://creativecommons.org/licenses/by-nc-nd/4.0/
+License URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Figure count: 3
+Table count: 2
+Equation count: 0
+Reference count: 42
+Page count: 13
+SJS Export : v1
+
+==============================
+PURPOSE
+
+To determine whether recommended amounts of leisure-time physical activity (ie, 7.5-15 metabolic equivalent task [MET] hours/week) are associated with lower cancer risk, describe the shape of the dose-response relationship, and explore associations with moderate- and vigorous-intensity physical activity.
+
+METHODS
+
+Data from 9 prospective cohorts with self-reported leisure-time physical activity and follow-up for cancer incidence were pooled. Multivariable Cox regression was used to estimate adjusted hazard ratios (HRs) and 95% CIs of the relationships between physical activity with incidence of 15 types of cancer. Dose-response relationships were modeled with restricted cubic spline functions that compared 7.5, 15.0, 22.5, and 30.0 MET hours/week to no leisure-time physical activity, and statistically significant associations were determined using tests for trend (P < .05) and 95% CIs (< 1.0).
+
+RESULTS
+
+A total of 755,459 participants (median age, 62 years [range, 32-91 years]; 53% female) were followed for 10.1 years, and 50,620 incident cancers accrued. Engagement in recommended amounts of activity (7.5-15 MET hours/week) was associated with a statistically significant lower risk of 7 of the 15 cancer types studied, including colon (8%-14% lower risk in men), breast (6%-10% lower risk), endometrial (10%-18% lower risk), kidney (11%-17% lower risk), myeloma (14%-19% lower risk), liver (18%-27% lower risk), and non-Hodgkin lymphoma (11%-18% lower risk in women). The dose response was linear in shape for half of the associations and nonlinear for the others. Results for moderate- and vigorous-intensity leisure-time physical activity were mixed. Adjustment for body mass index eliminated the association with endometrial cancer but had limited effect on other cancer types.
+
+CONCLUSION
+
+Health care providers, fitness professionals, and public health practitioners should encourage adults to adopt and maintain physical activity at recommended levels to lower risks of multiple cancers.
+
+INTRODUCTION
+
+In the United States, 1.7 million individuals are diagnosed with invasive cancer and > 600,000 people die as a result of malignant diseases annually,1 which highlights the importance of cancer prevention. We have long known that physical activity is associated with a lower risk of colon and breast cancer,2 but the 2018 US Physical Activity Guidelines Advisory Committee found strong evidence that physical activity is associated with a lower risk of several additional cancer sites, including endometrial, bladder, esophageal adenocarcinoma, kidney, and gastric.3 Furthermore, our analysis of 1.44 million adults suggested that leisure-time physical activity is associated with a lower risk for as many as 13 cancer types.4 Given this evidence, physical activity will play an increasingly important role in population-based cancer prevention efforts.
+
+However, our understanding of the shape of the relation between physical activity and cancer risk and whether recommended amounts of physical activity (eg, 2.5-5 hours/week of moderate-intensity activity5,6 or 7.5-15 metabolic equivalent task [MET] hours/week5) are associated with lower risk is still limited. Recent comprehensive reviews of physical activity and cancer3,7 have been unable to determine whether engagement in recommended amounts of physical activity is associated with significantly lower cancer risk because of heterogeneity in activity measurements and analytic methods used in available studies. Similar issues complicate our understanding of whether the intensity of physical activity is relevant to cancer risk. An understanding of the amount and intensity of physical activity associated with reduced risk is essential for application of evidence-based recommendations for cancer prevention. Therefore, the goal of this study was to quantify the leisure-time physical activity-cancer dose-response relationship. Specifically, we extend analyses from our pooled data to provide results applicable to clinical and public health practice by determining whether recommended amounts of leisure-time physical activity (7.5-15 MET hours/week) are associated with significantly lower cancer risk, describing the shapes of the physical activity-cancer dose-response relationships, and exploring whether the same amount of moderate- and vigorous-intensity leisure-time physical activity confers similar cancer risk reduction.
+
+METHODS
+
+Study Population
+
+We examined 5 US cohorts, 3 European cohorts, and 1 Australian cohort.8-16 Eight cohorts were included in our prior analysis,4 and the Melbourne Collaborative Cohort Study15 was added. Studies eligible for this analysis assessed leisure-time physical activity in sufficient detail to estimate energy cost (MET hours/week) and had necessary covariate data (Data Supplement, online only). Studies were approved by the institutional review board of host institutions, and participants provided informed or implied consent. For a detailed description of dose-response relationships, we focused on 15 cancers that we previously found to be associated with physical activity (P < .05) or associations with borderline significance (P = .05 or .06).4 We did not examine lung cancer because of probable residual confounding by smoking.4,7
+
+Measurement of Physical Activity
+
+Leisure-time physical activities encompass discretionary exercise, sports, and recreational pursuits, typically of a moderate to vigorous intensity, and done to maintain fitness or health.17 We focused only on leisure-time activities to minimize heterogeneity between studies and to enhance translation of our findings. A detailed description of the measures used is listed in the Data Supplement. Measurements of leisure-time physical activity have contributed valuable insight into the physical activity-mortality dose-response relationship18 and revealed associations with cancer (eg, see Friberg et al13, Howard et al19), and instruments like the ones we used have demonstrated validity.20 We focused on the energy cost or total volume of leisure-time physical activity (MET hours/week) and the volume of both moderate-intensity (3-5.9 METs) and vigorous-intensity (≥ 6 METs) activity.
+
+Covariate Assessment
+
+We included covariates that are major predictors of cancer risk on the basis of previous studies,4,21 although we acknowledge that this list is not exhaustive. Covariates were harmonized as follows: age, race (black, white, other), education (less than high school, high school graduate, post–high school training, some college, college degree or greater, missing), smoking status (never, former, current, missing), personal history of cancer (yes, no/missing) or heart disease (yes, no/missing), marital status (married, divorced, widowed, unmarried, missing), body mass index (BMI; < 20, 20-22.4, 22.5-24.9, 25.0-27.4, 27.5-29.9, 30-32.4, 32.5-34.9, 35.0-37.4, ≥ 37.5 kg/m2, missing <15 or > 60 kg/m2), and alcohol consumption (0, 0.1-14.9, 15.0-29.9, and ≥ 30.0 g/d). Hormonal and reproductive factors were harmonized as follows: postmenopausal hormone therapy use (ever, never), oral contraceptives (ever, never), age at menarche (< 10, 10-11, 12-13, ≥ 14 years), age at menopause (premenopausal, 40-44, 45-49, 50-54, ≥ 55 years), and parity (0, 1, 2, ≥ 3 children).
+
+Incident Cancer Ascertainment
+
+We used the SEER site recode and the International Classification of Diseases for Oncology, Third Edition,22 to classify each cancer (Data Supplement). Incident first primary malignancies were identified in the following ways: follow-up questionnaires and confirmed by medical record review of radiation-related cancers16 or all cancers,23,24 cancer and death registry linkages,11-13,15,25 or both.24,26 Follow-up time was calculated from the date of the physical activity assessment to the date of cancer diagnosis, death, or the end of follow-up within each study, whichever came first. Numbers of participants with cancer for each site by activity levels are listed in the Data Supplement.
+
+Statistical Analysis
+
+Cox proportional hazards regression models with stratification by study were used to calculate covariate-adjusted hazard ratios (HRs) and 95% CIs for physical activity and each cancer outcome. For endometrial cancer, women who reported a hysterectomy were excluded. Our primary analysis was based on restricted cubic splines to facilitate detailed description of the dose-response curves.27,28 Using splines, we estimated HRs and 95% CIs for specific MET hours/week values and described the shape of the overall dose-response and tested for linear and nonlinear shapes of each association. Splines used 3 knots distributed across the range of physical activity,28 and the range was capped at 35 MET hours/week (approximately 95th percentile) to minimize the influence of sparse data. We used 7.5-15 MET hours/week to estimate recommended activity levels (eg, moderate-intensity activity [3 METs] × 2.5 hours/week = 7.5 MET hours/week).5 Statistical significance of the overall association and for nonlinearity of the risk curves was evaluated with likelihood ratio tests.27,29 We evaluated the role of BMI by fitting models with and without BMI and tested for interactions by sex using cross-product terms. All studies contributed to the overall leisure-time physical activity results, while 5 studies contributed to the analysis of physical activity intensity.9-11,15,16 Evaluation of moderate- and vigorous-intensity activity entailed the fitting of models with and without adjustment for each.
+
+In sensitivity analyses, we examined results after excluding the first 2 years of follow-up and modeled associations using 5 physical activity categories (reference, < 7.5, 7.5-14.9, 15.0-29.9, and ≥ 30.0 MET hours/week), with cohort- and cancer site–specific results summarized using random-effects meta-analysis.30 Analyses were performed using SAS 9.4 statistical software (SAS Institute, Cary, NC). Statistical tests were 2-sided using the 5% level of significance, which corresponds to 95% CIs for the HR not covering the value 1.
+
+RESULTS
+
+We studied 755,459 individuals (53% female) with leisure-time physical activity measures who had no history of cancer at the start of follow-up. Participant characteristics by leisure-time physical activity are listed in Table 1. There was broad consistency in reported amounts of leisure-time physical activity among cohorts, with 7 of the 9 cohorts having a median value between 7.6 and 8.0 MET hours/week (Data Supplement). Cancers with strong evidence of association per the US Physical Activity Guidelines Advisory Committee3 were grouped separately to highlight results for these malignancies.
+
+TABLE 1. Participant Characteristics by Level of Leisure-Time Physical Activity
+
+Associations for Overall Leisure-Time Physical Activity
+
+Higher levels of physical activity were statistically significantly associated (Poverall < .05) with lower risk for breast, colon, endometrial, and kidney cancer and esophageal adenocarcinoma (Fig 1A) and head and neck and liver cancer (Fig 1B). Associations for gastric cardia (Fig 1A) and myeloma (Fig 1B) were of borderline significance (P = .05). Evaluation of statistical interaction by sex revealed 2 interactions (both Pinteraction ≤ .01): The associations with colon cancer was evident in men (HR, 0.81; 95% CI, 0.74 to 0.89; 15 v 0 MET hours/week) but attenuated in women (HR, 0.94; 95% CI, 0.85 to 1.04) and for non-Hodgkin lymphoma in women (HR, 0.82; 95% CI, 0.74 to 0.94) but not in men (HR, 1.00; 95% CI, 0.88 to 1.14; Table 2). Adjustment for BMI resulted in complete attenuation of the endometrial cancer association and in an increase in the HR comparing 15-0 MET hours/week from 0.82 (95% CI, 0.74 to 0.92) to 1.02 (95% CI, 0.91 to 1.14; Data Supplement) but more modest attenuations of only 8% for kidney (from 0.83 [95% CI, 0.74 to 0.94] to 0.90 [95% CI, 0.80 to 1.01]) and liver (from 0.73 [95% CI, 0.59 to 0.92] to 0.79 [95% CI, 0.64 to 0.99]) cancer. Associations with other sites were little changed.
+
+FIG 1. (A) Leisure-time physical activity (metabolic equivalent task [MET]–hours/week) and risk of cancer sites with strong evidence of association. (B) Association between leisure-time physical activity (MET hours/week) and cancer sites with moderate or lower evidence of association. Analysis is adjusted for entry age, sex, race, education, smoking, and alcohol intake. For breast and endometrial cancer, we also adjusted for postmenopausal hormone treatment, age at menarche and menopause, parity, and oral contraceptive use. Restricted cubic splines were fit with 3 knots placed at the 5th, 50th, and 95th percentiles of physical activity. Shaded area indicates recommended amounts of physical activity. Cancer sites were judged as strong evidence of association by the 2018 US Physical Activity Guidelines Advisory Committee.3
+
+TABLE 2. Associations Between Leisure-Time Physical Activity and Cancer, and Interactions by Sex
+
+Risk Reductions for Recommended Amounts of Physical Activity
+
+Among cancers with strong prior evidence of association per the US Physical Activity Guidelines Advisory Committee,3 engagement in 7.5-15 MET hours/week of leisure-time physical activity versus none was associated with a significantly reduced risk for breast, colon, endometrial, and kidney cancer as indicated by HRs and 95% CIs < 1 within this activity range (Fig 1A; Data Supplement). The strength of association within the recommended activity range varied from 6% to 10% lower for breast cancer (HR at 7.5 MET hours/week [HR7.5], 0.94; HR at 15 MET hours/week [HR15], 0.90) to 11%-17% lower risk for kidney cancer (HR7.5, 0.89; HR15, 0.83) compared with 0 MET hours/week. For other sites, 7.5-15 MET hours/week was associated with a significantly lower risk for myeloma (14%-19% lower risk), liver cancer (18%-27% lower risk; Fig 1B), and non-Hodgkin lymphoma in women (11%-18% lower risk; Table 2). Compared with doing none, engagement in recommended amounts of leisure-time physical activity was associated with a significantly lower risk for 7 cancer types.
+
+Shape of Dose-Response Curves
+
+Examination of the shape of the dose-response curves using statistical testing for nonlinearity and visual inspection revealed that half of the sites with significant overall associations were approximately linear. Specifically, linear associations—with graded reductions in risk with higher activity—were noted for breast, colon, and endometrial cancer and esophageal adenocarcinoma (Fig 1A) and head and neck cancer (Fig 1B). For these cancers, engagement in physical activity greater than the recommended levels was associated with additional risk reduction. In contrast, associations for kidney and gastric cancer (Fig 1A), liver cancer (Fig 1B), and non-Hodgkin lymphoma in women (Table 2) seemed to be curvilinear, with a plateau in risk reduction at higher levels of activity. For these cancers, engagement in more physical activity was associated with little, if any, additional risk reduction. Myeloma had a significant nonlinear association with lower risks in the recommended activity range but not at higher levels.
+
+Moderate- and Vigorous-Intensity Physical Activity
+
+In a subset of 5 cohorts that represented less than half of our total sample size (n = 309,881), we explored mutually adjusted associations for moderate- and vigorous-intensity physical activity among the 9 cancer types we found to be significantly associated with overall leisure-time physical activity. Although 95% CIs were often wide, we observed significant overall associations with breast and kidney cancer for moderate-intensity activity, while vigorous-intensity activity was significantly associated with endometrial cancer (Fig 2). Associations for colon cancer were of borderline significance for moderate-intensity (P = .06) and vigorous-intensity (P = .10) activity. There was evidence of nonlinear u-shaped associations with vigorous-intensity activity for colon and endometrial cancer such that the protective associations observed at intermediate activity levels were eroded at higher levels of activity (ie, 30 v 0 MET hours/week). For the other cancer sites, differences between moderate-intensity and vigorous-intensity physical activity were limited, and the 95% CIs were wide.
+
+FIG 2. Mutually adjusted associations (hazard ratios with 95% CIs) between moderate- and vigorous-intensity activity and cancers with statistically significant associations with overall leisure-time physical activity. Analysis is adjusted for standard covariates and moderate- and vigorous-intensity activity as necessary. (*) P < .05, nonlinear association. n = number of participants with a given type of cancer.
+
+Sensitivity Analyses
+
+Comparison of spline with meta-analytic results showed broadly similar findings for the overall shape and strength of association (Data Supplement). Exclusion of the first 2 years of follow-up revealed no substantive changes to our dose-response findings (Data Supplement).
+
+DISCUSSION
+
+This analysis of the dose-response relationship between leisure-time physical activity and cancer provides new insight into the amount of physical activity needed for a reduced risk of many cancer types—critical evidence for more precise cancer prevention messaging in the clinical and public health settings. In this pooled study of 750,000 adults, engagement in recommended amounts of leisure-time physical activity (7.5-15 MET hours/week), an equivalent of 2.5 to 5.0 hours/week of moderate-intensity activity (eg, brisk walking), was associated with significantly lower risk for breast, colon (men only), endometrial, kidney, myeloma, and liver cancer and non-Hodgkin lymphoma (women only). The strength of associations for recommended amounts of physical activity versus none ranged from a 6% to 10% lower risk for breast cancer to an 18% to 27% lower risk for liver cancer. The shape of the dose-response curves varied by cancer type. Both moderate- and vigorous-intensity activity seemed to be associated with lower risk for colon, breast, and kidney cancer, but the sample size for other cancer types was too limited to draw firm conclusions. Adjustment for BMI had a minimal impact on our results, except for endometrial cancer.
+
+In the past decade, our knowledge of the number of cancers linked to physical activity has expanded substantially, but whether engagement in recommended amounts of leisure-time physical activity may lower risk for these cancers has remained unclear. In preparation for the second edition of the US Physical Activity Guidelines, an advisory committee conducted a comprehensive evaluation of > 40 systematic reviews and meta-analyses but concluded that “it was not possible to determine the exact levels of physical activity that provide a given level of effect”3(pF4-56) because of methodological diversity in the investigations examined. Using harmonized leisure-time physical activity data from 9 cohorts, we found that engagement in recommended amounts of physical activity was associated with significantly lower risk for 7 cancer types and that additional benefits beyond 15 MET hours/week varied by cancer type. Our findings provide robust quantitative evidence that supports the new US Physical Activity Guidelines5 for cancer prevention as well as recommendations that have been promoted by the American Cancer Society,6 World Cancer Research Fund International,31 the International Agency for Research on Cancer,32,33 and the American College of Sports Medicine.7
+
+Our detailed examination of the physical activity-cancer dose-response relationship revealed 2 unique observations. First, in contrast to the archetypal curvilinear dose-response observed between physical activity and all-cause and cardiovascular mortality,18,34 approximately half of the cancers associated with physical activity were found to have linear dose-response curves (ie, colon, breast, endometrial and head and neck cancer, esophageal adenocarcinoma), with the lowest risk at levels well above the recommended minimum level of activity. This finding may explain in part previous observations that higher levels of activity were needed to achieve significantly lower risk of colon and breast cancer.35 Given these linear associations, substantially lower relative risk estimates may have only been observable at higher activity levels in previous studies, particularly given smaller participant numbers and more limited statistical power in individual studies. Of note, for several cancers with a curvilinear association in our data (eg, kidney, gastric, and liver cancer), most of the risk reduction observed was associated with recommended amounts of physical activity. Second, we observed nearly a 3-fold difference in the strength of associations for engaging in 7.5-15 MET hours/week when comparing results for breast cancer (6%-10% lower risk) with liver cancer (18%-27% lower risk). This large difference in the shape and strength of association for the same dose of physical activity may reflect important differences in the underlying biologic mechanisms for distinct cancer types. For example, the primary mechanisms proposed to explain associations with breast cancer are circulating factors (eg, sex steroid hormones, insulin, inflammatory biomarkers) that may exert less-direct effects on breast tumorigenesis in response to exercise.36 In contrast, in addition to these systemic effects, exercise exerts a direct effect on glucose, glycogen, and lipid metabolism in the liver37 and may reduce risk of or reverse nonalcoholic fatty liver disease, an emergent risk factor for liver cancer.38-40 Together, these findings suggest that there are fundamentally different physical activity dose-response relationships for all-cause and cardiovascular mortality and some cancers and substantial variation in the underlying biologic mechanisms that link physical activity to different types of cancer. Additional research is needed to better understand these differences.
+
+Limitations of this report should be considered. First, even with > 750,000 participants, our patient numbers were limited for some types of cancer and our participants were primarily white. Second, our analyses of moderate- versus vigorous-intensity were also limited by the number of cohorts with detailed physical activity measures. Third, we relied on self-reported physical activity measures. Although there is adequate evidence for validity of leisure-time physical activity questionnaires in comparison with objective and physiologic criterion measures,41,42 we anticipate measurement error and probable attenuation of associations observed. Future research using self-report could be strengthened by incorporating quantitative bias analyses to explore attenuation of risk estimates as a result of measurement error. Fourth, by design, we examined only leisure-time physical activity at one point in time and did not evaluate associations with total activity levels or different domains of behavior. Finally, this was an observational study that cannot demonstrate causality, and we cannot rule out effects of unmeasured or residual confounding.
+
+Our study also had a number of strengths. A unique strength was our focus on a single domain of physical activity (leisure-time), and pooling of original MET hours/week data for 9 prospective cohorts from the United States, Europe, and Australia. This feature overcomes many of the limitations inherent in available meta-analyses related to wide variation in the types of activity examined, differences in summary measures assessed, and dissimilarities in how activity was classified in individual studies (eg, tertiles, quintiles).3 The pooling of original data also allowed us to quantify dose-response relationships using restricted cubic splines, which afforded greater statistical power and avoided arbitrary categorization of activity levels.28 Our results provide the best available description of the dose-response for leisure-time physical activity and cancer risks of which we are aware.
+
+In this pooled analysis of prospective studies, we found that engagement in recommended amounts of leisure-time physical activity (7.5-15 MET hours/week) was associated with lower risk for 7 cancers (colon, breast, endometrial, kidney, myeloma, liver, non-Hodgkin lymphoma). Additional benefits for engaging in still higher levels of physical activity were cancer type dependent owing to heterogeneity in the dose-response curves observed. These findings provide direct quantitative support for the levels of activity recommended for cancer prevention and provide actionable evidence for ongoing and future cancer prevention efforts.
+
+PRIOR PRESENTATION
+
+SUPPORT
+
+ACKNOWLEDGMENT
+
+This pooling study was a coordinated effort of the NCI Cohort Consortium.
+
+AUTHOR CONTRIBUTIONS
+
+Conception and design: Charles E. Matthews, Steven C. Moore, Alpa V. Patel, I-Min Lee
+
+Collection and assembly of data: Charles E. Matthews, Steven C. Moore, Niclas Håkansson, Susanna C. Larsson, Alicja Wolk, Susan M. Gapstur, Brigid M. Lynch, Roger L. Milne, Neal D. Freedman, Wen-Yi Huang, Amy Berrington de Gonzalez, Sven Sandin, Alpa V. Patel, I-Min Lee
+
+Data analysis and interpretation: Charles E. Matthews, Steven C. Moore, Hannah Arem, Michael B. Cook, Britton Trabert, Alicja Wolk, Susan M. Gapstur, Roger L. Milne, Neal D. Freedman, Wen-Yi Huang, Amy Berrington de Gonzalez, Cari M. Kitahara, Martha S. Linet, Eric J. Shiroma, Sven Sandin, Alpa V. Patel, I-Min Lee
+
+Manuscript writing: All authors
+
+Final approval of manuscript: All authors
+
+Accountable for all aspects of the work: All authors
+
+AUTHORS' DISCLOSURES OF POTENTIAL CONFLICTS OF INTEREST
+
+Amount and Intensity of Leisure-Time Physical Activity and Lower Cancer Risk
+
+The following represents disclosure information provided by authors of this manuscript. All relationships are considered compensated unless otherwise noted. Relationships are self-held unless noted. I = Immediate Family Member, Inst = My Institution. Relationships may not relate to the subject matter of this manuscript. For more information about ASCO's conflict of interest policy, please refer to www.asco.org/rwc or ascopubs.org/journal/jco/site/ifc.
+
+Open Payments is a public database containing information reported by companies about payments made to US-licensed physicians (Open Payments).
+
+Brigid M. Lynch
+
+Travel, Accommodations, Expenses: Merck Sharp & Dohme
+
+Sven Sandin
+
+Stock and Other Ownership Interests: AstraZeneca
+
+Research Funding: SOBI (I)
+
+No other potential conflicts of interest were reported.
+
+Presented at the American College of Sports Medicine Roundtable on Cancer and Exercise, San Francisco, CA, March 12-13, 2018.
+
+Supported in part by the National Institutes of Health (NIH) Intramural Research Programs of the National Cancer Institute (C.E.M., S.C.M., A.B.d.G.) and the National Institute on Aging (E.J.S.). The NIH-AARP Diet and Health study was supported by the NIH Intramural Research Program of the National Cancer Institute(M.B.C., B.T.). The US Radiologic Technologists study was supported by the NIH Intramural Research Program of the National Cancer Institute (C.K., M.L.). The Prostate, Lung, Colorectal, and Ovarian Cancer Screening Trial is supported by the Intramural Research Program of the Division of Cancer Epidemiology and Genetics and contracts from the Division of Cancer Prevention, National Cancer Institute, NIH, Department of Health and Human Services (N.D.F., W.-Y.H.). The Cohort of Swedish Men and the Swedish Mammography Cohort (N.H., S.C.L., A.W.) are supported by the Swedish Cancer Foundation and by the Swedish Research Council (Grant No. VR 2017-00644) for the Swedish Infrastructure for Medical Population-Based Life-Course Environmental Research. The Cancer Prevention Study II is supported by the American Cancer Society (S.M.G., A.V.P.). The Melbourne Collaborative Cohort Study (MCCS; B.M.L., R.L.M.) cohort recruitment was funded by VicHealth and Cancer Council Victoria. The MCCS was further augmented by Australian National Health and Medical Research Council Grant Nos. 209057, 396414, and 1074383 and by infrastructure provided by Cancer Council Victoria. Patients and their vital status were ascertained through the Victorian Cancer Registry and the Australian Institute of Health and Welfare, including the National Death Index and the Australian Cancer Database. B.M.L. is supported by a fellowship from the Victorian Cancer Agency (MCRF18005). The Women’s Health Study was supported by CA047988, CA182913, HL043851, HL080467, and HL099355 (E.J.S., I.-M.L.). The Women’s Lifestyle and Health project was supported by the Swedish Cancer Society and the Swedish Research Council (S.S.).
+
+See accompanying Editorial on page 657
+
+
+REFERENCES
+
+1. Siegel RL, Miller KD, Jemal A: Cancer statistics, 2018. CA Cancer J Clin 68:7-30, 2018 10.3322/caac.21442 29313949
+2. US Department of Health and Human Services: 2008 Physical Activity Guidelines for Americans: Be Active, Healthy, and Happy! https://health.gov/paguidelines/2008/pdf/paguide.pdf
+3. Office of Disease Prevention and Health Promotion: 2018 Physical Activity Guidelines Advisory Committee: Physical Activity Guidelines Advisory Committee Scientific Report. Washington, DC, US Department of Health and Human Services, 2018
+4. Moore SC Lee IM Weiderpass E et al Association of leisure-time physical activity with risk of 26 types of cancer in 1.44 million adults JAMA Intern Med 176 816 825 2016 27183032 10.1001/jamainternmed.2016.1548 PMC5812009
+5. US Department of Health and Human Services: Physical Activity Guidelines for Americans (ed 2). Washington, DC, US Department of Health and Human Services, 2018
+6. Kushi LH Doyle C McCullough M et al American Cancer Society Guidelines on nutrition and physical activity for cancer prevention: Reducing the risk of cancer with healthy food choices and physical activity CA Cancer J Clin 62 30 67 2012 22237782 10.3322/caac.20140
+7. Patel AV Friedenreich CM Moore SC et al American College of Sports Medicine roundtable report on physical activity, sedentary behavior, and cancer prevention and control Med Sci Sports Exerc 51 2391 2402 2019 31626056 10.1249/MSS.0000000000002117 PMC6814265
+8. Schatzkin A Subar AF Thompson FE et al Design and serendipity in establishing a large cohort with wide dietary intake distributions: The National Institutes of Health-American Association of Retired Persons Diet and Health Study Am J Epidemiol 154 1119 1125 2001 11744517 10.1093/aje/154.12.1119
+9. Calle EE Rodriguez C Jacobs EJ et al The American Cancer Society Cancer Prevention Study II Nutrition Cohort: Rationale, study design, and baseline characteristics Cancer 94 2490 2501 2002 12015775 10.1002/cncr.101970
+10. Lee IM Cook NR Gaziano JM et al Vitamin E in the primary prevention of cardiovascular disease and cancer: The Women’s Health Study: A randomized controlled trial JAMA 294 56 65 2005 15998891 10.1001/jama.294.1.56
+11. Roswall N Sandin S Adami HO et al Cohort profile: The Swedish Women’s Lifestyle and Health cohort Int J Epidemiol 46 e8 2017 26066328 10.1093/ije/dyv089
+12. Larsson SC Rutegård J Bergkvist L et al Physical activity, obesity, and risk of colon and rectal cancer in a cohort of Swedish men Eur J Cancer 42 2590 2597 2006 16914307 10.1016/j.ejca.2006.04.015
+13. Friberg E Mantzoros CS Wolk A Physical activity and risk of endometrial cancer: A population-based prospective cohort study Cancer Epidemiol Biomarkers Prev 15 2136 2140 2006 17057024 10.1158/1055-9965.EPI-06-0465
+14. Prorok PC Andriole GL Bresalier RS et al Design of the Prostate, Lung, Colorectal and Ovarian (PLCO) cancer screening trial Control Clin Trials 21 273S 309S 2000 11189684 10.1016/s0197-2456(00)00098-2
+15. Milne RL Fletcher AS MacInnis RJ et al Cohort profile: The Melbourne Collaborative Cohort Study (Health 2020) Int J Epidemiol 46 1757 1757i 2017 28641380 10.1093/ije/dyx085
+16. Meinhold CL Ron E Schonfeld SJ et al Nonradiation risk factors for thyroid cancer in the US Radiologic Technologists Study Am J Epidemiol 171 242 252 2010 19951937 10.1093/aje/kwp354 PMC3290908
+17. Caspersen CJ Powell KE Christenson GM Physical activity, exercise, and physical fitness: Definitions and distinctions for health-related research Public Health Rep 100 126 131 1985 3920711 PMC1424733
+18. Arem H Moore SC Patel A et al Leisure time physical activity and mortality: A detailed pooled analysis of the dose-response relationship JAMA Intern Med 175 959 967 2015 25844730 10.1001/jamainternmed.2015.0533 PMC4451435
+19. Howard RA Freedman DM Park Y et al Physical activity, sedentary behavior, and the risk of colon and rectal cancer in the NIH-AARP Diet and Health Study Cancer Causes Control 19 939 953 2008 18437512 10.1007/s10552-008-9159-0 PMC2574900
+20. Milton K Bull FC Bauman A Reliability and validity testing of a single-item physical activity measure Br J Sports Med 45 203 208 2011 20484314 10.1136/bjsm.2009.068395
+21. Park Y Leitzmann MF Subar AF et al Dairy food, calcium, and risk of cancer in the NIH-AARP Diet and Health Study Arch Intern Med 169 391 401 2009 19237724 10.1001/archinternmed.2008.578 PMC2796799
+22. WHO: International Classification of Diseases for Oncology (ed 3). Geneva, Switzerland, WHO, 2000
+23. Lee IM Djoussé L Sesso HD et al Physical activity and weight gain prevention JAMA 303 1173 1179 2010 20332403 10.1001/jama.2010.312 PMC2846540
+24. Hashibe M Hunt J Wei M et al Tobacco, alcohol, body mass index, physical activity, and the risk of head and neck cancer in the Prostate, Lung, Colorectal, and Ovarian (PLCO) cohort Head Neck 35 914 922 2013 22711227 10.1002/hed.23052
+25. Arem H Moore SC Park Y et al Physical activity and cancer-specific mortality in the NIH-AARP Diet and Health Study cohort Int J Cancer 135 423 431 2014 24311115 10.1002/ijc.28659 PMC4016110
+26. Patel AV Callel EE Bernstein L et al Recreational physical activity and risk of postmenopausal breast cancer in a large cohort of US women Cancer Causes Control 14 519 529 2003 12948283 10.1023/a:1024895613663
+27. Harre FE Jr Lee KL Pollock BG Regression models in clinical studies: Determining relationships between predictors and response J Natl Cancer Inst 80 1198 1202 1988 3047407 10.1093/jnci/80.15.1198
+28. Desquilbet L Mariotti F Dose-response analyses using restricted cubic spline functions in public health research Stat Med 29 1037 1057 2010 20087875 10.1002/sim.3841
+29. Li R, Hertzmark E, Louie M, et al: The SAS LGTPHCURV9 Macro, 2011. https://cdn1.sph.harvard.edu/wp-content/uploads/sites/271/2012/09/lgtphcurv9_7-3-2011.pdf
+30. DerSimonian R Laird N Meta-analysis in clinical trials Control Clin Trials 7 177 188 1986 3802833 10.1016/0197-2456(86)90046-2
+31. World Cancer Research Fund/American Institute for Cancer Research: Diet, Nutrition, Physical Activity and Cancer: A Global Perspective, 2018. https://www.wcrf.org/dietandcancer
+32. International Agency for Cancer Research: European Code Against Cancer: 12 Ways to Reduce Your Cancer Risk. Lyon, France, International Agency for Cancer Research, 2019
+33. Leitzmann M, Powers H, Anderson AS, et al: European Code Against Cancer 4th edition: Physical activity and cancer. Cancer Epidemiol 39: S46-S55, 2015 10.1016/j.canep.2015.03.009 26187327
+34. Haskell WL: Dose-response issues from a biological perspective, in Bouchard C, Shepard R, Stephens T (eds): Physical Activity, Fitness, and Health. Champaign, IL, Human Kinetics Publishers, 1994, pp 1030-1039
+35. Physical Activity Guidelines Advisory Committee: Physical Activity Guidelines Advisory Committee Report, 2008. https://health.gov/paguidelines/2008/report/pdf/CommitteeReport.pdf
+36. Neilson HK Friedenreich CM Brockton NT et al Physical activity and postmenopausal breast cancer: Proposed biologic mechanisms and areas for future research Cancer Epidemiol Biomarkers Prev 18 11 27 2009 19124476 10.1158/1055-9965.EPI-08-0756
+37. Bouchard C (ed): Chapter nine: Exercise and the regulation of hepatic metabolism, in: Progress in Molecular Biology and Translational Science: Volume 135: Molecular and Cellular Regulation of Adaptation to Exercise. Waltham, MA, Academic Press, 2015
+38. Kanwal F Kramer JR Mapakshi S et al Risk of hepatocellular cancer in patients with non-alcoholic fatty liver disease Gastroenterology 155 1828 1837.e2 2018 30144434 10.1053/j.gastro.2018.08.024 PMC6279617
+39. Brouwers B Hesselink MKC Schrauwen P et al Effects of exercise training on intrahepatic lipid content in humans Diabetologia 59 2068 2079 2016 27393135 10.1007/s00125-016-4037-x PMC5016557
+40. Takahashi H Kotani K Tanaka K et al Therapeutic approaches to nonalcoholic fatty liver disease: Exercise intervention and related mechanisms Front Endocrinol (Lausanne) 9 588 2018 30374329 10.3389/fendo.2018.00588 PMC6196235
+41. Taylor HL Jacobs DR Jr Schucker B et al A questionnaire for the assessment of leisure time physical activities J Chronic Dis 31 741 755 1978 748370 10.1016/0021-9681(78)90058-9
+42. Jacobs DR Jr Ainsworth BE Hartman TJ et al A simultaneous evaluation of 10 commonly used physical activity questionnaires Med Sci Sports Exerc 25 81 91 1993 8423759 10.1249/00005768-199301000-00012

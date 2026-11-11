@@ -1,0 +1,9 @@
+* codex/data-round1-20261112                                83b6e50 Document new health-impact study, reusable inputs, and evidence gaps
+  initial-project-import                                    83b6e50 [origin/initial-project-import] Document new health-impact study, reusable inputs, and evidence gaps
+  remotes/handoff/continuation                              9c58894 Add isolated new-study data, audit notebook, and continuation tasks
+  remotes/origin/HEAD                                       -> origin/initial-project-import
+  remotes/origin/archive/pre-data-reorganization-2026-11-11 83b6e50 Document new health-impact study, reusable inputs, and evidence gaps
+  remotes/origin/archive/pre-rewrite-2026-11-11             efc39a5 Read corrected physical activity baseline directly from Excel
+  remotes/origin/initial-project-import                     83b6e50 Document new health-impact study, reusable inputs, and evidence gaps
+  remotes/origin/initial-project-import-20260804-015311     55e04e5 Synchronize integrated analysis package dated 2026-10-04
+  remotes/origin/main                                       55e04e5 Synchronize integrated analysis package dated 2026-10-04

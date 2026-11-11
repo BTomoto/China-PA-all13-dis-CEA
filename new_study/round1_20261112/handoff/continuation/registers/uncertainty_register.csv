@@ -1,0 +1,7 @@
+﻿parameter_group,status,next_action,draw_dependency,distribution
+PA,COARSE_CI_AVAILABLE,需匹配年龄性别设计方差，旧四省n停用。,,
+RR,DEFINITION_UNRESOLVED,在暴露定义确定后选择原文RR/HR/OR及对应转换。,,
+GBD,PARTIAL_RAW_RECOVERY,细年龄draw/相关结构未恢复；不求和端点构造UI。,,
+population_survival,NOT_COLLECTED,动态结构确定后补全因死亡/生命表。,,
+medical_costs,EMPIRICAL_SCOPE_PARTIAL,原文区间和结构范围分开；旧±30%不是经验CI。,,
+joint_draw,NOT_IMPLEMENTED,新建draw_id贯穿暴露、健康与费用，不重建独立经济均值分布。,,

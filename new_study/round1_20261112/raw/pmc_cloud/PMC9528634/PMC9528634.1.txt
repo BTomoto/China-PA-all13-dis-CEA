@@ -1,0 +1,477 @@
+
+JOURNAL INFORMATION
+==============================
+NLM Title Abbreviation: BMJ Open
+Journal ID: BMJ Open
+NLM Journal ID: 101552874
+Journal ID: bmjopen
+
+BMJ Open
+
+EISSN: 2044-6055
+Publisher: BMJ Publishing Group
+
+ARTICLE INFORMATION
+==============================
+PMCID: PMC9528634
+PMID: 36171041
+DOI: 10.1136/bmjopen-2021-056422
+Article ID: bmjopen-2021-056422
+Article version: 1
+Subjects: Mental Health, 1506, 1712
+Series title: Original research
+
+Medical service utilisation and direct medical cost of depression: a cross-sectional analysis of urban medical claims data from China
+
+http://orcid.org/0000-0001-7504-0355 Ding Ruoxi 1
+Zhu Dawei 1
+Wang Yanshang 1 2
+Yong Ma 3
+http://orcid.org/0000-0001-7056-2912 Shi Xuefeng 4
+He Ping 1
+1 China Center for Health Development Studies , Peking University , Beijing , China
+2 School of Public Health , Peking University , Beijing , China
+3 China Health Insurance Research Association , Beijing , China
+4 School of Management , Beijing University of Chinese Medicine , Beijing , China
+Correspondence to Dr Ping He; phe@pku.edu.cn
+Publication date: 2022
+Electronic publication date: 2022 Sep 28
+Volume: 12
+Issue: 9
+Electronic Location ID: e056422
+Received 2021 Aug 17; Accepted 2022 Aug 9
+Copyright: © Author(s) (or their employer(s)) 2022. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.
+Copyright year: 2022
+
+License: This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: http://creativecommons.org/licenses/by-nc/4.0/.
+License URL: https://creativecommons.org/licenses/by-nc/4.0/
+
+Keywords: Depression, Medical Service Utilization, Direct Medical Cost, Urban China
+
+Funding: The Major Project of National Social Science Fund of China 21&ZD187
+special-feature: unlocked
+
+==============================
+Objectives
+
+Depression is becoming a growing cause of disability, suicides and disease burden. It incurred substantial costs to societies all over the world. Estimating the medical costs of depression will provide implications for related policies and interventions. However, there is scarce of evidence on the economic costs of depression in China. The aim of this study is to assess depression-related medical service utilisation, the direct medical costs of depression and potential associated factors.
+
+Settings
+
+This study used data that comprised 5% random sample of claims data from China’s Urban Basic Medical Insurance between January 2013 and December 2016. Beneficiaries’ demographic information, diagnoses and cost of outpatient and inpatient services were recorded in the data set.
+
+Participants
+
+26 123 patients with depression were identified as the study population in this study.
+
+Primary and secondary outcome measures
+
+The information on health service utilisation and cost was extracted based on the condition that depression was claimed as the index disease.
+
+Results
+
+From 2013 to 2016, weighted average annual total medical cost of depression in urban China was RMB2706.92, and the annual out-of-pocket cost was RMB786.4. The annual total medical cost of depression among urban residents in China was estimated to be 4.4 billion RMB (95% CI 4.15 to 4.67) (US$ 0.70, 95% CI 0.66 to 0.74). Nearly 65% of medical costs (RMB 1795.7 or US$ 285.0) were accounted by inpatient expenditure, and tertiary hospitals were the main provider of depression treatment. Depression-related medical care utilisation and direct costs were associated with gender, age, insurance status, severity of depression and diagnosis. Medication costs and medical service contributed to 41.7% and 56.6% of the average depression-related medical costs.
+
+Conclusion
+
+Depression poses a considerable burden on both the health system and the individual in urban China. Specific policies to strengthen the mental health resources in primary and secondary hospitals are in urgent need, and effective treatment strategies are important to prevent a progression and recurrence of depression, as well as an increase in medical cost.
+
+Strength and limitations of this study
+
+This study provides a comprehensive investigation on depression-related medical cost and service utilisation in urban China.
+
+Our finding underlines the necessity of enhancing the service capacity and physician competency in mental health of primary and secondary institutions.
+
+Extrapolation should be cautious because the data analyses were restricted to urban population.
+
+Potential confounding socioeconomic variables like education, household income, occupation, etc cannot be controlled.
+
+Introduction
+
+Depression is among the most prevalent psychiatric disorders across the world. According to the estimation of WHO,1 more than 350 million people—one in every 20 people worldwide suffered from depression or depressive symptom. As the one of the main causes of disability and mortality, depression now ranks the fourth contributor to the global burden of diseases, and it is predicted to climb up to the second in the following decade.2 During the past 40 years, most of the Chinese population enjoyed the fast economic growth and improvements of living standards, but they also undergone the dramatic socioeconomic and health transition, facing the rapid increase in the prevalence of mental illness.3 The prevalence of depression rose from 3225/100 000 in 1990 to 3991/100 000 in 2017, and the disability-adjusted life years attributable to depression increased from 525/100 000 to 607/100 000 during the same period.4 Depression has become one of the major public health concerns in China.
+
+Besides the detrimental effect on individual’s health, depression also poses serious economic burden on societies. This chronic recurrent disease generally affects most of the sufferer more than once and requires long-term continuous treatment, which brings huge costs to the healthcare system. The estimation based on the data of 28 European countries showed that the economic burden of depression reached 118 billion euros in 2005, accounting for 13% of the total health expenditure in Europe.5 Results from National Survey on Drug Use and Health and administrative claims data of USA showed that the direct medical cost of major depression increased rapidly, from 77.5 billion US$ in 2005 to 98.9 billion US$ in 2010.6 Therefore, the magnitude of medical cost and related health service utilisation in depression should be comprehensively explored to provide implications for policies and interventions, not only to restrain the growth of the undesirable economic burden, but also to improve the quality of life of people with depression, especially for countries with a substantial number of patients like China.
+
+There is a scarcity of evidence on the direct cost and health service utilisation of depression in China. Using the survey of 500 patients with depressive disorders in eight clinic/hospitals of five cities in China in 2004, Hu et al provided detailed estimation of the total economic burden as well as the cost of different types of medical services. The result suggested that the cost of depression was about 8 billion US$, of which the direct medical cost was approximately 1.3 billion US$.7 Another study, which employed the 2012 China Family Panel Studies survey, indicated that the medical cost attributable to depression and depressive symptoms among the adult population accounted for 14.7% of total personal expected medical spending in China.8 Nevertheless, there are limitations to the above studies. For instance, the data which previous studies were not nationally representative, without detailed records of expenditure for different types of medical treatment, or the diagnosis of depression was based on the self-reported survey questions. Given the rapidly increased prevalence of depression among Chinese population, an updated estimate and a comprehensive analysis of depression cost, with pattern of multiple types of services use and costs are in urgent need.
+
+Using health insurance claims data to obtain patients’ medical information on treatment utilisation and expenditure has been demonstrated to be an efficient and valid method to estimate the direct medical cost of illness.9 The aim of this study is to assess depression-related medical service utilisation, the direct medical cost of depression and potential associated factors using medical claims data in urban China. Such investigation will quantify the direct medical burden of depression on China’s healthcare system, provide specific implication for the analysis of cost-effectiveness of interventions and more accurate guidance for the medical and financial resource allocation.
+
+Methods
+
+Data source
+
+The data employed in this study were 5% random sample of China Urban Employee’s Basic Medical Insurance (UEBMI) and China Urban Residents’ Basic Medical Insurance (URBMI) beneficiaries’ insurance claims between January 2013 and December 2016. In urban China, UEBMI and URBMI are the major health insurance schemes and covered more than 93% of the urban residents.10 Beneficiaries’ demographic information, diagnoses and cost of outpatient and inpatient services were recorded in the data set. The sample was drawn using systematic random sampling strategy with a random start. In brief, every Kth record from a population of size N was selected, with the first sample record picked from a random number table. In such a way, a sample size of n was obtained, where N/ n>=K. Each beneficiary was assigned a sample weight that equals to the reciprocal of the selection probability to correct for systematic differences in probability sampling.
+
+Samples
+
+We used the 10th revision of the International Statistical Classification of Diseases to identify patients with depression. The principal diagnosis codes were F32.0-F32.3 (mild, moderate and severe depressive episode), F32.8 (other depressive episodes), F32.9 (depressive episode, unspecified), F33.0-F33.3 (recurrent depressive disorder with current episode mild, moderate or severe), F33.8 (other recurrent depressive disorders) and F33.9 (recurrent depressive disorder, unspecified). Diagnosis of depression was made by qualified clinical psychiatrists. Our study sample comprised 26 123 patients with depression identified between 2013 and 2016 in the data set.
+
+Measures
+
+The information on depression-related medical service utilisation and cost was extracted based on the condition that depression was claimed as the index disease. Medical service utilisation included the number of annual (calendar year, which means that the annual resource use and cost were the totals of depression-related service utilisation and cost in a whole calendar year (2013, 2014, 2015 or 2016)) outpatient visits and inpatient admissions. Outpatient visits were provided by pharmacy, primary care facilities, secondary and tertiary hospitals, and inpatient admissions were provided by primary care facilities, secondary and tertiary hospitals. Depression-related medical cost was measured by the average direct medical cost and average out-of-pocket (OOP) cost per visit/admission (in China, OOP cost cannot be reimbursed, and it was included in the direct medical cost). Depression-related cost was further categorised into three subtypes: cost of medications, cost of medical service and cost of diagnostic tests and medical consumables. All of the costs were measured in RMB (the inflation rate was 10.25% from 2016 to 2021) and converted to US dollars at the exchange rate US$/RMB=6.33 (the average annual exchange rate from 2013 to 2016).11
+
+In the analyses, control variables included gender (male or female), age groups (15–24, 25–44, 45–59 or 60+ years), insurance type (UEMBI or URBMI), depression diagnosis (depressive episode (F32.x) or recurrent depressive disorder (F33.x)), severity of illness (severe (F32.2/F32.3 (severe single-episode depression with or without psychotic symptoms), F33.2/F33.3 (severe recurrent depression with or without psychotic symptoms), moderate (F32.1 (single-episode moderate depression), F33.1 (recurrent moderate depression)), mild (F32.0 (single episode mild depression), F33.0 (recurrent mild depression)) or other (F32.8/F32.9 (other depressive episodes/Major depressive disorder, single episode, unspecified), F33.8/F33.9 (other recurrent depressive disorders/major depressive disorder, recurrent, unspecified)) and year (2013, 2014, 2015 or 2016).
+
+Statistical analysis
+
+Weighted descriptive analyses were used to present the sample characteristics, depression-related medical service utilisation and cost. We employed Poisson regression and generalised linear model with a gamma distribution and a log link to investigate the associations of sample characteristics (eg, gender, age group, insurance type, diagnosis and severity of illness) with medical service utilisation, annual average cost and OOP cost.
+
+Sample weight was used to all descriptive statistics and multivariate analyses to have national estimates. A p value of less than 0.05 was considered statistically significant. The software Stata V.15 for Mac (Stata Corp, College Station, Texas) was used for the statistical analysis.
+
+Results
+
+Sample characteristics
+
+The estimated prevalence of treated depression was 0.13% in urban China, and the prevalence for men, women, 15–24, 25–44, 45–59 and 60+ was 0.096%, 0.16%, 0.016%, 0.09%, 0.17% and 0.42 and 0.096%. Table 1 displays the characteristics of the study sample. Among 26 123 patients with depression, 16 176 (61.9%) were women, 18 633 (71.3%) aged 45 years or above and 23 965 (91.7%) were UEBMI beneficiaries. One depressive episode (25 097 (96.1%)) and the category ‘other depressions’ (24 956 (95.53%)) were the dominant diagnoses. The gender-specific characteristics were also presented in the table.
+
+Table 1 Sample characteristics
+
+	Male, N (%)	Female, N (%)	Total, N (%)	
+Age groups	
+ 15–24	257 (2.58)	366 (2.26)	623 (2.38)	
+ 25–44	2789 (28.04)	4078 (25.21)	6867 (26.29)	
+ 45–59	3203 (32.2)	5876 (36.33)	9079 (34.75)	
+ 60+	3698 (37.18)	5856 (36.2)	9554 (36.57)	
+Insurance types	
+ URBMI	640 (6.43)	1518 (9.38)	2158 (8.26)	
+ UEBMI	9307 (93.57)	14 658 (90.62)	23 965 (91.74)	
+Diagnosis	
+ Depressive episode	9659 (97.1)	15 438 (95.44)	25 097 (96.07)	
+ Recurrent depressive disorders	288 (2.9)	738 (4.56)	1026 (3.93)	
+Severity of illness	
+ Severe	104 (1.05)	131 (0.81)	235 (0.9)	
+ Moderate	207 (2.08)	445 (2.75)	652 (2.5)	
+ Mild	133 (1.34)	147 (0.91)	280 (1.07)	
+ Other	9503 (95.54)	15 453 (95.53)	24 956 (95.53)	
+Year	
+ 2013	1928 (19.38)	3111 (19.23)	5039 (19.29)	
+ 2014	2695 (27.09)	5103 (31.55)	7798 (29.85)	
+ 2015	2390 (24.03)	3602 (22.27)	5992 (22.94)	
+ 2016	2934 (29.5)	4360 (26.95)	7294 (27.92)	
+Total	9947	16 176	26 123	
+
+Direct medical cost
+
+The estimated annual direct medical cost, OOP cost per person and total direct medical cost of depression by sample characteristics are presented in table 2. In the whole sample, the weighted average annual direct medical cost of depression per patient was RMB 2 706.9 (95% CI 2546.7 to 2867.1) (US$ 427.7, 95% CI 402.4 to 453.0), of which 29.1% was (RMB 786.4 or US$ 124.8) OOP expenditure. 64.9% (RMB1795.7 or US$285.0) of direct medical cost was accounted for by inpatient expenditure. Male, youth (15–24 years), URBMI beneficiaries, patient with recurrent depressive disorders and those with severe depression incurred higher total medical cost and OOP cost.
+
+Table 2 Estimated annual direct medical cost of depression, 2013–2016
+
+	Annual direct medical cost per person, RMB (95% CI)	Annual OOP cost per person, RMB (95% CI)	Total direct medical cost,
+RMB (95% CI)	
+Gender				
+ Male	2751.4 (2485.6 to 3017.2)	825.4 (748.5 to 902.3)	1.65 (1.49 to 1.81)	
+ Female	2680.9 (2480.2 to 2881.6)	763.6 (713.2 to 814.0)	2.75 (2.55 to 2.96)	
+Age groups				
+ 15–24	3513.8 (2593.8 to 4433.8)	1564.7 (1196.5 to 1932.8)	0.33 (0.24 to 0.41)	
+ 25–44	2369.0 (2128.1 to 2609.8)	771.0 (712.5 to 829.5)	1.03 (0.93 to 1.14)	
+ 45–59	2685.7 (2434.2 to 2937.2)	756.1 (686.1 to 826.0)	1.43 (1.29 to 1.56)	
+ 60+	2853.2 (2539.0 to 3167.5)	699.3 (626.2 to 772.5)	1.62 (1.45 to 1.80)	
+Insurance types				
+ URBMI	3580.6 (3105.7 to 4055.6)	1564.4 (1374.3 to 1754.5)	0.92 (0.80 to 1.04)	
+ UEBMI	2543.5 (2376.8 to 2710.2)	640.9 (607.6 to 674.2)	3.49 (3.26 to 3.72)	
+Diagnosis				
+ Depressive episode	2537.5 (2377.5 to 2697.5)	767.2 (723.9 to 810.6)	3.99 (3.74 to 4.24)	
+ Recurrent depressive disorders	7398.7 (6392.9 to 8404.4)	1317.0 (1102.7 to 1531.3)	0.42 (0.36 to 0.48)	
+Severity of illness				
+ Severe	8520.1 (6526.1 to 10514.2)	2563.3 (1776.9 to 3349.6)	0.13 (0.10 to 0.16)	
+ Moderate	6204.2 (5352.6 to 7055.8)	1358.5 (1128.9 to 1588.1)	0.21 (0.18 to 0.24)	
+ Mild	4268.0 (2476.5 to 6059.6)	1908.2 (1068.2 to 2748.2)	0.09 (0.05 to 1.13)	
+ Other	2553.0 (2391.2 to 2714.8)	741.0 (699.0 to 783.0)	3.98 (3.72 to 4.23)	
+Total	2706.9 (2546.7 to 2867.1)	786.4 (743.7 to 829.0)	4.41 (4.15 to 4.67)	
+OOP, out-of-pocket; UEBMI, Urban Employee’s Basic Medical Insurance; URBMI, Urban Residents’ Basic Medical Insurance.
+
+The estimated total direct medical cost for depression in urban China was RMB4.41 (95% CI 4.15 to 4.67) (US$ 0.70, 95% CI 0.66 to 0.74) billion during 2013–2016 (about RMB1.10 or US$0.18 billion per year). Women (62.4%), elderly (60+) (36.7%), UEBMI beneficiaries (79.1%), patients with one depressive episode (90.5%) and those in other depression category (90.2%) contributed the most to the total medical costs of depression in urban China.
+
+The proportion of direct medical cost of depression in total health expenditure of urban residents was 0.04%; the average annual direct medical cost per patient accounted for 5.6% of Gross Domestic Product (GDP) per capita, and the average annual OOP cost accounted for 2.5% of average disposable income of urban residents.
+
+Medical service utilisation and associated costs
+
+Table 3 presented annual depression-related medical service utilisation, including outpatient visits and inpatient admissions and associated costs by the severity of depression and health sectors at different levels. The annual average number of outpatient visits per patient with depression was 2.90, incurring an average cost of RMB359.4 (US$56.8) per visit, of which RMB145.5 (US$33.0) was OOP cost. The annual average number of inpatient admissions per patient was 1.34, incurring an average cost of RMB 9035.2 (US$1427.6) per admission, of which RMB2108.0 (US$333.1) was OOP cost. Patient with moderate depression had the highest utilisation of outpatient services, and patient with mild depression had the highest utilisation of inpatient services. Tertiary hospital was the main provider for both outpatient and inpatient services. Patient with severe depression incurred the highest average cost per time of both outpatient visits (RMB446.9 (US$70.6) and inpatient admissions (RMB12303.8 (US$1944.0)). Pharmacies had highest average cost of outpatient visits and tertiary hospital has higher average cost of inpatient admissions than primary clinics and secondary hospitals.
+
+Table 3 Annual medical service utilisation and associated cost of depression (RMB), weighted mean (SE)
+
+	Severe	Moderate	Mild	Other	Total	
+	Annual number of visits	Average cost per visit	Average OOP cost per visit	Annual number of visits	Average cost per visit	Average OOP cost per visit	Annual number of visits	Average cost per visit	Average OOP cost per visit	Annual number of visits	Average cost per visit	Average OOP cost per visit	Annual number of visits	Average cost per visit	Average OOP cost per visit	
+Outpatient visit	4.10
+(1.21)	446.9
+(76.5)	259.4
+(68.4)	4.58
+(0.65)	264.3
+(16.9)	158.7
+(14.7)	2.49
+(0.83)	256.7
+(30.9)	128.9
+(14.1)	2.88
+(0.09)	361.7
+(5.8)	144.6
+(4.6)	2.90
+(0.09)	359.4
+(5.6)	145.5
+(4.4)	
+Pharmacies	0.003
+(0.007)	518.2
+(-)	100.5
+(-)	–	–	–	0.004
+(0.008)	768.4
+(4828.6)	122.9(
+1320.5)	0.02
+(0.01)	436.3
+(33.0)	88.3
+(23.2)	0.02
+(0.01)	436.9
+(33.0)	88.4
+(23.2)	
+Primary care	0.87
+(0.75)	332.2
+(78.6)	195.8
+(78.6)	2.68
+(0.53)	173.8
+(10.9)	104.5
+(5.4)	1.11
+(0.64)	200.6
+(10.9)	114.2
+(7.4)	0.56
+(0.05)	271.2
+(10.0)	107.4
+(7.3)	0.59
+(0.05)	264.7
+(9.9)	108.4
+(6.8)	
+Secondary hospitals	0.69
+(0.58)	501.2
+(109.2)	207.9
+(53.7)	0.12
+(0.14)	261.2
+(114.6)	128.2
+(77.9)	0.02
+(0.03)	299.2
+(154.5)	156.4
+(64.2)	0.52
+(0.04)	310.6
+(8.2)	125.5
+(5.2)	0.51
+(0.04)	311.4
+(9.2)	126.0
+(5.2)	
+Tertiary hospitals	2.54
+(1.23)	492.6
+(118.0)	301.7
+(103.6)	1.78
+(0.56)	411.1
+(37.8)	248.8
+(35.6)	1.35
+(0.49)	307.4
+(62.7)	142
+(27.2)	1.78
+(0.07)	403.6
+(8.3)	162.3
+(6.7)	1.78
+(0.07)	403.4
+(8.0)	164.0
+(6.6)	
+Inpatient admission	1.17
+(0.12)	12 303.8
+(1449.4)	2956.4
+(503.3)	1.44
+(0.15)	8170.9
+(754.8)	1440.5
+(205.6)	1.71
+(0.28)	9967.8
+(1279.1)	4358.1
+(700.1)	1.33
+(0.06)	8928.5
+(538.2)	2063.0
+(135.8)	1.34
+(0.05)	9035.2
+(466.3)	2108.0
+(120.3)	
+Primary care	0.07
+(0.05)	13 154.8
+(13586.1)	2716.2
+(3069.8)	0.22
+(0.07)	4203.6
+(441.1)	511.4
+(262.9)	1.23
+(0.35)	10 204.2
+(1404.2)	5440.3
+(810.9)	0.06
+(0.02)	5262.4
+(1196.5)	1328.5
+(299.5)	0.10
+(0.02)	6235.8
+(950.8)	2065.5
+(348.5)	
+Secondary hospitals	0.34
+(0.16)	7875.8
+(1763.4)	1313.7
+(386.5)	0.38
+(0.16)	7727.2
+(1279.1)	1154.8
+(500.3)	0.25
+(0.15)	10 171.7
+(4078.5)	2218.2
+(1223.6)	0.42
+(0.06)	8538.7
+(660.1)	1974.2
+(241.1)	0.41
+(0.05)	8478.7
+(596.8)	1895.3
+(220.2)	
+Tertiary hospitals	0.76
+(0.15)	13 448.8
+(1702.8)	3406.1
+(557.6)	0.84
+(0.10)	9164.0
+(1046.6)	1749.6
+(1259.4)	0.23
+(0.14)	8569.9
+(4021.8)	1148.8
+(405.6)	0.85
+(0.07)	9557.8
+(774.8)	2194.3
+(177.9)	0.83
+(0.06)	9723.7
+(677.5)	2214.3
+(186.1)	
+SE in parentheses.
+
+OOP, out-of-pocket; SE, standard error.
+
+Multivariate analyses on medical service utilisation and costs
+
+Table 4 presents the multivariate analyses on depression-related medical service utilisation and costs. For outpatient visits, female patients and patients aged 45–49 or 60+ years were associated with higher number of visits, but with lower total and OOP cost compared with male patients and those aged 15–24 years, respectively. UEBMI beneficiaries were also associated with more utilisation (increased by 0.19=e0.179–1) and higher total medical cost of outpatient service (increased by 44.6%= e0.369–1), but with lower OOP cost (decreased by 19.3%=1-e−0.214) compared with URBMI beneficiaries. Patients with recurrent depressive disorders were associated with lower number of outpatient visits, but with higher OOP cost compared with patients with one depressive episode. Patients in moderate, mild or other conditions of depression were associated with a lower total and OOP cost than their counterparts in severe conditions.
+
+Table 4 Generalised linear model on outpatient and inpatient service utilisation and cost of depression (RMB)
+
+	Outpatient	Inpatient	
+	The number of visits	Medical cost	OOP cost	The number of visits	Medical cost	OOP cost	
+Gender						
+Male	–	–	–	–	–	–	
+Female	0.007 (0.005 to 0.009)***	−0.024 (−0.025 to –0.022)***	−0.067 (−0.071 to –0.065)***	−0.073 (−0.080 to –0.066)***	−0.010 (−0.016 to –0.004) **	−0.040 (−0.048 to –0.031)***	
+Age groups						
+15–24	–	–	–	–	–	–	
+25–44	−0.012 (−0.017 to –0.006)***	−0.382 (−0.387 to –0.377)***	−0.215 (−0.222 to –0.208)***	−0.019 (−0.035 to –0.003) *	−0.159 (−0.172 to –0.145)***	−0.195 (−0.214 to –0.177)***	
+45–59	0.021 (0.016 to 0.026)***	−0.344 (−0.349 to –0.340)***	−0.374 (−0.381 to –0.367)***	0.186 (0.171 to 0.202)***	−0.237 (−0.251 to –0.224)***	−0.403 (−0.420 to –0.385)***	
+60+	0.057 (0.052 to 0.062)***	−0.295 (−0.300 to –0.290)***	−0.543 (−0.550 to –0.536)***	0.162 (0.147 to 0.177)***	−0.204 (−0.218 to –0.191)***	−0.465 (−0.482 to –0.447)***	
+Insurance types						
+URBMI	–	–	–	–	–	–	
+UEBMI	0.179 (0.176 to 0.183)***	0.369 (0.366 to 0.371)***	−0.214 (−0.218 to –0.209)***	−0.623 (−0.631 to –0.614)***	0.139 (0.131 to 0.146)***	−0.630 (−0.640 to –0.621)***	
+Diagnosis						
+Depressive episode	–	–	–	–	–	–	
+Recurrent depressive disorders	−0.572 (−0.578 to –0.564)***	−0.005 (−0.011 to 0.001)	0.073 (0.064 to 0.082)***	1.529 (1.520 to 1.539)***	−0.106 (−0.114 to –0.097)***	−0.450 (−0.461 to –0.439)***	
+Severity of illness					
+Severe	–	–	–	–	–	–	
+Moderate	0.008 (−0.005 to 0.020)	−0.385 (−0.397 to –0.372)***	−0.431 (−0.449 to –0.413)***	−0.158 (−0.183 to –0.134)***	−0.346 (−0.363 to –0.328)***	−0.556 (−0.580 to –0.532)***	
+Mild	−0.212 (−0.226 to –0.198)***	−0.492 (−0.506 to –0.478)***	−0.571 (−0.591 to –0.551)***	−0.513 (−0.543 to –0.484)***	−0.069 (−0.093 to –0.045)***	0.24 (0.207 to 0.272)***	
+Other	0.005 (-0.005 to 0.015)	−0.206 (−0.217 to –0.196)***	−0.404 (−0.419 to –0.388)***	−1.190 (−1.211 to –1.170)***	−0.274 (−0.289 to –0.259)***	−0.225 (−0.245 to –0.205)***	
+Year					
+2013	–	–	–	–	–	–	
+2014	0.025 (0.022 to 0.029)***	−0.120 (−0.123 to –0.117)***	0.671 (0.666 to 0.675)***	−0.272 (−0.284 to –0.260)***	−0.102 (−0.112 to –0.091)***	−0.112 (−0.126 to –0.098)***	
+2015	−0.067 (−0.070 to –0.064)***	−0.155 (−0.158 to –0.152)***	0.487 (0.483 to 0.491)***	−0.069 (−0.090 to –0.058)***	−0.198 (−0.208 to –0.188)***	−0.368 (−0.381 to –0.355)***	
+2016	0.243 (0.240 to 0.246)***	−0.168 (−0.171 to –0.166)***	0.560 (0.556 to 0.564)***	0.193 (0.182 to 0.204)***	−0.032 (−0.042 to –0.023)***	−0.254 (−0.267 to –0.241)***	
+95% CI in parentheses.
+
+***p<0.001, **p<0.01, *p<0.05.
+
+OOP, out-of-pocket; UEBMI, Urban Employee’s Basic Medical Insurance; URBMI, Urban Resident’s Basic Medical Insurance.
+
+For inpatient admissions, female patients had a lower number of admissions and lower total and OOP cost than male patients. Patients aged 45–59 or 60+ years were associated with more utilisation, but with lower total and OOP cost compared with those aged 15–24 years. UEBMI beneficiaries were associated with lower number of admissions and lower OOP cost, but with higher total cost than URBMI beneficiaries. Patient with recurrent depressive disorders were associated with more utilisation of inpatient services, but with lower total and OOP cost than those with one depressive episode. Patient in moderate, mild or other conditions of depression were associated with lower number and total cost of inpatient service than patients in severe condition.
+
+Structure of medical resource utilisation
+
+Figure 1 presents the distribution of different types of medical cost by diagnosis and severity of depression. Medication and medical services were the major contributors of direct medical cost, accounting for 41.7% and 56.6% of total depression-related medical cost, and diagnostic tests/medical consumable cost were the smallest proportion (1.7%). Similar patterns were also observed for subsamples with different diagnosis or severity of depression. Additionally, medication accounted for a higher proportion of total medical cost (43.4%) among patients with one depressive episode than that among those with recurrent depressive disorder (25.4%) (p<0.001). The proportion of medication cost was lower among patients in severe condition of depression (16.5%) compared with those in moderate (29.7%), mild (38.1%) or other conditions (43.5%) (p<0.001).
+
+Figure 1 Shows the distribution of different types of medical cost (medication, medical service and diagnostic test/medical consumables) by diagnosis and severity of depression among patients with depression in urban China.
+
+Discussion
+
+This study, using claims data of urban health insurance, provides an updated and comprehensive investigation on depression-related direct medical cost and service utilisation in urban China. The estimated annual direct medical cost of depression was about RMB4.4 (US$0.7) billion per year from 2013 to 2016. The average annual direct medical cost per patient was RMB2707 (US$428), and the OOP cost was RMB786 (US$124). The estimated average number of depression-related outpatient visits was 2.9, with an average cost of RMB359 (US$57) per visit. For inpatient admissions, the estimates were 1.34 and RMB9035 (US$1428), and inpatient cost was the major component (65%) of total medical cost of depression. Patients with severe depression used more outpatient and inpatient services and incurred a higher average cost per visit or admission. Patients with recurrent depression disorders used less outpatient services and more inpatients services than those with single depression episode. Gender, age, diagnosis and the severity of depression as well as the insurance type were all found to be associated with medical cost and related service utilisation. Medication and medical service costs were the major contributor to depression-related medical costs.
+
+Our estimation on the total direct medical cost for depression (RMB4.4/US$0.7 billion per year) in urban China was relatively lower than the estimation of RMB8.1 billion based on the survey data from selected hospitals in five cities of China.7 The heterogeneity of data source, including the difference in sample selection and disease diagnosis method, may result in the difference of cost estimation. The health insurance claims data with detailed records make our result more representative for this issue in urban China. Currently, the medical cost of depression accounted for only 0.04% of total health expenditure for urban residents in China, which was much lower than that in most of developed countries.12 13 The low treatment rate in China may partly explain the low total direct medical cost of depression. WHO estimated that in low and middle-income countries, only 15%–24% of people with severe mental disorders received any related medical treatment.14 The scarce of public mental health knowledge and the perceived stigma15 lead to the even worse situation in China. One study based on samples from the eastern and western regions of China in 2009 showed that the treatment rate of mental illness was lower than 10%, and in some western areas, the rate was only 2%.3 Additionally, for those who seek medical services for depression, undertreatment could also contribute to the low cost. Research based on WHO world mental health surveys indicated that only 41.0% of patients with depression received treatment met the criteria for minimally adequate treatment, and the proportion decreased to 20.5% for low-income/lower middle-income countries.16
+
+The estimated average annual total medical cost of depression per patient in urban China was RMB2707 (US$430), and of which 64.9% (RMB1796 or US$285) was accounted for by inpatient expenditure. Our result is lower than the estimation of other developed countries and middle-income countries.17 For example, based on national health statistics in 2008, Okumura et al found that the direct medical cost per patient in Japan was about US$68918 and the estimation based on health insurance claims data in Germany from 2007 to 2009 was approximately US$647.19 Additionally, the inpatient treatment cost only accounted for 41.5% (US$286) and 43.9% (US$284) of total direct medical cost of depression in Japan and Germany, respectively, which was approximately equal to the inpatient cost in our study. This means that the difference of direct medical cost in these two studies from developed countries with our estimated cost of depression was mainly accounted by outpatient cost. One possible explanation is that the basic health insurance schemes in China mainly cover inpatient service, and for outpatient service, there was a deductible line and the reimbursement rate was relatively lower,20 21 which could affect the medical choice of patients with depression. Additionally, it may further highlight the low treatment rate and undertreatment situation among depression sufferers in China, especially for those with less severe conditions, since both previous literature,19 and our results showed that the proportion of inpatient services utilisation and cost increased with the severity of depression. However, the direct medical cost of depression accounted for roughly 6% of the GDP per capita in our study, which is higher than the proportion for Japan (1.7%) and Germany (1.5%), indicating that the medical burden of depression was higher for patients in China than those in developed countries.
+
+We found that 29% of the medical cost was paid by OOP payment for patient with depression, which was below the proportion of 30% for the universal access to mental healthcare defined by the Organization for Economic Co-operation and Development.22 This finding was also consistent with the OOP rates of UEBMI and URBMI reported by previous studies.23 It has been suggested that the currently insurance schemes in urban China only pay for psychiatric treatment with medication and support psychotherapy, community recovery services cannot be reimbursed, which may result in relatively higher proportion of OOP cost.24 Our estimation showed that the OOP cost accounted for 2.5% of the average disposable income among urban residents, which was much lower than that reported based on patients from Shanghai Mental Health Center in 2009.25 This might be explained by the improved coverage of social health insurance, the significantly increased reimbursement rate26 and the inclusion of antidepressants in basic insurance drug list27 since the medical reform in 2009. Consistent with previous research,19 patients with recurrent or severe depression incurred greater annual medical cost. This is relatively self-evident since severe or recurrent depression tends to have a more complicated, treatment-resistant course and a worse functional impairment, and generally require long-term maintenance treatment.28
+
+The result indicated that approximately 65% of the direct medical cost of depression was represented by inpatient expenditure. As mentioned before, the gap in the reimbursement rate between inpatient admission and outpatient services might contribute to the high proportion of inpatient admission cost.20 21 We also found that tertiary hospitals were the main provider of depression treatment. This is in line with one study using electronic health record data in Shanghai, China, which compared mental health service utilisation among inpatients from different types of health institution.29 Although integrating mental health services in community-based care has been implemented as the long-term goal, current lack of resources in primary health sector, combined with the low competitive ability in attracting mental health professionals to work in the community, resulted in the large gap in workforce and facilities with higher tier hospitals. It has been reported that by 2015, less than 4% of inpatient beds for mental health services were allocated in primary care facilities in China.30 Additionally, such uneven distribution of inpatients was further reinforced by the poor medical referral system in China, which never restrict the public’s choice for hospital admissions.31 Our finding underlines the necessity of enhancing the service capacity and physician competency in mental health of primary and secondary institutions as well as the implementation of a forceful and effective referral system for efficient resources utilisation to provide a more integrated mental health system.
+
+Several significant factors related to depression-related medical utilisation and cost have been identified. First, our estimation showed that patients aged 15–24 years old incurred higher annual OOP cost, which may be explained by the fact that most of the adolescents were insured by URBMI with a lower reimbursement rate in comparison to URBMI. It has been suggested that patients with depression at younger age were more likely to use resource-intensive treatment and thereby incurred higher costs.32 The higher annual medical cost underlines the urgent need to alleviate the personal and family economic burden for youth with depression in urban China. The regression analysis suggests that elderly used more services, but with lower average cost per visit or admission than their younger counterparts. For elderly, comorbid conditions are generally more prevalent among patients at advanced age, and their spending on mental problems might be splitted by the increased medical cost of other physical chronic conditions. Similar pattern was also observed for outpatient service use and cost in male and female patients, which was also in line with previous studies.33 A possible explanation is that comparing with female, male patients were less likely to use mental health services until the symptoms get severe. As a result, more extensive treatments are required, which in turn escalates the costs.34 Second, we found that the total inpatient cost per admission was higher for UEBMI than patients with URBMI, while OOP cost was higher for URBMI than patients with UEBMI. The disparities in insurance medical coverage, benefits and reimbursement rate between these two schemes may explain the observed associations. UEMBI, which targeted urban employees, covered more services and medication and with a higher reimbursement rate (68%) than URBMI (48%), which targeted children, student and unemployed population in urban area.10 Matching these findings with clinical and epidemiological data is useful in identifying targets for depression prevention and estimating budget and resource allocation and enhancing specific cost-effective depression programmes.
+
+Our estimation suggests that medication and medical service costs were the major contributors to depression-related medical costs, which is ordinary since currently pharmacological treatment and psychotherapy are the most common treatment for depression. In addition, the proportion of medical service cost increased with the severity of depression. This might be explained by the fact that the inpatient admissions and cost were higher among patients with severe condition than their counterparts with mild condition. The costs of hospital beds and medical care services incurred by inpatient admissions could result in the increased contribution of medical service to total depression-related medical cost. There is also possibility that patients with severe depression were treated with more behavioural activation, cognitive therapy, modified electroconvulsive therapy, etc, which has been suggested to be effective treatment on preventing suicide and recurrence among people with major depression.35
+
+Limitation
+
+This study is subjected to several limitations. First, extrapolation from our findings to the situation of patients with depression in China should be cautious because the claims database we used was restricted to urban population. Second, we are unable to adjust for potential confounding socioeconomic variables like education, household income, occupation, etc due to a lack of related information in the data source. Third, due to the limitation of the claims data, we failed to estimate the indirect cost of depression, which accounted for a substantial proportion of economic burden of depression. Additionally, we excluded patients with a secondary diagnosis of depression in the estimations. It has been suggested that depression is commonly co-occurring with chronic physical health problems such as diabetes, hypertension, stroke, etc, which may lead to an underestimation of direct medical costs. Despite of the above limitations, the main strength of our study is using health insurance claims data, which was universally covered urban residents in China10, to provide the general pattern of the utilisation and cost of various type of depression-related treatment as well as to undertake meaningful subgroup analyses to identify patients with relatively high costs for optimise resource allocation.
+
+Conclusion
+
+Depression poses a substantial economic burden on both healthcare system and the individuals in urban China and tertiary hospitals were the main provider of depression-related medical services. Diagnosis and severity of depression, age and insurance type were significantly associated with the total medical cost and service utilisation of depression treatment. These findings provide a general picture of the medical cost of depression with detailed information. Specific policies to strengthen the mental health resources in primary and secondary hospitals are in urgent need, and effective prevention and timely critical care programmes are important to prevent a progression and recurrence of depression as well as the further increase in medical costs.
+
+Supplementary Material
+
+Reviewer comments
+
+Author's manuscript
+
+Data availability statement
+
+Data may be obtained from a third party and are not publicly available. Data may be obtained from a third party and are not publicly available. The data were provided by China Health Insurance Research Association. These are third party data. Authors in this study have the right to use this dataset, but not the right to share and distribute. A deidentified minimal dataset of the quantitative data is available on request to researchers who meet the criteria for confidential information, by sending a request to phe@pku.edu.cn.
+
+Ethics statements
+
+Patient consent for publication
+
+Not applicable.
+
+Ethics approval
+
+Because the claims data we used were anonymised database and had no impact on patients’ health and service utilisation, the informed consent was exempted. This study was approved by the Ethics Committee of Beijing University of Chinese medicine (No.2019BZHYLL0201).
+
+Contributors: RD initiated the study, analysed data and wrote the original manuscript. DZ and YW provided advices on research design, data analysis and manuscript writing. XS and MY provided advices on manuscript writing. PH, as the guarantor, originated the study, obtained the funding, supervised all aspects of its implementation and contributed to writing the article. PH accepts full responsibility for the work and/or the conduct of the study, had access to the data, and controlled the decision to publish. All authors contributed to and have approved the final manuscript.
+
+Funding: The authors have not declared a specific grant for this research from any funding agency in the public, commercial or not-for-profit sectors.
+
+Competing interests: None declared.
+
+Patient and public involvement: Patients or the public were not involved in the design, or conduct, or reporting, or dissemination plans of our research.
+
+Provenance and peer review: Not commissioned; externally peer reviewed.
+
+
+References
+
+1 World Health Organization,. Mental disorders. Fact sheet N 396. Geneva, Switzerland: World Health Organization, 2015.
+2 World Health Organization. Depression, 2012. Available: /www.who.int/mental_health/management/depression/definition/en/S [Accessed Available from].
+3 Phillips MR, Zhang J, Shi Q, et al. Prevalence, treatment, and associated disability of mental disorders in four provinces in China during 2001–05: an epidemiological survey. The Lancet 2009;373:2041–53. 10.1016/S0140-6736(09)60660-7 19524780
+4 Ren X, Yu S, Dong W, et al. Burden of depression in China, 1990-2017: findings from the global burden of disease study 2017. J Affect Disord 2020;268:95–101. 10.1016/j.jad.2020.03.011 32158012
+5 Andlin-Sobocki P, Wittchen H-U. Cost of affective disorders in Europe. Eur J Neurol 2005;12:34–8. 10.1111/j.1468-1331.2005.01195.x 15877776
+6 Greenberg PE, Fournier A-A, Sisitsky T, et al. The economic burden of adults with major depressive disorder in the United States (2005 and 2010). J Clin Psychiatry 2015;76:155–62. 10.4088/JCP.14m09298 25742202
+7 Hu T-wei, He Y, Zhang M, et al. Economic costs of depression in China. Soc Psychiatry Psychiatr Epidemiol 2007;42:110–6. 10.1007/s00127-006-0151-2 17235441
+8 Hsieh C-R, Qin X, hurts D. Depression hurts, depression costs: the medical spending attributable to depression and depressive symptoms in China. Health Econ 2018;27): :525–44. 10.1002/hec.3604 28990318
+9 Melfi CA, Croghan TW. Use of claims data for research on treatment and outcomes of depression care. Med Care 1999;37:p. AS77–80. 10.1097/00005650-199904001-00010 10217395
+10 Yu H. Universal health insurance coverage for 1.3 billion people: what accounts for China's success? Health Policy 2015;119): :1145–52. 10.1016/j.healthpol.2015.07.008 26251322 PMC7114832
+11 Liang Y, Shi K, Wang L, et al. Fluctuation and reform: a tale of two RMB markets. China Econ Rev 2019;53:30–52. 10.1016/j.chieco.2018.08.003
+12 Fullerton CA, Busch AB, Normand S-LT, et al. Ten-Year trends in quality of care and spending for depression: 1996 through 2005. Arch Gen Psychiatry 2011;68): :1218–26. 10.1001/archgenpsychiatry.2011.146 22147841 PMC4876037
+13 Greenberg PE, Kessler RC, Birnbaum HG, et al. The economic burden of depression in the United States: how did it change between 1990 and 2000? J Clin Psychiatry 2003;64): :1465–75. 10.4088/jcp.v64n1211 14728109
+14 Organization, W.H. Investing in mental health: evidence for action, 2013.
+15 Lee S, Guo W-jun, Tsang A, et al. Perceived barriers to mental health treatment in metropolitan China. Psychiatr Serv 2010;61): :1260–2. 10.1176/ps.2010.61.12.1260 21123413
+16 Thornicroft G, Chatterji S, Evans-Lacko S, et al. Undertreatment of people with major depressive disorder in 21 countries. Br J Psychiatry 2017;210): :119–24. 10.1192/bjp.bp.116.188078 27908899 PMC5288082
+17 Arredondo Aet al. Cost analyses of medical care for schizophrenia and depression in México, 2005-2013. Cadernos de Saúde Pública 2018;34:e00165816. 10.1590/0102-311X00165816 29412321
+18 Okumura Y, Higuchi T. Cost of depression among adults in Japan. Prim Care Companion CNS Disord 2011;13. 10.4088/PCC.10m01082 PMC3184569 21977377
+19 Kleine-Budde K, Müller R, Kawohl W, et al. The cost of depression - a cost analysis from a large database. J Affect Disord 2013;147): :137–43. 10.1016/j.jad.2012.10.024 23164461
+20 Wang H, Zhang D, Hou Z, et al. Association between social health insurance and choice of hospitals among internal migrants in China: a national cross-sectional study. BMJ Open 2018;8:e018440. 10.1136/bmjopen-2017-018440 PMC5829819 29440156
+21 Miao Y, Gu J, Zhang L, et al. Improving the performance of social health insurance system through increasing outpatient expenditure reimbursement ratio: a quasi-experimental evaluation study from rural China. Int J Equity Health 2018;17): :89. 10.1186/s12939-018-0799-8 29940956 PMC6019724
+22 OECD. A new benchmark for mental health systems: tackling the social and economic costs of mental ill-health, OECD health policy studies. France: OECD Publishing Paris, 2021.
+23 Cui B, Wang L, Xiong X, et al. Had the individual medical burden of basic health insurance participants really been alleviated in 2009-2012? Value Health 2014;17): :A721. 10.1016/j.jval.2014.08.022 27202558
+24 Liang D, Mays VM, Hwang W-C. Integrated mental health services in China: challenges and planning for the future. Health Policy Plan 2018;33): :107–22. 10.1093/heapol/czx137 29040516 PMC5886187
+25 Haihong H. Economic Burden of Depression: an empirical study based on inpatients from one tertiary mental health hospital in Shanghai. Shanghai: Fudan University, 2010.
+26 Fang H, Eggleston K, Hanson K, et al. Enhancing financial protection under China's social health insurance to achieve universal health coverage. BMJ 2019;365: :l2378. 10.1136/bmj.l2378 31227485 PMC6598720
+27 Peng Hongxing GM. Analysis of antipsychotic essential medicines contained in health insurance directory in 10 provinces. China Pharmacy 2017;28:33.
+28 McMahon EM, Buszewicz M, Griffin M, et al. Chronic and recurrent depression in primary care: socio-demographic features, morbidity, and costs. Int J Family Med 2012;2012:316409. 10.1155/2012/316409 22720155 PMC3375145
+29 Shi J, Tang L, Jing L, et al. Disparities in mental health care utilization among inpatients in various types of health institutions: a cross-sectional study based on EHR data in Shanghai, China. BMC Public Health 2019;19): :1023. 10.1186/s12889-019-7343-7 31366334 PMC6668074
+30 Shi Chenhui MN, Liying W, Lelai Y. Study of the mental health resources in China. Chinese Journal of Health Policy 2019;12:7.
+31 Wang Z, Shi J, Wu Z, et al. Changes in chronic disease management among community health centers (CHCs) in China: has health reform improved CHC ability? Int J Health Plann Manage 2017;32:317–28. 10.1002/hpm.2433 28639364
+32 König H, König H-H, Konnopka A. The excess costs of depression: a systematic review and meta-analysis. Epidemiol Psychiatr Sci 2020;29. 10.1017/S2045796019000180 PMC8061284 30947759
+33 Rhodes AE, Goering PN, To T, et al. Gender and outpatient mental health service use. Soc Sci Med 2002;54): :1–10. 10.1016/s0277-9536(01)00002-8 11820673
+34 Burns MJ, Cain VA, Husaini BA. Depression, service utilization, and treatment costs among Medicare elderly: gender differences. Home Health Care Serv Q 2001;19): :35–44. 10.1300/J027v19n03_03 11436405
+35 Dobson KS, Hollon SD, Dimidjian S, et al. Randomized trial of behavioral activation, cognitive therapy, and antidepressant medication in the prevention of relapse and recurrence in major depression. J Consult Clin Psychol 2008;76): :468. 10.1037/0022-006X.76.3.468 18540740 PMC2648513

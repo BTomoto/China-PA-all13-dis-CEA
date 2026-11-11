@@ -1,0 +1,9 @@
+﻿check_id,scope,status,count,note
+PA01,PA observed age-sex,PARTIAL,18,恢复6个年龄组×2性别及Both/总体，尚无11组×2性别原观测和设计协方差。
+POP01,WPP future 1716 rows,PASS,1716,按表内注明算法重建；不等于核实联合国时点定义或生命表。
+POP02,2025 baseline denominators,REVIEW,22,旧基线总量1063188925.0; WPP Medium总量1113252959.0; 不自动替换。
+GBD-GBD疾病负担-KEY,GBD疾病负担,PASS,0,location/sex/age/cause/measure/metric/year重复键
+GBD-GBD疾病负担-BOUNDS,GBD疾病负担,PASS,0,仅检查端点顺序，不代表70+聚合UI有效。
+GBD-GBD病例-KEY,GBD病例,PASS,0,location/sex/age/cause/measure/metric/year重复键
+GBD-GBD病例-BOUNDS,GBD病例,PASS,0,仅检查端点顺序，不代表70+聚合UI有效。
+GBD-RAW,original export reconciliation,PARTIAL,12296,逐行状态见GBD逐行核验；细年龄求和只核对均值，端点不冒充聚合UI。

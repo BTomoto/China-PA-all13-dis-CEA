@@ -1,0 +1,11 @@
+{
+  "base_commit": "83b6e50b8d5f0321c2d5c3c312d2a58988e55a0b",
+  "existing_files_compared": 49,
+  "existing_files_changed": [],
+  "only_new_directory": "new_research_20261111",
+  "source_workbook_unchanged": true,
+  "audit_notebook_executed": true,
+  "health_model_executed": false,
+  "model_ready": false,
+  "github_push": "BLOCKED_BY_AUTOMATIC_APPROVAL_REVIEW"
+}

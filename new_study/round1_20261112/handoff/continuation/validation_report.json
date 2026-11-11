@@ -1,0 +1,246 @@
+{
+  "data_preparation_checks_passed": true,
+  "model_ready": false,
+  "scientific_gaps_closed": false,
+  "health_CEA_PSA_executed": false,
+  "checks": [
+    {
+      "check": "old_workbook_sha256",
+      "passed": true,
+      "detail": "Old workbook bytes unchanged"
+    },
+    {
+      "check": "retained_values_未来人口",
+      "passed": true,
+      "detail": "1716 rows compared"
+    },
+    {
+      "check": "retained_values_历史人口",
+      "passed": true,
+      "detail": "308 rows compared"
+    },
+    {
+      "check": "retained_values_身体活动水平",
+      "passed": true,
+      "detail": "22 rows compared"
+    },
+    {
+      "check": "retained_values_疾病映射",
+      "passed": true,
+      "detail": "16 rows compared"
+    },
+    {
+      "check": "retained_values_RR原始登记",
+      "passed": true,
+      "detail": "13 rows compared"
+    },
+    {
+      "check": "retained_values_二分类RR",
+      "passed": true,
+      "detail": "15 rows compared"
+    },
+    {
+      "check": "retained_values_GBD疾病负担",
+      "passed": true,
+      "detail": "15440 rows compared"
+    },
+    {
+      "check": "retained_values_GBD病例",
+      "passed": true,
+      "detail": "8140 rows compared"
+    },
+    {
+      "check": "retained_values_高血压参数",
+      "passed": true,
+      "detail": "22 rows compared"
+    },
+    {
+      "check": "retained_values_疾病单位成本",
+      "passed": true,
+      "detail": "17 rows compared"
+    },
+    {
+      "check": "new_workbook_sheets",
+      "passed": true,
+      "detail": [
+        "资料总览",
+        "未来人口",
+        "历史人口",
+        "身体活动水平",
+        "疾病映射",
+        "RR原始登记",
+        "二分类RR",
+        "GBD疾病负担",
+        "GBD病例",
+        "高血压参数",
+        "疾病单位成本",
+        "医疗费用参数",
+        "PA观测证据",
+        "人口细年龄",
+        "人口源登记",
+        "人口逐层核验",
+        "基线分母核验",
+        "GBD源登记",
+        "GBD逐行核验",
+        "GBD覆盖",
+        "GBD恢复原始",
+        "RR证据核验",
+        "RR准入登记",
+        "医疗费用证据",
+        "价格源登记",
+        "结局映射核验",
+        "研究协议待定项",
+        "自然史与滞后缺口",
+        "不确定性登记",
+        "数据缺口进度",
+        "核验结果"
+      ]
+    },
+    {
+      "check": "no_policy_sheets_in_new_workbook",
+      "passed": true,
+      "detail": "Full legacy workbook is archived separately"
+    },
+    {
+      "check": "csv_xlsx_PA观测证据",
+      "passed": true,
+      "detail": "33 records"
+    },
+    {
+      "check": "csv_xlsx_RR证据核验",
+      "passed": true,
+      "detail": "22 records"
+    },
+    {
+      "check": "csv_xlsx_医疗费用证据",
+      "passed": true,
+      "detail": "8 records"
+    },
+    {
+      "check": "csv_xlsx_人口细年龄",
+      "passed": true,
+      "detail": "2652 records"
+    },
+    {
+      "check": "csv_xlsx_人口源登记",
+      "passed": true,
+      "detail": "6 records"
+    },
+    {
+      "check": "csv_xlsx_人口逐层核验",
+      "passed": true,
+      "detail": "1716 records"
+    },
+    {
+      "check": "csv_xlsx_基线分母核验",
+      "passed": true,
+      "detail": "22 records"
+    },
+    {
+      "check": "csv_xlsx_GBD源登记",
+      "passed": true,
+      "detail": "8 records"
+    },
+    {
+      "check": "csv_xlsx_GBD逐行核验",
+      "passed": true,
+      "detail": "23580 records"
+    },
+    {
+      "check": "csv_xlsx_GBD覆盖",
+      "passed": true,
+      "detail": "1148 records"
+    },
+    {
+      "check": "csv_xlsx_GBD恢复原始",
+      "passed": true,
+      "detail": "20720 records"
+    },
+    {
+      "check": "csv_xlsx_RR准入登记",
+      "passed": true,
+      "detail": "15 records"
+    },
+    {
+      "check": "csv_xlsx_价格源登记",
+      "passed": true,
+      "detail": "2 records"
+    },
+    {
+      "check": "csv_xlsx_结局映射核验",
+      "passed": true,
+      "detail": "16 records"
+    },
+    {
+      "check": "csv_xlsx_研究协议待定项",
+      "passed": true,
+      "detail": "11 records"
+    },
+    {
+      "check": "csv_xlsx_自然史与滞后缺口",
+      "passed": true,
+      "detail": "52 records"
+    },
+    {
+      "check": "csv_xlsx_不确定性登记",
+      "passed": true,
+      "detail": "6 records"
+    },
+    {
+      "check": "csv_xlsx_数据缺口进度",
+      "passed": true,
+      "detail": "16 records"
+    },
+    {
+      "check": "csv_xlsx_核验结果",
+      "passed": true,
+      "detail": "8 records"
+    },
+    {
+      "check": "raw_GBD_hash_IHME-GBD_2023_DATA-29b34249-1.zip",
+      "passed": true,
+      "detail": "Source ZIP hash matches register"
+    },
+    {
+      "check": "raw_GBD_hash_IHME-GBD_2023_DATA-4fe62769-1.zip",
+      "passed": true,
+      "detail": "Source ZIP hash matches register"
+    },
+    {
+      "check": "raw_GBD_hash_IHME-GBD_2023_DATA-85af7c45-1.zip",
+      "passed": true,
+      "detail": "Source ZIP hash matches register"
+    },
+    {
+      "check": "raw_GBD_hash_IHME-GBD_2023_DATA-cd550c69-1.zip",
+      "passed": true,
+      "detail": "Source ZIP hash matches register"
+    },
+    {
+      "check": "wpp_fine_age_formula",
+      "passed": true,
+      "detail": "2652 fine-age rows"
+    },
+    {
+      "check": "wpp_reconstructed_1716",
+      "passed": true,
+      "detail": "1716/1716"
+    },
+    {
+      "check": "gbd_reconciliation_counts",
+      "passed": true,
+      "detail": {
+        "DIRECT_MATCH": 12296,
+        "POINT_ONLY_MATCH": 1184,
+        "SOURCE_NOT_RECOVERED": 10068,
+        "INTERVAL_METHOD_DIFF": 32
+      }
+    },
+    {
+      "check": "Kyu_inverse_formulas_and_caches",
+      "passed": true,
+      "detail": "15 categorical estimates; reverse lower/upper correctly"
+    }
+  ],
+  "errors": []
+}
