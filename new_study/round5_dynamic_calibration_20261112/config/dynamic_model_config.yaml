@@ -1,0 +1,39 @@
+{
+  "baseline_commit": "1e2407664e79b75db3f8a5f8d4c79e5435e5e2dc",
+  "branch": "codex/dynamic-health-model-calibration-round5-20261112",
+  "model": "continuous_time_disease_free_diseased_target_death_with_other_death_competition",
+  "remission_hazard": 0,
+  "recurrence_state": false,
+  "incident_entry_timing": "midyear",
+  "first_cycle_duration": 0.5,
+  "later_cycle_duration": 1.0,
+  "age_progression": "annual_one_fifth_survivor_flow_after_transitions",
+  "age_open_group": "95+",
+  "rate_policy": "constant_2023_age_sex_rates",
+  "rr_status": "PILOT_CONDITIONAL_RR_DENOMINATOR",
+  "max_result_status": "DYNAMIC_PILOT_PROVISIONAL",
+  "calibration": {
+    "method": "positive_log_PCHIP_case_fatality_joint_age_prevalence_mortality",
+    "step_years": 0.5,
+    "smoothness_weight": 0.1,
+    "maximum_relative_error": 0.20,
+    "rms_relative_error": 0.10,
+    "threshold_authority": "pre_fit_computational_screen_for_Work_review_not_external_validation",
+    "max_nfev": 400,
+    "terminal_95_plus": "97.5_representative_age_calibration_approximation_requires_review"
+  },
+  "raw_inputs": {
+    "incidence": {
+      "path": "new_study/round1_20261112/handoff/continuation/source_data/gbd/IHME-GBD_2023_DATA-85af7c45-1.zip",
+      "sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e"
+    },
+    "disease": {
+      "path": "new_study/round4_dynamic_health_model_20261112/raw/IHME-GBD_2023_DATA-353a02a2-1.zip",
+      "sha256": "9ba35729cab5994ad9ce05427228c71b127d8b4bf03db899681ef250b2a5e2b7"
+    },
+    "all_cause": {
+      "path": "new_study/round4_dynamic_health_model_20261112/raw/IHME-GBD_2023_DATA-52b38bf7-1.zip",
+      "sha256": "dd38441e963a02f9f572afb56c8f2d4dfb39b58bc48b1c7ebff28d0c09fe835e"
+    }
+  }
+}

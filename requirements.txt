@@ -1,6 +1,3 @@
-numpy==2.3.5
-pandas==2.2.3
-matplotlib==3.10.8
+-r new_study/round5_dynamic_calibration_20261112/requirements.txt
+# Retained for earlier spreadsheet workflows; round five does not import it.
 openpyxl==3.1.5
-jupyterlab>=4,<5
-# Round 4 local runner itself needs only the Python 3.11+ standard library.

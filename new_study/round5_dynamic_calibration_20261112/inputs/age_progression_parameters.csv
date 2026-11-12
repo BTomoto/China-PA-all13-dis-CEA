@@ -1,0 +1,17 @@
+age,annual_outflow,next_age,timing
+20-24,0.2,25-29,after_current_age_transitions_and_outcomes
+25-29,0.2,30-34,after_current_age_transitions_and_outcomes
+30-34,0.2,35-39,after_current_age_transitions_and_outcomes
+35-39,0.2,40-44,after_current_age_transitions_and_outcomes
+40-44,0.2,45-49,after_current_age_transitions_and_outcomes
+45-49,0.2,50-54,after_current_age_transitions_and_outcomes
+50-54,0.2,55-59,after_current_age_transitions_and_outcomes
+55-59,0.2,60-64,after_current_age_transitions_and_outcomes
+60-64,0.2,65-69,after_current_age_transitions_and_outcomes
+65-69,0.2,70-74,after_current_age_transitions_and_outcomes
+70-74,0.2,75-79,after_current_age_transitions_and_outcomes
+75-79,0.2,80-84,after_current_age_transitions_and_outcomes
+80-84,0.2,85-89,after_current_age_transitions_and_outcomes
+85-89,0.2,90-94,after_current_age_transitions_and_outcomes
+90-94,0.2,95+,after_current_age_transitions_and_outcomes
+95+,0,95+,after_current_age_transitions_and_outcomes

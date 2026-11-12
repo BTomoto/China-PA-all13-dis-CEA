@@ -1,0 +1,127 @@
+{
+  "status": "BLOCKED_TRANSITION_CALIBRATION",
+  "incidence_status": "PILOT_CONDITIONAL_RR_DENOMINATOR",
+  "raw_zip_checks": "PASS",
+  "cross_export_population": "PASS",
+  "maximum_population_relative_difference": 5.248987773289485e-13,
+  "scientific_calibration_gate": "FAIL",
+  "dynamic_endpoint_status": "BLOCKED_TRANSITION_CALIBRATION",
+  "effective_dw_range": [
+    0.03998332036770238,
+    0.2195713362479211
+  ],
+  "yll_per_death_range": [
+    7.989600007700802,
+    67.65820583906999
+  ],
+  "dynamic_rows": 1664,
+  "screenshot": "NOT_APPLICABLE: INCOMPLETE_QUERY_SCREENSHOT_NOT_USED",
+  "standard_life_table_external_check": "NOT_CHECKED",
+  "no_formal_complete_status": true,
+  "software_tests": {
+    "legacy": 48,
+    "new": 37,
+    "total": 85,
+    "failed": 0
+  },
+  "standard_notebooks": {
+    "count": 5,
+    "passed": 5
+  },
+  "checks": [
+    {
+      "check_id": "cross_export_population",
+      "category": "INPUT_INTEGRITY",
+      "status": "PASS",
+      "evidence": "32 cross-export sex-age reconciliations"
+    },
+    {
+      "check_id": "standard_jupyter_execution",
+      "category": "SOFTWARE",
+      "status": "PASS",
+      "evidence": "5 real nbclient/ipykernel executions"
+    },
+    {
+      "check_id": "previous_round_files_unchanged",
+      "category": "FILE_INTEGRITY",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "check_id": "standard_life_table_validation",
+      "category": "SCIENTIFIC_EVIDENCE",
+      "status": "NOT_CHECKED",
+      "evidence": "GBD standard life table unavailable"
+    },
+    {
+      "check_id": "complete_final_query_screenshot",
+      "category": "PROVENANCE",
+      "status": "NOT_CHECKED",
+      "evidence": "Only incomplete early screenshot exists; not used"
+    },
+    {
+      "check_id": "cost_CEA_PSA_execution",
+      "category": "SCOPE",
+      "status": "NOT_APPLICABLE",
+      "evidence": "Not part of run_local.ps1 or invoked round5 modules"
+    },
+    {
+      "check_id": "raw_sha_incidence",
+      "category": "FILE_INTEGRITY",
+      "status": "PASS",
+      "evidence": "new_study/round1_20261112/handoff/continuation/source_data/gbd/IHME-GBD_2023_DATA-85af7c45-1.zip"
+    },
+    {
+      "check_id": "raw_sha_disease",
+      "category": "FILE_INTEGRITY",
+      "status": "PASS",
+      "evidence": "new_study/round4_dynamic_health_model_20261112/raw/IHME-GBD_2023_DATA-353a02a2-1.zip"
+    },
+    {
+      "check_id": "raw_sha_all_cause",
+      "category": "FILE_INTEGRITY",
+      "status": "PASS",
+      "evidence": "new_study/round4_dynamic_health_model_20261112/raw/IHME-GBD_2023_DATA-52b38bf7-1.zip"
+    },
+    {
+      "check_id": "joint_fit_IHD_Male",
+      "category": "SCIENTIFIC_EVIDENCE",
+      "status": "FAIL",
+      "evidence": {
+        "max_relative_error": 6.133805348873525,
+        "rms_relative_error": 1.267897191022609
+      }
+    },
+    {
+      "check_id": "joint_fit_IHD_Female",
+      "category": "SCIENTIFIC_EVIDENCE",
+      "status": "FAIL",
+      "evidence": {
+        "max_relative_error": 7.154384254107024,
+        "rms_relative_error": 1.5141455898864078
+      }
+    },
+    {
+      "check_id": "joint_fit_IS_Male",
+      "category": "SCIENTIFIC_EVIDENCE",
+      "status": "FAIL",
+      "evidence": {
+        "max_relative_error": 0.9790460330436338,
+        "rms_relative_error": 0.3072715848697585
+      }
+    },
+    {
+      "check_id": "joint_fit_IS_Female",
+      "category": "SCIENTIFIC_EVIDENCE",
+      "status": "FAIL",
+      "evidence": {
+        "max_relative_error": 0.5127215856813733,
+        "rms_relative_error": 0.16934405407966768
+      }
+    }
+  ],
+  "check_count": 13,
+  "scientific_failures": 4,
+  "file_integrity_status": "PASS",
+  "scientific_admission_status": "FAIL"
+}

@@ -1,0 +1,53 @@
+test_01_raw_sha (test_dynamic.DynamicTests.test_01_raw_sha) ... ok
+test_02_row_count (test_dynamic.DynamicTests.test_02_row_count) ... ok
+test_03_no_policy_pif (test_dynamic.DynamicTests.test_03_no_policy_pif) ... ok
+test_04_lower_exposure_positive (test_dynamic.DynamicTests.test_04_lower_exposure_positive) ... ok
+test_05_avoided_le_baseline (test_dynamic.DynamicTests.test_05_avoided_le_baseline) ... ok
+test_06_2025_zero (test_dynamic.DynamicTests.test_06_2025_zero) ... ok
+test_07_2030_target (test_dynamic.DynamicTests.test_07_2030_target) ... ok
+test_08_post2030_fixed (test_dynamic.DynamicTests.test_08_post2030_fixed) ... ok
+test_09_disease_specific_rr (test_dynamic.DynamicTests.test_09_disease_specific_rr) ... ok
+test_10_no_hemorrhagic (test_dynamic.DynamicTests.test_10_no_hemorrhagic) ... ok
+test_11_population_2025 (test_dynamic.DynamicTests.test_11_population_2025) ... ok
+test_12_age_advance (test_dynamic.DynamicTests.test_12_age_advance) ... ok
+test_13_age_95_open (test_dynamic.DynamicTests.test_13_age_95_open) ... ok
+test_14_competing_conservation (test_dynamic.DynamicTests.test_14_competing_conservation) ... ok
+test_15_rate_number_pairs (test_dynamic.DynamicTests.test_15_rate_number_pairs) ... ok
+test_16_missing_parameters_close (test_dynamic.DynamicTests.test_16_missing_parameters_close) ... ok
+test_17_fixture_cannot_formal (test_dynamic.DynamicTests.test_17_fixture_cannot_formal) ... ok
+test_18_nonnegative_patient_years (test_dynamic.DynamicTests.test_18_nonnegative_patient_years) ... ok
+test_19_daly_identity (test_dynamic.DynamicTests.test_19_daly_identity) ... ok
+test_20_deaths_bounded_by_entry (test_dynamic.DynamicTests.test_20_deaths_bounded_by_entry) ... ok
+test_21_no_pre_entry (test_dynamic.DynamicTests.test_21_no_pre_entry) ... ok
+test_22_repeat_determinism (test_dynamic.DynamicTests.test_22_repeat_determinism) ... ok
+test_23_aggregation (test_dynamic.DynamicTests.test_23_aggregation) ... ok
+test_24_no_active_dynamic_results (test_dynamic.DynamicTests.test_24_no_active_dynamic_results) ... ok
+test_25_multicategory_missing_blocks (test_dynamic.DynamicTests.test_25_multicategory_missing_blocks) ... ok
+test_26_multicategory_identity (test_dynamic.DynamicTests.test_26_multicategory_identity) ... ok
+test_27_frozen_cumulative (test_dynamic.DynamicTests.test_27_frozen_cumulative) ... ok
+test_28_category_rr_present (test_dynamic.DynamicTests.test_28_category_rr_present) ... ok
+test_29_zero_policy_zero_dynamic (test_dynamic.DynamicTests.test_29_zero_policy_zero_dynamic) ... ok
+test_30_cross_disease_transition_rejected (test_dynamic.DynamicTests.test_30_cross_disease_transition_rejected) ... ok
+test_31_two_disease_aggregation (test_dynamic.DynamicTests.test_31_two_disease_aggregation) ... ok
+test_32_dynamic_gbd_sha (test_dynamic.DynamicTests.test_32_dynamic_gbd_sha) ... ok
+test_33_dynamic_gbd_counts (test_dynamic.DynamicTests.test_33_dynamic_gbd_counts) ... ok
+test_34_dynamic_gbd_dimensions (test_dynamic.DynamicTests.test_34_dynamic_gbd_dimensions) ... ok
+test_35_dynamic_rate_number_pairs (test_dynamic.DynamicTests.test_35_dynamic_rate_number_pairs) ... ok
+test_36_dynamic_population_consistency (test_dynamic.DynamicTests.test_36_dynamic_population_consistency) ... ok
+test_37_dynamic_daly_identity (test_dynamic.DynamicTests.test_37_dynamic_daly_identity) ... ok
+test_38_calibration_points_only (test_dynamic.DynamicTests.test_38_calibration_points_only) ... ok
+test_39_transition_burden_targets (test_dynamic.DynamicTests.test_39_transition_burden_targets) ... ok
+test_40_all_cause_is_calibration_only (test_dynamic.DynamicTests.test_40_all_cause_is_calibration_only) ... ok
+test_41_dynamic_source_not_used_as_transition (test_dynamic.DynamicTests.test_41_dynamic_source_not_used_as_transition) ... ok
+test_42_all_cause_sha (test_dynamic.DynamicTests.test_42_all_cause_sha) ... ok
+test_43_all_cause_counts (test_dynamic.DynamicTests.test_43_all_cause_counts) ... ok
+test_44_all_cause_dimensions (test_dynamic.DynamicTests.test_44_all_cause_dimensions) ... ok
+test_45_all_cause_death_rates (test_dynamic.DynamicTests.test_45_all_cause_death_rates) ... ok
+test_46_all_cause_rate_number_pairs (test_dynamic.DynamicTests.test_46_all_cause_rate_number_pairs) ... ok
+test_47_all_cause_population_consistency (test_dynamic.DynamicTests.test_47_all_cause_population_consistency) ... ok
+test_48_all_cause_not_direct_transition (test_dynamic.DynamicTests.test_48_all_cause_not_direct_transition) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.067s
+
+OK

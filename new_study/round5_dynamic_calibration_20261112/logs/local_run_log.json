@@ -1,0 +1,61 @@
+{
+  "local_worktree": "E:\\工作目录\\China-PA-13\\Analysis",
+  "branch": "codex/dynamic-health-model-calibration-round5-20261112",
+  "baseline": "1e2407664e79b75db3f8a5f8d4c79e5435e5e2dc",
+  "local_head_at_execution": "1e2407664e79b75db3f8a5f8d4c79e5435e5e2dc",
+  "end_time_utc": "2026-11-12T13:49:32.353989+00:00",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "status": "BLOCKED_TRANSITION_CALIBRATION",
+  "tests": {
+    "legacy": 48,
+    "new": 37,
+    "total": 85,
+    "failed": 0
+  },
+  "notebooks": [
+    {
+      "notebook": "01_source_and_population_reconciliation.ipynb",
+      "status": "PASS",
+      "engine": "nbclient 0.10.2; real ipykernel",
+      "executed_code_cells": 1,
+      "error": ""
+    },
+    {
+      "notebook": "02_rate_to_hazard_and_competing_risk.ipynb",
+      "status": "PASS",
+      "engine": "nbclient 0.10.2; real ipykernel",
+      "executed_code_cells": 1,
+      "error": ""
+    },
+    {
+      "notebook": "03_case_fatality_calibration.ipynb",
+      "status": "PASS",
+      "engine": "nbclient 0.10.2; real ipykernel",
+      "executed_code_cells": 1,
+      "error": ""
+    },
+    {
+      "notebook": "04_dynamic_cohort_model.ipynb",
+      "status": "PASS",
+      "engine": "nbclient 0.10.2; real ipykernel",
+      "executed_code_cells": 1,
+      "error": ""
+    },
+    {
+      "notebook": "05_results_validation.ipynb",
+      "status": "PASS",
+      "engine": "nbclient 0.10.2; real ipykernel",
+      "executed_code_cells": 1,
+      "error": ""
+    }
+  ],
+  "execution_commands": [
+    "build_round5.py",
+    "run_tests.py",
+    "execute_notebooks.py",
+    "finalize_run.py"
+  ],
+  "old_round_changes": [],
+  "randomness": "none; deterministic starts"
+}

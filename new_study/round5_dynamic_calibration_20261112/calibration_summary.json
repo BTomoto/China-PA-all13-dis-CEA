@@ -1,0 +1,249 @@
+{
+  "status": "BLOCKED_TRANSITION_CALIBRATION",
+  "thresholds": {
+    "method": "positive_log_PCHIP_case_fatality_joint_age_prevalence_mortality",
+    "step_years": 0.5,
+    "smoothness_weight": 0.1,
+    "maximum_relative_error": 0.2,
+    "rms_relative_error": 0.1,
+    "threshold_authority": "pre_fit_computational_screen_for_Work_review_not_external_validation",
+    "max_nfev": 400,
+    "terminal_95_plus": "97.5_representative_age_calibration_approximation_requires_review"
+  },
+  "groups": [
+    {
+      "disease": "IHD",
+      "sex": "Male",
+      "status": "FAIL",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "nfev": 28,
+      "maximum_relative_error": 6.133805348873525,
+      "rms_relative_error": 1.267897191022609,
+      "cost": 8.078194864698217,
+      "integration_half_step_max_difference": 3.87286735736847e-08,
+      "structurally_incompatible_age_intervals": [
+        {
+          "from_age": "20-24",
+          "to_age": "25-29",
+          "prevalence_increase": 0.004363403696418199,
+          "maximum_increase_without_target_deaths": 0.00028053249654924996,
+          "excess": 0.00408287119986895
+        },
+        {
+          "from_age": "25-29",
+          "to_age": "30-34",
+          "prevalence_increase": 0.005873368936230401,
+          "maximum_increase_without_target_deaths": 0.0004149978615445,
+          "excess": 0.005458371074685901
+        },
+        {
+          "from_age": "30-34",
+          "to_age": "35-39",
+          "prevalence_increase": 0.006614218182864095,
+          "maximum_increase_without_target_deaths": 0.0007133388781397499,
+          "excess": 0.005900879304724345
+        },
+        {
+          "from_age": "35-39",
+          "to_age": "40-44",
+          "prevalence_increase": 0.007132927041237306,
+          "maximum_increase_without_target_deaths": 0.0012265341943865,
+          "excess": 0.005906392846850806
+        },
+        {
+          "from_age": "40-44",
+          "to_age": "45-49",
+          "prevalence_increase": 0.009472789548106701,
+          "maximum_increase_without_target_deaths": 0.002043001344924,
+          "excess": 0.007429788203182701
+        },
+        {
+          "from_age": "45-49",
+          "to_age": "50-54",
+          "prevalence_increase": 0.012651936997858597,
+          "maximum_increase_without_target_deaths": 0.00312890143046675,
+          "excess": 0.009523035567391848
+        },
+        {
+          "from_age": "50-54",
+          "to_age": "55-59",
+          "prevalence_increase": 0.0180194556948034,
+          "maximum_increase_without_target_deaths": 0.00440978402610375,
+          "excess": 0.013609671668699648
+        },
+        {
+          "from_age": "55-59",
+          "to_age": "60-64",
+          "prevalence_increase": 0.025545447115307596,
+          "maximum_increase_without_target_deaths": 0.006279950003688002,
+          "excess": 0.019265497111619595
+        },
+        {
+          "from_age": "60-64",
+          "to_age": "65-69",
+          "prevalence_increase": 0.036198654351349696,
+          "maximum_increase_without_target_deaths": 0.009122170706745002,
+          "excess": 0.027076483644604694
+        },
+        {
+          "from_age": "65-69",
+          "to_age": "70-74",
+          "prevalence_increase": 0.04623200613730691,
+          "maximum_increase_without_target_deaths": 0.01619021480124625,
+          "excess": 0.030041791336060657
+        },
+        {
+          "from_age": "70-74",
+          "to_age": "75-79",
+          "prevalence_increase": 0.0579356137781806,
+          "maximum_increase_without_target_deaths": 0.0311803817038875,
+          "excess": 0.0267552320742931
+        }
+      ],
+      "initial_ratio_joint_log_residual_norm": 6.773315733876557,
+      "fitted_joint_log_residual_norm": 4.016718277915847,
+      "calibration_scope": "stationary_age_profile_22.5_to_97.5; 95+ representative age approximation; temporal cohort effects unidentified"
+    },
+    {
+      "disease": "IHD",
+      "sex": "Female",
+      "status": "FAIL",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "nfev": 21,
+      "maximum_relative_error": 7.154384254107024,
+      "rms_relative_error": 1.5141455898864078,
+      "cost": 12.211246337876252,
+      "integration_half_step_max_difference": 8.326962175342345e-09,
+      "structurally_incompatible_age_intervals": [
+        {
+          "from_age": "20-24",
+          "to_age": "25-29",
+          "prevalence_increase": 0.0018323732300366004,
+          "maximum_increase_without_target_deaths": 0.00024409395422825,
+          "excess": 0.0015882792758083505
+        },
+        {
+          "from_age": "25-29",
+          "to_age": "30-34",
+          "prevalence_increase": 0.0024387638326763992,
+          "maximum_increase_without_target_deaths": 0.00027206886418825,
+          "excess": 0.0021666949684881493
+        },
+        {
+          "from_age": "30-34",
+          "to_age": "35-39",
+          "prevalence_increase": 0.0031789245228748013,
+          "maximum_increase_without_target_deaths": 0.0003386908238,
+          "excess": 0.0028402336990748013
+        },
+        {
+          "from_age": "35-39",
+          "to_age": "40-44",
+          "prevalence_increase": 0.0041162990989907,
+          "maximum_increase_without_target_deaths": 0.00047027505247300005,
+          "excess": 0.0036460240465176997
+        },
+        {
+          "from_age": "40-44",
+          "to_age": "45-49",
+          "prevalence_increase": 0.006614955658699299,
+          "maximum_increase_without_target_deaths": 0.0007100361060705001,
+          "excess": 0.005904919552628798
+        },
+        {
+          "from_age": "45-49",
+          "to_age": "50-54",
+          "prevalence_increase": 0.010103746388860402,
+          "maximum_increase_without_target_deaths": 0.00114574580663,
+          "excess": 0.008958000582230402
+        },
+        {
+          "from_age": "50-54",
+          "to_age": "55-59",
+          "prevalence_increase": 0.016296017930199698,
+          "maximum_increase_without_target_deaths": 0.00185461430572125,
+          "excess": 0.014441403624478448
+        },
+        {
+          "from_age": "55-59",
+          "to_age": "60-64",
+          "prevalence_increase": 0.024162521533000497,
+          "maximum_increase_without_target_deaths": 0.00323026233745275,
+          "excess": 0.020932259195547746
+        },
+        {
+          "from_age": "60-64",
+          "to_age": "65-69",
+          "prevalence_increase": 0.03583494361358838,
+          "maximum_increase_without_target_deaths": 0.00569052948417175,
+          "excess": 0.03014441412941663
+        },
+        {
+          "from_age": "65-69",
+          "to_age": "70-74",
+          "prevalence_increase": 0.04656252775916711,
+          "maximum_increase_without_target_deaths": 0.011509998992899,
+          "excess": 0.03505252876626811
+        },
+        {
+          "from_age": "70-74",
+          "to_age": "75-79",
+          "prevalence_increase": 0.0568955004553216,
+          "maximum_increase_without_target_deaths": 0.023217534773881002,
+          "excess": 0.0336779656814406
+        },
+        {
+          "from_age": "75-79",
+          "to_age": "80-84",
+          "prevalence_increase": 0.06063102807502052,
+          "maximum_increase_without_target_deaths": 0.04642558118079125,
+          "excess": 0.01420544689422927
+        }
+      ],
+      "initial_ratio_joint_log_residual_norm": 7.854976277845703,
+      "fitted_joint_log_residual_norm": 4.94128669451845,
+      "calibration_scope": "stationary_age_profile_22.5_to_97.5; 95+ representative age approximation; temporal cohort effects unidentified"
+    },
+    {
+      "disease": "IS",
+      "sex": "Male",
+      "status": "FAIL",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "nfev": 18,
+      "maximum_relative_error": 0.9790460330436338,
+      "rms_relative_error": 0.3072715848697585,
+      "cost": 0.9212426906057627,
+      "integration_half_step_max_difference": 3.481457624965323e-08,
+      "structurally_incompatible_age_intervals": [],
+      "initial_ratio_joint_log_residual_norm": 1.4794795475179094,
+      "fitted_joint_log_residual_norm": 1.3386149289004095,
+      "calibration_scope": "stationary_age_profile_22.5_to_97.5; 95+ representative age approximation; temporal cohort effects unidentified"
+    },
+    {
+      "disease": "IS",
+      "sex": "Female",
+      "status": "FAIL",
+      "optimizer_success": true,
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "nfev": 11,
+      "maximum_relative_error": 0.5127215856813733,
+      "rms_relative_error": 0.16934405407966768,
+      "cost": 0.3519924450790552,
+      "integration_half_step_max_difference": 1.1281887993264128e-08,
+      "structurally_incompatible_age_intervals": [],
+      "initial_ratio_joint_log_residual_norm": 0.8616341676706964,
+      "fitted_joint_log_residual_norm": 0.8267426783573079,
+      "calibration_scope": "stationary_age_profile_22.5_to_97.5; 95+ representative age approximation; temporal cohort effects unidentified"
+    }
+  ],
+  "all_groups_pass": false,
+  "limitations": [
+    "No historical cohort path was identified by these 2023 exports",
+    "No remission; same other-cause mortality in both live states",
+    "95+ calibration midpoint is approximate; terminal cohort simulation remains open",
+    "Thresholds are pre-fit computational screens requiring Work review, not validated goodness-of-fit standards"
+  ]
+}

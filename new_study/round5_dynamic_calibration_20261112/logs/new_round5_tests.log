@@ -1,0 +1,42 @@
+test_01_cross_export_population (test_round5.Round5Tests.test_01_cross_export_population) ... ok
+test_02_rate_hazard (test_round5.Round5Tests.test_02_rate_hazard) ... ok
+test_03_probability (test_round5.Round5Tests.test_03_probability) ... ok
+test_04_hazard_subtraction (test_round5.Round5Tests.test_04_hazard_subtraction) ... ok
+test_05_negative_other_fails (test_round5.Round5Tests.test_05_negative_other_fails) ... ok
+test_06_no_double_death (test_round5.Round5Tests.test_06_no_double_death) ... ok
+test_07_first_half_cycle (test_round5.Round5Tests.test_07_first_half_cycle) ... ok
+test_08_later_full_cycle (test_round5.Round5Tests.test_08_later_full_cycle) ... ok
+test_09_half_competition (test_round5.Round5Tests.test_09_half_competition) ... ok
+test_10_annual_flow (test_round5.Round5Tests.test_10_annual_flow) ... ok
+test_11_flow_conservation (test_round5.Round5Tests.test_11_flow_conservation) ... ok
+test_12_dw_range (test_round5.Round5Tests.test_12_dw_range) ... ok
+test_13_dw_metric_ratio (test_round5.Round5Tests.test_13_dw_metric_ratio) ... ok
+test_14_yll_metric_ratio (test_round5.Round5Tests.test_14_yll_metric_ratio) ... ok
+test_15_daly_identity (test_round5.Round5Tests.test_15_daly_identity) ... ok
+test_16_death_entry_bound (test_round5.Round5Tests.test_16_death_entry_bound) ... ok
+test_17_no_policy_zero (test_round5.Round5Tests.test_17_no_policy_zero) ... ok
+test_18_disease_parameter_isolation (test_round5.Round5Tests.test_18_disease_parameter_isolation) ... ok
+test_19_synthetic_not_empirical (test_round5.Round5Tests.test_19_synthetic_not_empirical) ... ok
+test_20_outputs_never_synthetic (test_round5.Round5Tests.test_20_outputs_never_synthetic) ... ok
+test_21_fit_gate_not_optimizer_success (test_round5.Round5Tests.test_21_fit_gate_not_optimizer_success) ... ok
+test_22_repeat_determinism (test_round5.Round5Tests.test_22_repeat_determinism) ... ok
+test_23_95_open (test_round5.Round5Tests.test_23_95_open) ... ok
+test_24_five_flows (test_round5.Round5Tests.test_24_five_flows) ... ok
+test_25_negative_stock_rejected (test_round5.Round5Tests.test_25_negative_stock_rejected) ... ok
+test_26_raw_zip_hashes (test_round5.Round5Tests.test_26_raw_zip_hashes) ... ok
+test_27_frozen_incidence_rates (test_round5.Round5Tests.test_27_frozen_incidence_rates) ... ok
+test_28_blank_dynamic_if_blocked (test_round5.Round5Tests.test_28_blank_dynamic_if_blocked) ... ok
+test_29_outcome_metric_mismatch_rejected (test_round5.Round5Tests.test_29_outcome_metric_mismatch_rejected) ... ok
+test_30_flow_and_death_tracking (test_round5.Round5Tests.test_30_flow_and_death_tracking) ... ok
+test_31_calibration_nonnegative_and_smooth (test_round5.Round5Tests.test_31_calibration_nonnegative_and_smooth) ... ok
+test_32_no_burden_PIF (test_round5.Round5Tests.test_32_no_burden_PIF) ... ok
+test_33_synthetic_summary_keeps_status (test_round5.Round5Tests.test_33_synthetic_summary_keeps_status) ... ok
+test_34_actual_incidence_unchanged (test_round5.Round5Tests.test_34_actual_incidence_unchanged) ... ok
+test_35_probability_is_not_hazard (test_round5.Round5Tests.test_35_probability_is_not_hazard) ... ok
+test_36_incompatibility_reported (test_round5.Round5Tests.test_36_incompatibility_reported) ... ok
+test_37_real_calibration_repeatability (test_round5.Round5Tests.test_37_real_calibration_repeatability) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 3.012s
+
+OK

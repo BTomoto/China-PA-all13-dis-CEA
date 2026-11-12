@@ -1,0 +1,234 @@
+[
+  {
+    "dataset": "incidence",
+    "local_path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round1_20261112\\handoff\\continuation\\source_data\\gbd\\IHME-GBD_2023_DATA-85af7c45-1.zip",
+    "bytes": 155809,
+    "sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
+    "zip_members": [
+      "IHME-GBD_2023_DATA-85af7c45-1.csv",
+      "citation.txt"
+    ],
+    "citation": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.",
+    "row_count": 4624,
+    "detailed_2023_rows": 128,
+    "unique_values": {
+      "year": [
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "cause_name": [
+        "Ischemic heart disease",
+        "Ischemic stroke"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70+ years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "measure_name": [
+        "Incidence"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "population_group_name": [
+        "All Population"
+      ]
+    },
+    "last_modified_utc": "2026-11-12T07:29:29.654867+00:00",
+    "audit_time_utc": "2026-11-12T13:44:52.554910+00:00",
+    "access": "read_only_in_place",
+    "query_screenshot_status": "INCOMPLETE_QUERY_SCREENSHOT_NOT_USED"
+  },
+  {
+    "dataset": "disease",
+    "local_path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round4_dynamic_health_model_20261112\\raw\\IHME-GBD_2023_DATA-353a02a2-1.zip",
+    "bytes": 29583,
+    "sha256": "9ba35729cab5994ad9ce05427228c71b127d8b4bf03db899681ef250b2a5e2b7",
+    "zip_members": [
+      "IHME-GBD_2023_DATA-353a02a2-1.csv",
+      "citation.txt"
+    ],
+    "citation": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.",
+    "row_count": 800,
+    "detailed_2023_rows": 640,
+    "unique_values": {
+      "year": [
+        "2023"
+      ],
+      "cause_name": [
+        "Ischemic heart disease",
+        "Ischemic stroke"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70+ years",
+        "70-74 years",
+        "75+ years",
+        "75-79 years",
+        "80+ years",
+        "80-84 years",
+        "85+ years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Deaths",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)",
+        "YLLs (Years of Life Lost)"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "population_group_name": [
+        "All Population"
+      ]
+    },
+    "last_modified_utc": "2026-11-12T08:35:10.006786+00:00",
+    "audit_time_utc": "2026-11-12T13:44:52.565367+00:00",
+    "access": "read_only_in_place",
+    "query_screenshot_status": "INCOMPLETE_QUERY_SCREENSHOT_NOT_USED"
+  },
+  {
+    "dataset": "all_cause",
+    "local_path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round4_dynamic_health_model_20261112\\raw\\IHME-GBD_2023_DATA-52b38bf7-1.zip",
+    "bytes": 15228,
+    "sha256": "dd38441e963a02f9f572afb56c8f2d4dfb39b58bc48b1c7ebff28d0c09fe835e",
+    "zip_members": [
+      "IHME-GBD_2023_DATA-52b38bf7-1.csv",
+      "citation.txt"
+    ],
+    "citation": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.",
+    "row_count": 400,
+    "detailed_2023_rows": 320,
+    "unique_values": {
+      "year": [
+        "2023"
+      ],
+      "cause_name": [
+        "All causes"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70+ years",
+        "70-74 years",
+        "75+ years",
+        "75-79 years",
+        "80+ years",
+        "80-84 years",
+        "85+ years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Deaths",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)",
+        "YLLs (Years of Life Lost)"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "population_group_name": [
+        "All Population"
+      ]
+    },
+    "last_modified_utc": "2026-11-12T08:44:27.849394+00:00",
+    "audit_time_utc": "2026-11-12T13:44:52.570326+00:00",
+    "access": "read_only_in_place",
+    "query_screenshot_status": "INCOMPLETE_QUERY_SCREENSHOT_NOT_USED"
+  }
+]

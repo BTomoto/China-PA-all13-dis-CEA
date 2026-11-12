@@ -1,0 +1,443 @@
+[
+  {
+    "suite": "legacy_round4",
+    "count": 48,
+    "status": "PASS",
+    "returncode": 0,
+    "cases": [
+      {
+        "check_id": "legacy_round4:test_01_raw_sha",
+        "status": "PASS",
+        "detail": "test_01_raw_sha (test_dynamic.DynamicTests.test_01_raw_sha) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_02_row_count",
+        "status": "PASS",
+        "detail": "test_02_row_count (test_dynamic.DynamicTests.test_02_row_count) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_03_no_policy_pif",
+        "status": "PASS",
+        "detail": "test_03_no_policy_pif (test_dynamic.DynamicTests.test_03_no_policy_pif) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_04_lower_exposure_positive",
+        "status": "PASS",
+        "detail": "test_04_lower_exposure_positive (test_dynamic.DynamicTests.test_04_lower_exposure_positive) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_05_avoided_le_baseline",
+        "status": "PASS",
+        "detail": "test_05_avoided_le_baseline (test_dynamic.DynamicTests.test_05_avoided_le_baseline) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_06_2025_zero",
+        "status": "PASS",
+        "detail": "test_06_2025_zero (test_dynamic.DynamicTests.test_06_2025_zero) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_07_2030_target",
+        "status": "PASS",
+        "detail": "test_07_2030_target (test_dynamic.DynamicTests.test_07_2030_target) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_08_post2030_fixed",
+        "status": "PASS",
+        "detail": "test_08_post2030_fixed (test_dynamic.DynamicTests.test_08_post2030_fixed) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_09_disease_specific_rr",
+        "status": "PASS",
+        "detail": "test_09_disease_specific_rr (test_dynamic.DynamicTests.test_09_disease_specific_rr) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_10_no_hemorrhagic",
+        "status": "PASS",
+        "detail": "test_10_no_hemorrhagic (test_dynamic.DynamicTests.test_10_no_hemorrhagic) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_11_population_2025",
+        "status": "PASS",
+        "detail": "test_11_population_2025 (test_dynamic.DynamicTests.test_11_population_2025) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_12_age_advance",
+        "status": "PASS",
+        "detail": "test_12_age_advance (test_dynamic.DynamicTests.test_12_age_advance) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_13_age_95_open",
+        "status": "PASS",
+        "detail": "test_13_age_95_open (test_dynamic.DynamicTests.test_13_age_95_open) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_14_competing_conservation",
+        "status": "PASS",
+        "detail": "test_14_competing_conservation (test_dynamic.DynamicTests.test_14_competing_conservation) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_15_rate_number_pairs",
+        "status": "PASS",
+        "detail": "test_15_rate_number_pairs (test_dynamic.DynamicTests.test_15_rate_number_pairs) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_16_missing_parameters_close",
+        "status": "PASS",
+        "detail": "test_16_missing_parameters_close (test_dynamic.DynamicTests.test_16_missing_parameters_close) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_17_fixture_cannot_formal",
+        "status": "PASS",
+        "detail": "test_17_fixture_cannot_formal (test_dynamic.DynamicTests.test_17_fixture_cannot_formal) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_18_nonnegative_patient_years",
+        "status": "PASS",
+        "detail": "test_18_nonnegative_patient_years (test_dynamic.DynamicTests.test_18_nonnegative_patient_years) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_19_daly_identity",
+        "status": "PASS",
+        "detail": "test_19_daly_identity (test_dynamic.DynamicTests.test_19_daly_identity) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_20_deaths_bounded_by_entry",
+        "status": "PASS",
+        "detail": "test_20_deaths_bounded_by_entry (test_dynamic.DynamicTests.test_20_deaths_bounded_by_entry) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_21_no_pre_entry",
+        "status": "PASS",
+        "detail": "test_21_no_pre_entry (test_dynamic.DynamicTests.test_21_no_pre_entry) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_22_repeat_determinism",
+        "status": "PASS",
+        "detail": "test_22_repeat_determinism (test_dynamic.DynamicTests.test_22_repeat_determinism) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_23_aggregation",
+        "status": "PASS",
+        "detail": "test_23_aggregation (test_dynamic.DynamicTests.test_23_aggregation) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_24_no_active_dynamic_results",
+        "status": "PASS",
+        "detail": "test_24_no_active_dynamic_results (test_dynamic.DynamicTests.test_24_no_active_dynamic_results) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_25_multicategory_missing_blocks",
+        "status": "PASS",
+        "detail": "test_25_multicategory_missing_blocks (test_dynamic.DynamicTests.test_25_multicategory_missing_blocks) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_26_multicategory_identity",
+        "status": "PASS",
+        "detail": "test_26_multicategory_identity (test_dynamic.DynamicTests.test_26_multicategory_identity) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_27_frozen_cumulative",
+        "status": "PASS",
+        "detail": "test_27_frozen_cumulative (test_dynamic.DynamicTests.test_27_frozen_cumulative) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_28_category_rr_present",
+        "status": "PASS",
+        "detail": "test_28_category_rr_present (test_dynamic.DynamicTests.test_28_category_rr_present) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_29_zero_policy_zero_dynamic",
+        "status": "PASS",
+        "detail": "test_29_zero_policy_zero_dynamic (test_dynamic.DynamicTests.test_29_zero_policy_zero_dynamic) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_30_cross_disease_transition_rejected",
+        "status": "PASS",
+        "detail": "test_30_cross_disease_transition_rejected (test_dynamic.DynamicTests.test_30_cross_disease_transition_rejected) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_31_two_disease_aggregation",
+        "status": "PASS",
+        "detail": "test_31_two_disease_aggregation (test_dynamic.DynamicTests.test_31_two_disease_aggregation) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_32_dynamic_gbd_sha",
+        "status": "PASS",
+        "detail": "test_32_dynamic_gbd_sha (test_dynamic.DynamicTests.test_32_dynamic_gbd_sha) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_33_dynamic_gbd_counts",
+        "status": "PASS",
+        "detail": "test_33_dynamic_gbd_counts (test_dynamic.DynamicTests.test_33_dynamic_gbd_counts) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_34_dynamic_gbd_dimensions",
+        "status": "PASS",
+        "detail": "test_34_dynamic_gbd_dimensions (test_dynamic.DynamicTests.test_34_dynamic_gbd_dimensions) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_35_dynamic_rate_number_pairs",
+        "status": "PASS",
+        "detail": "test_35_dynamic_rate_number_pairs (test_dynamic.DynamicTests.test_35_dynamic_rate_number_pairs) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_36_dynamic_population_consistency",
+        "status": "PASS",
+        "detail": "test_36_dynamic_population_consistency (test_dynamic.DynamicTests.test_36_dynamic_population_consistency) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_37_dynamic_daly_identity",
+        "status": "PASS",
+        "detail": "test_37_dynamic_daly_identity (test_dynamic.DynamicTests.test_37_dynamic_daly_identity) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_38_calibration_points_only",
+        "status": "PASS",
+        "detail": "test_38_calibration_points_only (test_dynamic.DynamicTests.test_38_calibration_points_only) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_39_transition_burden_targets",
+        "status": "PASS",
+        "detail": "test_39_transition_burden_targets (test_dynamic.DynamicTests.test_39_transition_burden_targets) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_40_all_cause_is_calibration_only",
+        "status": "PASS",
+        "detail": "test_40_all_cause_is_calibration_only (test_dynamic.DynamicTests.test_40_all_cause_is_calibration_only) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_41_dynamic_source_not_used_as_transition",
+        "status": "PASS",
+        "detail": "test_41_dynamic_source_not_used_as_transition (test_dynamic.DynamicTests.test_41_dynamic_source_not_used_as_transition) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_42_all_cause_sha",
+        "status": "PASS",
+        "detail": "test_42_all_cause_sha (test_dynamic.DynamicTests.test_42_all_cause_sha) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_43_all_cause_counts",
+        "status": "PASS",
+        "detail": "test_43_all_cause_counts (test_dynamic.DynamicTests.test_43_all_cause_counts) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_44_all_cause_dimensions",
+        "status": "PASS",
+        "detail": "test_44_all_cause_dimensions (test_dynamic.DynamicTests.test_44_all_cause_dimensions) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_45_all_cause_death_rates",
+        "status": "PASS",
+        "detail": "test_45_all_cause_death_rates (test_dynamic.DynamicTests.test_45_all_cause_death_rates) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_46_all_cause_rate_number_pairs",
+        "status": "PASS",
+        "detail": "test_46_all_cause_rate_number_pairs (test_dynamic.DynamicTests.test_46_all_cause_rate_number_pairs) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_47_all_cause_population_consistency",
+        "status": "PASS",
+        "detail": "test_47_all_cause_population_consistency (test_dynamic.DynamicTests.test_47_all_cause_population_consistency) ... ok"
+      },
+      {
+        "check_id": "legacy_round4:test_48_all_cause_not_direct_transition",
+        "status": "PASS",
+        "detail": "test_48_all_cause_not_direct_transition (test_dynamic.DynamicTests.test_48_all_cause_not_direct_transition) ... ok"
+      }
+    ]
+  },
+  {
+    "suite": "new_round5",
+    "count": 37,
+    "status": "PASS",
+    "returncode": 0,
+    "cases": [
+      {
+        "check_id": "new_round5:test_01_cross_export_population",
+        "status": "PASS",
+        "detail": "test_01_cross_export_population (test_round5.Round5Tests.test_01_cross_export_population) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_02_rate_hazard",
+        "status": "PASS",
+        "detail": "test_02_rate_hazard (test_round5.Round5Tests.test_02_rate_hazard) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_03_probability",
+        "status": "PASS",
+        "detail": "test_03_probability (test_round5.Round5Tests.test_03_probability) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_04_hazard_subtraction",
+        "status": "PASS",
+        "detail": "test_04_hazard_subtraction (test_round5.Round5Tests.test_04_hazard_subtraction) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_05_negative_other_fails",
+        "status": "PASS",
+        "detail": "test_05_negative_other_fails (test_round5.Round5Tests.test_05_negative_other_fails) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_06_no_double_death",
+        "status": "PASS",
+        "detail": "test_06_no_double_death (test_round5.Round5Tests.test_06_no_double_death) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_07_first_half_cycle",
+        "status": "PASS",
+        "detail": "test_07_first_half_cycle (test_round5.Round5Tests.test_07_first_half_cycle) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_08_later_full_cycle",
+        "status": "PASS",
+        "detail": "test_08_later_full_cycle (test_round5.Round5Tests.test_08_later_full_cycle) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_09_half_competition",
+        "status": "PASS",
+        "detail": "test_09_half_competition (test_round5.Round5Tests.test_09_half_competition) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_10_annual_flow",
+        "status": "PASS",
+        "detail": "test_10_annual_flow (test_round5.Round5Tests.test_10_annual_flow) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_11_flow_conservation",
+        "status": "PASS",
+        "detail": "test_11_flow_conservation (test_round5.Round5Tests.test_11_flow_conservation) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_12_dw_range",
+        "status": "PASS",
+        "detail": "test_12_dw_range (test_round5.Round5Tests.test_12_dw_range) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_13_dw_metric_ratio",
+        "status": "PASS",
+        "detail": "test_13_dw_metric_ratio (test_round5.Round5Tests.test_13_dw_metric_ratio) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_14_yll_metric_ratio",
+        "status": "PASS",
+        "detail": "test_14_yll_metric_ratio (test_round5.Round5Tests.test_14_yll_metric_ratio) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_15_daly_identity",
+        "status": "PASS",
+        "detail": "test_15_daly_identity (test_round5.Round5Tests.test_15_daly_identity) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_16_death_entry_bound",
+        "status": "PASS",
+        "detail": "test_16_death_entry_bound (test_round5.Round5Tests.test_16_death_entry_bound) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_17_no_policy_zero",
+        "status": "PASS",
+        "detail": "test_17_no_policy_zero (test_round5.Round5Tests.test_17_no_policy_zero) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_18_disease_parameter_isolation",
+        "status": "PASS",
+        "detail": "test_18_disease_parameter_isolation (test_round5.Round5Tests.test_18_disease_parameter_isolation) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_19_synthetic_not_empirical",
+        "status": "PASS",
+        "detail": "test_19_synthetic_not_empirical (test_round5.Round5Tests.test_19_synthetic_not_empirical) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_20_outputs_never_synthetic",
+        "status": "PASS",
+        "detail": "test_20_outputs_never_synthetic (test_round5.Round5Tests.test_20_outputs_never_synthetic) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_21_fit_gate_not_optimizer_success",
+        "status": "PASS",
+        "detail": "test_21_fit_gate_not_optimizer_success (test_round5.Round5Tests.test_21_fit_gate_not_optimizer_success) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_22_repeat_determinism",
+        "status": "PASS",
+        "detail": "test_22_repeat_determinism (test_round5.Round5Tests.test_22_repeat_determinism) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_23_95_open",
+        "status": "PASS",
+        "detail": "test_23_95_open (test_round5.Round5Tests.test_23_95_open) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_24_five_flows",
+        "status": "PASS",
+        "detail": "test_24_five_flows (test_round5.Round5Tests.test_24_five_flows) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_25_negative_stock_rejected",
+        "status": "PASS",
+        "detail": "test_25_negative_stock_rejected (test_round5.Round5Tests.test_25_negative_stock_rejected) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_26_raw_zip_hashes",
+        "status": "PASS",
+        "detail": "test_26_raw_zip_hashes (test_round5.Round5Tests.test_26_raw_zip_hashes) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_27_frozen_incidence_rates",
+        "status": "PASS",
+        "detail": "test_27_frozen_incidence_rates (test_round5.Round5Tests.test_27_frozen_incidence_rates) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_28_blank_dynamic_if_blocked",
+        "status": "PASS",
+        "detail": "test_28_blank_dynamic_if_blocked (test_round5.Round5Tests.test_28_blank_dynamic_if_blocked) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_29_outcome_metric_mismatch_rejected",
+        "status": "PASS",
+        "detail": "test_29_outcome_metric_mismatch_rejected (test_round5.Round5Tests.test_29_outcome_metric_mismatch_rejected) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_30_flow_and_death_tracking",
+        "status": "PASS",
+        "detail": "test_30_flow_and_death_tracking (test_round5.Round5Tests.test_30_flow_and_death_tracking) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_31_calibration_nonnegative_and_smooth",
+        "status": "PASS",
+        "detail": "test_31_calibration_nonnegative_and_smooth (test_round5.Round5Tests.test_31_calibration_nonnegative_and_smooth) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_32_no_burden_PIF",
+        "status": "PASS",
+        "detail": "test_32_no_burden_PIF (test_round5.Round5Tests.test_32_no_burden_PIF) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_33_synthetic_summary_keeps_status",
+        "status": "PASS",
+        "detail": "test_33_synthetic_summary_keeps_status (test_round5.Round5Tests.test_33_synthetic_summary_keeps_status) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_34_actual_incidence_unchanged",
+        "status": "PASS",
+        "detail": "test_34_actual_incidence_unchanged (test_round5.Round5Tests.test_34_actual_incidence_unchanged) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_35_probability_is_not_hazard",
+        "status": "PASS",
+        "detail": "test_35_probability_is_not_hazard (test_round5.Round5Tests.test_35_probability_is_not_hazard) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_36_incompatibility_reported",
+        "status": "PASS",
+        "detail": "test_36_incompatibility_reported (test_round5.Round5Tests.test_36_incompatibility_reported) ... ok"
+      },
+      {
+        "check_id": "new_round5:test_37_real_calibration_repeatability",
+        "status": "PASS",
+        "detail": "test_37_real_calibration_repeatability (test_round5.Round5Tests.test_37_real_calibration_repeatability) ... ok"
+      }
+    ]
+  }
+]

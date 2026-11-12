@@ -1,0 +1,3 @@
+# Age progression
+
+Verified local WPP files are grouped, so the authorized five-year-group fallback is used. Death/disease transitions and exact person-years are computed first, followed by annual survivor flow: 20% to next group, 80% retained; 95+ retains all survivors. New midyear incident entries receive only half a cycle of hazards before the same year-end group flow. This annual mixing approximation is not exact single-age aging. Five flows leave 32.768% in the original group. Outcomes are recorded before age flow, with survivor stock tracking for conservation. A single-year comparison remains BLOCKED until verified single-age WPP and matching disease-rate interpolation are approved.

@@ -1,0 +1,6 @@
+comparison,status,reason
+single_year_vs_group_annual_flow,BLOCKED,No verified single-age WPP locally; no single-age disease-rate interpolation approved
+midyear_vs_startyear_incidence,BLOCKED_TRANSITION_CALIBRATION,run(first_duration=1) interface; baseline uses .5
+joint_fit_vs_simple_Deaths_Prevalence,DIAGNOSTIC_ONLY,Initial ratio and its age-profile residuals retained; no admission by ratio alone
+fixed_2023_vs_historical_trend,BLOCKED,No approved trend extrapolation; interface requires age-sex-year hazards
+binary_vs_multicategory_PIF,BLOCKED,Observed age-sex category shares and approved movement rule absent
