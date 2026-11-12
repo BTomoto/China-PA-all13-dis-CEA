@@ -1,0 +1,90 @@
+{
+  "original_filename": "IHME-GBD_2023_DATA-85af7c45-1.zip",
+  "internal_csv_filename": "IHME-GBD_2023_DATA-85af7c45-1.csv",
+  "sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
+  "rows": 4624,
+  "recovered_date": "2026-11-12",
+  "original_download_date": null,
+  "gbd_version": "GBD 2023",
+  "citation": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.",
+  "query_condition_text": "GBD 2023 Results; All Population; China; Male/Female; Ischemic heart disease/Ischemic stroke; Incidence; Number/Rate; ages 20-24 through 90-94, 95+, plus 70+ aggregate; years 1990-2023. Reconstructed from all original CSV rows; original UI screenshot/log unavailable.",
+  "unique_values": {
+    "year": [
+      "1990",
+      "1991",
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997",
+      "1998",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "location_name": [
+      "China"
+    ],
+    "population_group_name": [
+      "All Population"
+    ],
+    "sex_name": [
+      "Female",
+      "Male"
+    ],
+    "age_name": [
+      "20-24 years",
+      "25-29 years",
+      "30-34 years",
+      "35-39 years",
+      "40-44 years",
+      "45-49 years",
+      "50-54 years",
+      "55-59 years",
+      "60-64 years",
+      "65-69 years",
+      "70+ years",
+      "70-74 years",
+      "75-79 years",
+      "80-84 years",
+      "85-89 years",
+      "90-94 years",
+      "95+ years"
+    ],
+    "cause_name": [
+      "Ischemic heart disease",
+      "Ischemic stroke"
+    ],
+    "measure_name": [
+      "Incidence"
+    ],
+    "metric_name": [
+      "Number",
+      "Rate"
+    ]
+  },
+  "source_path": "new_study/round1_20261112/handoff/continuation/source_data/gbd/IHME-GBD_2023_DATA-85af7c45-1.zip"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "command": "python -m unittest discover -s tests -v",
+  "stdout": "",
+  "stderr": "test_2030_fixed_2025_weights (test_health_pilot.PilotTests.test_2030_fixed_2025_weights) ... ok\ntest_95plus_population_aggregation (test_health_pilot.PilotTests.test_95plus_population_aggregation) ... ok\ntest_demographic_crude_rate_can_change (test_health_pilot.PilotTests.test_demographic_crude_rate_can_change) ... ok\ntest_detail_summary_reconciliation (test_health_pilot.PilotTests.test_detail_summary_reconciliation) ... ok\ntest_disease_mapping_and_subtypes (test_health_pilot.PilotTests.test_disease_mapping_and_subtypes) ... ok\ntest_dynamic_missing_fails_closed (test_health_pilot.PilotTests.test_dynamic_missing_fails_closed) ... ok\ntest_fee_link_exact_semantics (test_health_pilot.PilotTests.test_fee_link_exact_semantics) ... ok\ntest_gbd_missing_fails_closed (test_health_pilot.PilotTests.test_gbd_missing_fails_closed) ... ok\ntest_pif_sign_and_zero (test_health_pilot.PilotTests.test_pif_sign_and_zero) ... ok\ntest_population_and_target (test_health_pilot.PilotTests.test_population_and_target) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.051s\n\nOK\n",
+  "test_count": 10
+}

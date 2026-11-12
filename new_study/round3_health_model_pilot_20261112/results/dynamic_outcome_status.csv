@@ -1,0 +1,3 @@
+﻿disease,incident_cases_averted,prevalent_patient_years_averted,disease_deaths_averted,YLD_averted,YLL_averted,DALY_averted,status
+IHD,SEE_INCIDENCE_DETAIL,,,,,,BLOCKED_DYNAMIC_PARAMETERS
+IS,SEE_INCIDENCE_DETAIL,,,,,,BLOCKED_DYNAMIC_PARAMETERS

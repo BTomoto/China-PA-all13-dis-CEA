@@ -1,0 +1,16 @@
+﻿disease,tier,main_blocker,release_condition
+IHD,PILOT_READY,2023 verified incidence Rate; dynamic endpoints blocked,Survival and duration parameters for dynamic outcomes
+ischemic stroke,PILOT_READY,2023 verified incidence Rate; dynamic endpoints blocked,Survival and duration parameters for dynamic outcomes
+T2D,NEXT_PRIORITY,Type 2 definition and compatible RR interface,Verify definition and obtain 2023 age-sex rate
+breast cancer,NEXT_PRIORITY,Female-specific 2023 rate and exposure match,Obtain female 2023 source rate
+colon cancer,DEFINITION_OR_SOURCE_BLOCKED,Colon-only cause needed,Obtain colon-only burden
+hypertension,DEFINITION_OR_SOURCE_BLOCKED,Leisure activity RR differs from total activity,Work-approved interface and incidence source
+depression,DEFINITION_OR_SOURCE_BLOCKED,Adult OR versus RR and comparison unresolved,Specify effect conversion and source
+bladder cancer,DEFINITION_OR_SOURCE_BLOCKED,Leisure proxy exposure,Work-approved exposure mapping
+endometrial cancer,DEFINITION_OR_SOURCE_BLOCKED,Leisure proxy and female cause,Female-specific source and mapping
+kidney cancer,DEFINITION_OR_SOURCE_BLOCKED,Leisure proxy exposure,Work-approved mapping and source
+oesophageal cancer,DEFINITION_OR_SOURCE_BLOCKED,Adenocarcinoma subtype,Subtype burden
+gastric cardia cancer,DEFINITION_OR_SOURCE_BLOCKED,Cardia subtype,Subtype burden
+dementia,DEFINITION_OR_SOURCE_BLOCKED,RR source mismatch; excluded,New evidence and Work decision
+ICH,DEFINITION_OR_SOURCE_BLOCKED,Ischemic RR inapplicable,ICH-specific RR and Work decision
+SAH,DEFINITION_OR_SOURCE_BLOCKED,Ischemic RR inapplicable,SAH-specific RR and Work decision

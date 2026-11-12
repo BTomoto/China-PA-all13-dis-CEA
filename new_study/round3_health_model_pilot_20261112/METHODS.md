@@ -1,0 +1,9 @@
+# Health pilot methods
+
+Population: China age 20+, WPP 2024 Medium July 1 populations, 2025–2050. The 2025 exposure structure comes from 2018 CCDRFS observations, so it is a modelled 2025 starting point. The scenario multiplies each sex-age stratum's baseline prevalence by 1.00, .97, .94, .91, .88 and .85 in 2025–2030, then retains .85. The fixed 2025-population target is 18.6711438%; yearly crude prevalence can change with population composition. This is a WHO-target-magnitude-aligned Chinese health scenario, not a declaration of WHO formal target attainment. WHO monitoring uses a separate age-standardized 18+ series.
+
+Kyu 2016 compares <600 with 600–3999 MET-min/week. This binary pilot maps newly meeting recommendations to the low-active category. It does not assume an exact 600 MET-min/week point effect or identical risk among all adults already meeting recommendations. RR is used only for IHD and ischemic-stroke incidence. For each cell, PIF=(p0-p1)*(RR-1)/(1+p0*(RR-1)); avoided incidence = WPP population × 2023 GBD incidence Rate/100,000 × PIF. The age-sex rate is held constant; no disease trend is projected.
+
+The original GBD 2023 export offers 95+ and an additional 70+ aggregate. We ignore the overlapping 70+ aggregate and combine WPP 95–99 with 100+ to match its 95+ rate. The original download date and UI screenshot were not recovered; exact row-domain query conditions, citation, checksum and 2026-11-12 recovery date are recorded. Rate lower/upper are retained as inputs, not propagated into an invented formal uncertainty interval.
+
+Dynamic outcomes can start only from avoided incidence cohorts. Prevalence/incidence, deaths/prevalence, YLD/prevalence and YLL/death would be descriptive calibration candidates if 2023 source exports were available, not approved transition probabilities. The current dynamic outputs are BLOCKED_DYNAMIC_PARAMETERS.

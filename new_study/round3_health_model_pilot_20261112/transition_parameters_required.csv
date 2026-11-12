@@ -1,0 +1,8 @@
+﻿parameter,potential_GBD_calibration,external_evidence,status,use
+incidence_rate,2023 age-sex Incidence Rate; AVAILABLE,,PILOT_INPUT,Entry only
+baseline_prevalence,2023 age-sex Prevalence Number/Rate; source absent,,BLOCKED,"Calibration constraint, not transition probability"
+disease_survival_by_duration,Incidence/Prevalence/Deaths jointly constrain,Survival cohort or registry evidence,BLOCKED,Avoided prevalent patient-years
+remission_and_recurrence,Incidence/Prevalence can constrain,Disease natural history and recurrence literature,BLOCKED,Disease state transitions
+excess_mortality_by_age_duration,Deaths/Prevalence is a descriptive candidate ratio,Cause-specific survival and competing-risk literature,BLOCKED,Avoided disease deaths
+YLD_per_disease_state,YLD/Prevalence is a descriptive candidate ratio,Severity distribution and disability-weight evidence,BLOCKED,Avoided YLD
+life_years_lost_by_death_age,YLL/Deaths is a descriptive candidate ratio,GBD standard life table and death-age mapping,BLOCKED,Avoided YLL
