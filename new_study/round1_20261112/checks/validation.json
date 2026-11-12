@@ -73,6 +73,11 @@
       "detail": "Finite values and ordered limits; scientific applicability separate"
     },
     {
+      "check": "reusable_gbd_subset",
+      "passed": true,
+      "detail": "Existing data retained as source-verified candidates, not automatic model admission"
+    },
+    {
       "check": "matrix_52",
       "passed": true,
       "detail": "13 x 4, existence only; no endpoint-risk decision"
@@ -238,6 +243,11 @@
       "detail": "8140 rows; header/row widths"
     },
     {
+      "check": "csv_shape_gbd_source_verified_subset.csv",
+      "passed": true,
+      "detail": "12296 rows; header/row widths"
+    },
+    {
       "check": "csv_shape_hypertension_legacy.csv",
       "passed": true,
       "detail": "22 rows; header/row widths"
@@ -300,7 +310,7 @@
     {
       "check": "manifest_readback",
       "passed": true,
-      "detail": "193 files hashed"
+      "detail": "195 files hashed"
     },
     {
       "check": "all_rr_hold",

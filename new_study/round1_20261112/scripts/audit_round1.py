@@ -71,6 +71,13 @@ def main():
                     sv=sum(float(s['val']) for s in parts);status='部分核验';method='70+ point sum only; interval not reconstructed'
             comparisons.append(dict(outcome_id=r['lancet_outcome_id'],cause_id=r['cause_id'],cause_name=r['cause_name'],measure_id=r['measure_id'],measure_name=r['measure_name'],year=r['year'],sex=r['sex_name'],age_id=r['age_id'],age_group=r['age_name'],candidate_val=r['val'],source_val=sv,candidate_lower=r['lower'],candidate_upper=r['upper'],source_lower=sl,source_upper=su,status=status,method=method,source_file=source,verified_source_file=verified_source,point_match='' if sv=='' else close(r['val'],sv)))
     write(ROOT/'registers/gbd_row_comparison.csv',comparisons)
+    verified_keys={(r['source_file'],r['cause_id'],r['measure_id'],r['year'],r['sex'],r['age_id']):r for r in comparisons if r['status']=='已核验'}
+    reusable=[]
+    for r in candidates:
+        proof=verified_keys.get((r['source_file'],r['cause_id'],r['measure_id'],r['year'],r['sex_name'],r['age_id']))
+        if proof:reusable.append({**r,'verified_source_file':proof['verified_source_file'],'source_value_verification':'val/lower/upper matched raw export','new_study_admission':'pending study-definition and endpoint review in Work'})
+    write(ROOT/'candidate_inputs/gbd_source_verified_subset.csv',reusable)
+    check('reusable_gbd_subset',len(reusable)==12296,'Existing data retained as source-verified candidates, not automatic model admission')
     # Reconstruct exact replacement query requests from existing rows, never fabricate old UI history.
     queries=[]
     for source in sorted({r['source_file'] for r in candidates}):

@@ -27,4 +27,6 @@
 
 本轮不改写交接版31表XLSX，避免CSV与旧簿看似同步。新核验以本目录registers为准，旧簿只作候选历史快照。后续应先核准数据，再经授权生成新的正式输入簿。
 
+根据用户要求继续优先沿用可核实的旧数据，补充 [旧数据沿用核验](reports/DATA_REUSE_REVIEW.md)。12,296条与原导出逐值匹配的GBD记录单独保存在 `candidate_inputs/gbd_source_verified_subset.csv`；这是来源核验通过的候选子集，定义与结局风险准入仍分别登记。
+
 原文XML表格的逐格摘录见 `candidate_inputs/published_table_cells.csv`，保留表号、行列及合并格跨度。它是来源文字转存，不是统一单位后的模型参数。PMC原文版次、DOI、许可见各目录JSON；补表未出现在公开目录时保持缺失。
