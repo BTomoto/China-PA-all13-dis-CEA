@@ -1,0 +1,66 @@
+{
+  "filename": "IHME-GBD_2023_DATA-52b38bf7-1.zip",
+  "sha256": "dd38441e963a02f9f572afb56c8f2d4dfb39b58bc48b1c7ebff28d0c09fe835e",
+  "internal_csv": "IHME-GBD_2023_DATA-52b38bf7-1.csv",
+  "obtained_date": "2026-11-12",
+  "gbd_version": "GBD 2023",
+  "location": [
+    "China"
+  ],
+  "population_group": [
+    "All Population"
+  ],
+  "year": [
+    2023
+  ],
+  "sex": [
+    "Male",
+    "Female"
+  ],
+  "cause": [
+    "All causes"
+  ],
+  "measure": [
+    "DALYs (Disability-Adjusted Life Years)",
+    "Deaths",
+    "Prevalence",
+    "YLDs (Years Lived with Disability)",
+    "YLLs (Years of Life Lost)"
+  ],
+  "metric": [
+    "Number",
+    "Rate"
+  ],
+  "detailed_age": [
+    "20-24 years",
+    "25-29 years",
+    "30-34 years",
+    "35-39 years",
+    "40-44 years",
+    "45-49 years",
+    "50-54 years",
+    "55-59 years",
+    "60-64 years",
+    "65-69 years",
+    "70-74 years",
+    "75-79 years",
+    "80-84 years",
+    "85-89 years",
+    "90-94 years",
+    "95+ years"
+  ],
+  "aggregate_age_excluded": [
+    "70+ years",
+    "75+ years",
+    "80+ years",
+    "85+ years"
+  ],
+  "raw_rows": 400,
+  "detailed_rows": 320,
+  "aggregate_rows_excluded": 80,
+  "rate_number_pairs": 160,
+  "detailed_deaths_rate_rows": 32,
+  "citation": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.",
+  "query_screenshot_status": "COMPLETE_QUERY_SCREENSHOT_NOT_PROVIDED",
+  "model_role": "CALIBRATION_TARGET; hazard conversion and other-cause decomposition not admitted"
+}

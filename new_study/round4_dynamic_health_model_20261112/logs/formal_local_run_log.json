@@ -4,19 +4,19 @@
   "worktree": "E:\\工作目录\\China-PA-13\\Analysis",
   "branch": "codex/dynamic-health-model-round4-20261112",
   "base_remote_commit": "c581bfae4c642473e59f114ddf59381e12f9ef49",
-  "local_head_at_run": "3c3ade6787e5d1d5dfcd1ac9ea6d17a3d5ac667c",
+  "local_head_at_run": "cacea87c9b71beeb2ee88dc41f6acba06d1d587c",
   "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
   "platform": "Windows-11-10.0.22631-SP0",
   "requirements": "Python 3.11+ standard library only",
   "random_seed": "NOT_APPLICABLE; deterministic",
-  "start_utc": "2026-11-12T07:50:30.213068+00:00",
-  "end_utc": "2026-11-12T07:50:30.505979+00:00",
+  "start_utc": "2026-11-12T11:31:32.209739+00:00",
+  "end_utc": "2026-11-12T11:31:32.542366+00:00",
   "gbd_zip_sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
   "incidence_rows": 1664,
   "synthetic_fixture_rows": 1664,
   "automated_tests": {
-    "count": 31,
-    "passed": 31,
+    "count": 48,
+    "passed": 48,
     "failed": 0
   },
   "notebooks": [
@@ -28,12 +28,12 @@
     {
       "notebook": "02_dynamic_input_validation.ipynb",
       "status": "PASS",
-      "stdout": "Frozen rows: 1664 Rate/Number pairs: 64\n"
+      "stdout": "Frozen incidence rows: 1664 incidence pairs: 64\nDynamic detailed rows: 640 dynamic pairs: 320 excluded aggregates: 160\nAll-cause detailed rows: 320 death rates: 32 excluded aggregates: 80\n"
     },
     {
       "notebook": "03_transition_calibration.ipynb",
       "status": "PASS",
-      "stdout": "Blocked targets: 8\n"
+      "stdout": "Descriptive calibration targets: 256\n"
     },
     {
       "notebook": "04_multistate_lifetable_model.ipynb",

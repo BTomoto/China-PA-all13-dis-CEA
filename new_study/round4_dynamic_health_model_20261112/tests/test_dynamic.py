@@ -6,12 +6,15 @@ from src.dynamic_model import (R3, R4, RAW_SHA, InputBlocked, Transition, age_at
                                competing_exits, incidence_input, missing_parameter, pif, multicategory_pif,
                                read_csv, run_cohorts, summarize, synthetic_fixture,
                                verify_rate_number_pairs, verify_raw)
+from src.gbd_dynamic_inputs import ALL_CAUSE_GBD_SHA, DYNAMIC_GBD_SHA, load_all_cause_gbd, load_dynamic_gbd
 
 
 class DynamicTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.source=incidence_input()
+        cls.dynamic_detail,cls.dynamic_rates,cls.dynamic_implied,cls.dynamic_meta=load_dynamic_gbd()
+        cls.all_cause_detail,cls.all_cause_rates,cls.all_cause_implied,cls.all_cause_meta=load_all_cause_gbd()
 
     def test_01_raw_sha(self): self.assertEqual(verify_raw(),RAW_SHA)
     def test_02_row_count(self): self.assertEqual(len(self.source),1664)
@@ -78,5 +81,56 @@ class DynamicTests(unittest.TestCase):
         rows,_=run_cohorts(source,synthetic_fixture,allow_provisional=True)
         summary={r['disease']:r for r in summarize(rows)}
         self.assertAlmostEqual(summary['TOTAL']['DALY_averted'],summary['IHD']['DALY_averted']+summary['IS']['DALY_averted'])
+    def test_32_dynamic_gbd_sha(self): self.assertEqual(self.dynamic_meta['sha256'],DYNAMIC_GBD_SHA)
+    def test_33_dynamic_gbd_counts(self): self.assertEqual((self.dynamic_meta['raw_rows'],len(self.dynamic_detail),self.dynamic_meta['aggregate_rows_excluded']),(800,640,160))
+    def test_34_dynamic_gbd_dimensions(self):
+        self.assertEqual({r['cause_name'] for r in self.dynamic_detail},{'Ischemic heart disease','Ischemic stroke'})
+        self.assertEqual({r['measure_name'] for r in self.dynamic_detail},{'Prevalence','Deaths','YLDs (Years Lived with Disability)','YLLs (Years of Life Lost)','DALYs (Disability-Adjusted Life Years)'})
+        self.assertEqual({r['age_name'] for r in self.dynamic_detail},{f'{age}-{age+4} years' for age in range(20,95,5)}|{'95+ years'})
+    def test_35_dynamic_rate_number_pairs(self): self.assertEqual(len(self.dynamic_implied),320)
+    def test_36_dynamic_population_consistency(self):
+        for sex in ('Male','Female'):
+            for age in {r['age_name'] for r in self.dynamic_detail}:
+                values=[v for (cause,s,a,measure),v in self.dynamic_implied.items() if s==sex and a==age]
+                self.assertTrue(math.isclose(min(values),max(values),rel_tol=1e-8))
+    def test_37_dynamic_daly_identity(self):
+        for disease in ('IHD','IS'):
+            for sex in ('Male','Female'):
+                for age in [f'{x}-{x+4}' for x in range(20,95,5)]+['95+']:
+                    yld=self.dynamic_rates[(disease,sex,age,'YLDs (Years Lived with Disability)')][0]
+                    yll=self.dynamic_rates[(disease,sex,age,'YLLs (Years of Life Lost)')][0]
+                    daly=self.dynamic_rates[(disease,sex,age,'DALYs (Disability-Adjusted Life Years)')][0]
+                    self.assertTrue(math.isclose(daly,yld+yll,rel_tol=1e-9))
+    def test_38_calibration_points_only(self):
+        rows=read_csv(R4/'inputs'/'calibration_targets.csv')
+        self.assertEqual(len(rows),256)
+        self.assertTrue(all(r['point'] and r['lower']=='' and r['upper']=='' for r in rows))
+    def test_39_transition_burden_targets(self):
+        rows=read_csv(R4/'inputs'/'transition_parameters.csv')
+        self.assertEqual(sum(r['admission_status']=='CALIBRATION_TARGET' for r in rows),256)
+        self.assertEqual(sum(r['admission_status']=='EXTERNAL_VALIDATION' for r in rows),128)
+    def test_40_all_cause_is_calibration_only(self):
+        rows=read_csv(R4/'inputs'/'transition_parameters.csv')
+        selected=[r for r in rows if r['parameter_id']=='all_cause_mortality']
+        self.assertEqual(len(selected),64)
+        self.assertTrue(all(r['point'] and r['admission_status']=='CALIBRATION_TARGET' for r in selected))
+    def test_41_dynamic_source_not_used_as_transition(self):
+        rows=read_csv(R4/'inputs'/'transition_parameters.csv')
+        self.assertFalse(any(r['source'].endswith('353a02a2-1.zip') and r['admission_status']=='DIRECT_INPUT' for r in rows))
+    def test_42_all_cause_sha(self): self.assertEqual(self.all_cause_meta['sha256'],ALL_CAUSE_GBD_SHA)
+    def test_43_all_cause_counts(self): self.assertEqual((self.all_cause_meta['raw_rows'],len(self.all_cause_detail),self.all_cause_meta['aggregate_rows_excluded']),(400,320,80))
+    def test_44_all_cause_dimensions(self):
+        self.assertEqual({r['cause_name'] for r in self.all_cause_detail},{'All causes'})
+        self.assertEqual({r['age_name'] for r in self.all_cause_detail},{f'{age}-{age+4} years' for age in range(20,95,5)}|{'95+ years'})
+    def test_45_all_cause_death_rates(self): self.assertEqual(len(self.all_cause_rates),32)
+    def test_46_all_cause_rate_number_pairs(self): self.assertEqual(len(self.all_cause_implied),160)
+    def test_47_all_cause_population_consistency(self):
+        for sex in ('Male','Female'):
+            for age in {r['age_name'] for r in self.all_cause_detail}:
+                values=[v for (s,a,measure),v in self.all_cause_implied.items() if s==sex and a==age]
+                self.assertTrue(math.isclose(min(values),max(values),rel_tol=1e-8))
+    def test_48_all_cause_not_direct_transition(self):
+        rows=read_csv(R4/'inputs'/'transition_parameters.csv')
+        self.assertFalse(any(r['source'].endswith('52b38bf7-1.zip') and r['admission_status']=='DIRECT_INPUT' for r in rows))
 
 if __name__=='__main__':unittest.main()

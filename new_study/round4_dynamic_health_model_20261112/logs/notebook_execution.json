@@ -7,12 +7,12 @@
   {
     "notebook": "02_dynamic_input_validation.ipynb",
     "status": "PASS",
-    "stdout": "Frozen rows: 1664 Rate/Number pairs: 64\n"
+    "stdout": "Frozen incidence rows: 1664 incidence pairs: 64\nDynamic detailed rows: 640 dynamic pairs: 320 excluded aggregates: 160\nAll-cause detailed rows: 320 death rates: 32 excluded aggregates: 80\n"
   },
   {
     "notebook": "03_transition_calibration.ipynb",
     "status": "PASS",
-    "stdout": "Blocked targets: 8\n"
+    "stdout": "Descriptive calibration targets: 256\n"
   },
   {
     "notebook": "04_multistate_lifetable_model.ipynb",

@@ -24,7 +24,7 @@ log={'status':'BLOCKED_DYNAMIC_PARAMETERS','incidence_status':'PILOT_CONDITIONAL
      'end_utc':datetime.fromtimestamp(validation['ended_utc_epoch'],timezone.utc).isoformat(),
      'gbd_zip_sha256':validation['gbd_incidence_sha256'],'incidence_rows':validation['incidence_rows'],
      'synthetic_fixture_rows':validation['synthetic_test_rows'],
-     'automated_tests':{'count':31,'passed':31,'failed':0},
+     'automated_tests':{'count':48,'passed':48,'failed':0},
      'notebooks':notebooks,'empirical_dynamic_endpoints':'BLOCKED_DYNAMIC_PARAMETERS'}
 (here/'logs'/'formal_local_run_log.json').write_bytes((json.dumps(log,ensure_ascii=False,indent=2)+'\n').encode('utf-8'))
 files=[]
@@ -34,4 +34,4 @@ for path in sorted(here.rglob('*')):
     files.append((rel,hashlib.sha256(path.read_bytes()).hexdigest(),path.stat().st_size))
 with (here/'sha256_manifest.csv').open('w',encoding='utf-8',newline='') as f:
     writer=csv.writer(f,lineterminator='\n');writer.writerow(('relative_path','sha256','bytes'));writer.writerows(files)
-print(f'finalized files={len(files)} tests=31/31 notebooks=5/5 status=BLOCKED_DYNAMIC_PARAMETERS')
+print(f'finalized files={len(files)} tests=48/48 notebooks=5/5 status=BLOCKED_DYNAMIC_PARAMETERS')

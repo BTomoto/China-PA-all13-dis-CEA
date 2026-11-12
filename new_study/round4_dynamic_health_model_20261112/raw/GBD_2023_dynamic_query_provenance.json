@@ -1,0 +1,66 @@
+{
+  "filename": "IHME-GBD_2023_DATA-353a02a2-1.zip",
+  "sha256": "9ba35729cab5994ad9ce05427228c71b127d8b4bf03db899681ef250b2a5e2b7",
+  "internal_csv": "IHME-GBD_2023_DATA-353a02a2-1.csv",
+  "obtained_date": "2026-11-12",
+  "gbd_version": "GBD 2023",
+  "location": [
+    "China"
+  ],
+  "population_group": [
+    "All Population"
+  ],
+  "year": [
+    2023
+  ],
+  "sex": [
+    "Male",
+    "Female"
+  ],
+  "cause": [
+    "Ischemic heart disease",
+    "Ischemic stroke"
+  ],
+  "measure": [
+    "DALYs (Disability-Adjusted Life Years)",
+    "Deaths",
+    "Prevalence",
+    "YLDs (Years Lived with Disability)",
+    "YLLs (Years of Life Lost)"
+  ],
+  "metric": [
+    "Number",
+    "Rate"
+  ],
+  "detailed_age": [
+    "20-24 years",
+    "25-29 years",
+    "30-34 years",
+    "35-39 years",
+    "40-44 years",
+    "45-49 years",
+    "50-54 years",
+    "55-59 years",
+    "60-64 years",
+    "65-69 years",
+    "70-74 years",
+    "75-79 years",
+    "80-84 years",
+    "85-89 years",
+    "90-94 years",
+    "95+ years"
+  ],
+  "aggregate_age_excluded": [
+    "70+ years",
+    "75+ years",
+    "80+ years",
+    "85+ years"
+  ],
+  "raw_rows": 800,
+  "detailed_rows": 640,
+  "aggregate_rows_excluded": 160,
+  "rate_number_pairs": 320,
+  "citation": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.",
+  "query_screenshot_status": "COMPLETE_QUERY_SCREENSHOT_NOT_PROVIDED",
+  "all_cause_mortality_status": "MISSING_SEPARATE_EXPORT"
+}
