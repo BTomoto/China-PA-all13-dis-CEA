@@ -1,0 +1,10 @@
+# Precise evidence release steps
+
+1. Exposure: provide approved survey-weighted China age-sex distributions of total gross MET-min/week, with zero mass, inactive dose distribution,600-3999/4000-7999/>=8000 shares and tails. Local individual data may be used only with explicit permission; do not commit raw individual records or unapproved distributions. R2 needs mass around thresholds after1.2x;R3 needs the active-dose distribution. P15/R1 continuous effects also need inactive mean risks and the baseline denominator.
+2. RR: use Kyu appendix1 p2 and appendix4 TablesD/E to audit each fitted outcome's source-estimate selection. Recover an incidence-only fitted curve, or supply a matching original incidence-specific risk model; document first vs recurrent, fatal/nonfatal and MI vs broaderIHD definitions. Do not silently pool or average endpoints. TableF knots alone do not resolve that gate.
+3. GBD2023: primary disease appendix1 mmc1.pdf, expected82,917,810bytes, publisher DOI10.1016/S0140-6736(25)01637-X. The open fulltextXML is locally archived and identifies the appendix. Exact IHD MI event aggregation and IS first/recurrent adjustment require that appendix. Public JACC2023 CVD methods URL is listed below; direct download returned403. No user database query is needed to redownload the already-verified incidence rates.
+4. Other endpoints: endpoint-specific risk function or a cited, separately approved structural CRA mapping; rawGBD endpoint availability does not suffice.
+5. Work: reconcile universalR3>=R2 with baseline-branchR3. The current formulas supply a counterexample550->660 versus600; retain the formulas unless Work explicitly changes them. Confirm whether an original Bayesian dose-function reconstruction or labelled grid interpolation is acceptable after distributions and endpoints are resolved.
+
+GBD CVD methods: https://www.jacc.org/doi/suppl/10.1016/j.jacc.2025.08.015/suppl_file/mmc2.pdf
+WHO monitoring reference: https://www.who.int/Data/Gho/Data/Themes/Topics/Indicator-Groups/Insufficient-Physical-Activity-Indicator-Group

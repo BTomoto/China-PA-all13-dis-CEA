@@ -1,0 +1,6 @@
+.runtime/
+__pycache__/
+raw/*.pdf
+raw/*.xml
+raw/*.html
+!logs/*.log

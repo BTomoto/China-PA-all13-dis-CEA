@@ -1,0 +1,30 @@
+{
+  "baseline_commit": "e307f03b1fb824711365378c940bcd0c25544d86",
+  "branch": "codex/multiscenario-cra-round6",
+  "population": "China 20+; WPP2024 Medium July1 2025-2050",
+  "exposure_source_year": 2018,
+  "exposure_label": "modelled_2025_baseline_using_2018_observed_rates",
+  "unit": "MET-min/week",
+  "domain": "total",
+  "energy_convention": "gross",
+  "unit_conversion_policy": "no conversion from marginal or leisure-only MET without intensity-duration evidence",
+  "gbd_rate_year": 2023,
+  "rate_projection": "constant_2023_age_sex_rates",
+  "instantaneous_risk_response": true,
+  "lag_years": null,
+  "main_comparison_year": 2030,
+  "additional_endpoint_years": [2034,2050],
+  "cumulative_windows": [[2025,2030],[2025,2034],[2025,2050]],
+  "scenarios": {
+    "B0": {"mapping":"identity", "path":"baseline"},
+    "P15": {"label":"参照WHO目标幅度、相对2025年下降15%的情景", "fraction_of_baseline_inactive_shifted_by_year":{"2025":0,"2026":0.03,"2027":0.06,"2028":0.09,"2029":0.12,"2030":0.15}, "after_2030":0.15,"mapping":"proportional_weight_split_of_each_original_x_lt_600_to_600","path":"gradual_2030","admission_status":"SCENARIO_ASSUMPTION"},
+    "R1": {"mapping":"max(x,600)","paths":["immediate_2025","common_2030"]},
+    "R2": {"mapping":"1.2*x; zero remains zero","paths":["immediate_2025","common_2030"]},
+    "R3": {"mapping":"600 if baseline x<600 else 1.2*x","paths":["immediate_2025","common_2030"]}
+  },
+  "common_2030_completion":"min(1,max(0,(year-2025)/5))",
+  "path_implementation":"mixture of baseline and fully transformed exposure distributions, never RR interpolation",
+  "formal_endpoint_policy":"explicit RR/GBD endpoint match required; no cross-endpoint PIF mapping by default",
+  "point_analysis_status":"BLOCKED_EXPOSURE_DISTRIBUTION_AND_ENDPOINT_ALIGNMENT",
+  "partial_analysis":"categorical crossing PIF identification envelopes only; no GBD incidence multiplication until endpoint gate passes"
+}

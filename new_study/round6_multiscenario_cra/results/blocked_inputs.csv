@@ -1,0 +1,8 @@
+gap_id,scenarios,status,requirement
+EXPOSURE_FULL_DISTRIBUTION,P15/R1 continuous; R2/R3 all,BLOCKED_EXPOSURE_DISTRIBUTION,Approved weighted China age-sex total gross MET distribution; no European shape substitution
+EXPOSURE_ACTIVE_CATEGORY_SHARES,P15/R1 category point estimate,BLOCKED_EXPOSURE_DISTRIBUTION,Measured active category shares; current envelope remains a structural diagnostic
+RR_INCIDENCE_SELECTION,all intervention incidence effects,BLOCKED_ENDPOINT_ALIGNMENT,Incidence-only fitted curve matched to GBD disease/event definition
+GBD_IHD_EVENT_DEFINITION,IHD intervention incidence,BLOCKED_NO_SOURCE,GBD2023 appendix1 exact MI first/recurrent event aggregation; do not infer from cause name
+OTHER_ENDPOINTS,all intervention deaths/YLD/YLL/DALY/prevalence/patient-years,BLOCKED_OUTCOME_RISK_MAPPING,Endpoint-specific RR or approved cited structural CRA mapping
+R3_ORDERING_CONFLICT,R3 vs R2,SPEC_CONFLICT_R3_VS_R2_ORDERING,Work decision: formulas do not imply universal R3 dominance
+RR_INTERPOLATION_TAILS,continuous distribution evaluation,BLOCKED_NO_SOURCE,Original spline function/joint draws or approved labelled interpolation; tails >30600 cannot be extrapolated

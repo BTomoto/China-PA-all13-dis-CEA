@@ -1,0 +1,7 @@
+{
+  "source": "new_study\\round5_dynamic_calibration_20261112\\logs\\test_results.json",
+  "sha256": "d810104c0fef937dc9d9fb116e72d12c00ec96ee839ed04866666462a16a08a9",
+  "historical_test_count": 85,
+  "status": "HISTORICAL_NOT_EXECUTED_THIS_ROUND",
+  "reason": "Prior tests execute natural-history functions; current scope prohibits that execution"
+}

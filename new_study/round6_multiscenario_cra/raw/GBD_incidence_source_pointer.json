@@ -1,0 +1,8 @@
+{
+  "source_path": "new_study/round1_20261112/handoff/continuation/source_data/gbd/IHME-GBD_2023_DATA-85af7c45-1.zip",
+  "citation": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.",
+  "internal_csv": "IHME-GBD_2023_DATA-85af7c45-1.csv",
+  "raw_rows": 4624,
+  "rate_rows": 64,
+  "status": "SOURCE_VERIFIED_MODEL_ESTIMATE"
+}

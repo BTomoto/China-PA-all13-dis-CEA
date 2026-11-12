@@ -1,0 +1,31 @@
+[
+  {
+    "filename": "GBD2023_nonfatal_appendix1.pdf",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12535840.1/mmc1.pdf",
+    "status": "NOT_OBTAINED",
+    "error": "The read operation timed out",
+    "retrieval_time_utc": "2026-11-12T15:49:56.906613+00:00"
+  },
+  {
+    "filename": "RAND_RR4291.pdf",
+    "url": "https://www.rand.org/content/dam/rand/pubs/research_reports/RR4200/RR4291/RAND_RR4291.pdf",
+    "status": "NOT_OBTAINED",
+    "error": "HTTP Error 403: Forbidden",
+    "retrieval_time_utc": "2026-11-12T15:49:56.906625+00:00"
+  },
+  {
+    "filename": "GBD2023_CVD_methods_mmc2.pdf",
+    "url": "https://www.jacc.org/doi/suppl/10.1016/j.jacc.2025.08.015/suppl_file/mmc2.pdf",
+    "status": "NOT_OBTAINED",
+    "error": "Public publisher endpoint returned HTTP 403 / Cloudflare; no login bypass attempted",
+    "retrieval_time_utc": "2026-11-12T15:49:56.906628+00:00"
+  },
+  {
+    "filename": "GBD2023_nonfatal_fulltext.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12535840/fullTextXML",
+    "status": "DOWNLOADED",
+    "bytes": 1386791,
+    "sha256": "973d80a9dd1e241b8bf7f98d6015fc73434a70de2ceb82cad5c240e3a663c6e3",
+    "retrieval_time_utc": "2026-11-12T15:49:56.906629+00:00"
+  }
+]

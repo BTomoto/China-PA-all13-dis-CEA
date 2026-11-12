@@ -1,0 +1,37 @@
+[
+  {
+    "notebook": "01_inputs_and_evidence.ipynb",
+    "status": "PASS",
+    "engine": "nbclient0.10.2 + real ipykernel",
+    "executed_cells": 1,
+    "error": ""
+  },
+  {
+    "notebook": "02_scenario_exposure.ipynb",
+    "status": "PASS",
+    "engine": "nbclient0.10.2 + real ipykernel",
+    "executed_cells": 1,
+    "error": ""
+  },
+  {
+    "notebook": "03_rr_pif_and_incidence.ipynb",
+    "status": "PASS",
+    "engine": "nbclient0.10.2 + real ipykernel",
+    "executed_cells": 1,
+    "error": ""
+  },
+  {
+    "notebook": "04_scenario_comparison.ipynb",
+    "status": "PASS",
+    "engine": "nbclient0.10.2 + real ipykernel",
+    "executed_cells": 1,
+    "error": ""
+  },
+  {
+    "notebook": "05_validation_and_limitations.ipynb",
+    "status": "PASS",
+    "engine": "nbclient0.10.2 + real ipykernel",
+    "executed_cells": 1,
+    "error": ""
+  }
+]

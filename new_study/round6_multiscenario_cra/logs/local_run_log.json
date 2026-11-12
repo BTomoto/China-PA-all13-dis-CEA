@@ -1,0 +1,83 @@
+{
+  "worktree": "E:\\工作目录\\China-PA-13\\Analysis",
+  "branch": "codex/multiscenario-cra-round6",
+  "base": "e307f03b1fb824711365378c940bcd0c25544d86",
+  "local_head_at_run": "e307f03b1fb824711365378c940bcd0c25544d86",
+  "utc": "2026-11-12T16:09:03.038737+00:00",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "commands": [
+    "build_round6.py",
+    "run_tests.py",
+    "execute_notebooks.py",
+    "finalize_run.py"
+  ],
+  "status": "PARTIAL_CRA_INTERFACES_COMPLETE_CLINICAL_EFFECTS_BLOCKED",
+  "tests": {
+    "run": 53,
+    "passed": 53,
+    "failed": 0
+  },
+  "notebooks": [
+    {
+      "notebook": "01_inputs_and_evidence.ipynb",
+      "status": "PASS",
+      "engine": "nbclient0.10.2 + real ipykernel",
+      "executed_cells": 1,
+      "error": ""
+    },
+    {
+      "notebook": "02_scenario_exposure.ipynb",
+      "status": "PASS",
+      "engine": "nbclient0.10.2 + real ipykernel",
+      "executed_cells": 1,
+      "error": ""
+    },
+    {
+      "notebook": "03_rr_pif_and_incidence.ipynb",
+      "status": "PASS",
+      "engine": "nbclient0.10.2 + real ipykernel",
+      "executed_cells": 1,
+      "error": ""
+    },
+    {
+      "notebook": "04_scenario_comparison.ipynb",
+      "status": "PASS",
+      "engine": "nbclient0.10.2 + real ipykernel",
+      "executed_cells": 1,
+      "error": ""
+    },
+    {
+      "notebook": "05_validation_and_limitations.ipynb",
+      "status": "PASS",
+      "engine": "nbclient0.10.2 + real ipykernel",
+      "executed_cells": 1,
+      "error": ""
+    }
+  ],
+  "randomness": "none; deterministic weighted transformations",
+  "raw_source_files": [
+    {
+      "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round6_multiscenario_cra\\raw\\GBD2023_nonfatal_fulltext.xml",
+      "bytes": 1386791,
+      "sha256": "973d80a9dd1e241b8bf7f98d6015fc73434a70de2ceb82cad5c240e3a663c6e3",
+      "validation": "PASS",
+      "git_policy": "LOCAL_ONLY_PUBLIC_SOURCE"
+    },
+    {
+      "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round6_multiscenario_cra\\raw\\GBD_incidence_source_pointer.json",
+      "bytes": 613,
+      "sha256": "5560394466743ce57a24ce6793404633b4d2f2d8d0e67d542d519efeccf044f5",
+      "validation": "PASS",
+      "git_policy": "COMMIT_METADATA_ONLY"
+    },
+    {
+      "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round6_multiscenario_cra\\raw\\source_retrieval_log.json",
+      "bytes": 1235,
+      "sha256": "d4cb82fc2ff27ec6f4303cd87162098f1c9fa11e7bb2a3f34ebc908e8fff12ad",
+      "validation": "PASS",
+      "git_policy": "COMMIT_METADATA_ONLY"
+    }
+  ],
+  "unrelated_untracked_preserved": []
+}

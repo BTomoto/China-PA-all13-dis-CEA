@@ -1,0 +1,195 @@
+{
+  "analysis_status": "PARTIAL_CRA_INTERFACES_COMPLETE_CLINICAL_EFFECTS_BLOCKED",
+  "branch": "codex/multiscenario-cra-round6",
+  "baseline": "e307f03b1fb824711365378c940bcd0c25544d86",
+  "population_2025": 1113252964,
+  "baseline_2025_p": 0.2196605152043413,
+  "source_locks": [
+    {
+      "path": "new_study/round2_20261112/registers/population_input_whitelist_v1.csv",
+      "sha256": "b4b3ed215e514876f316b5a8380f7d41ba87e3d71b7c967b5511378e49623b7c",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round2_target_prep_20261112/registers/exposure_crosswalk_ci_v2.csv",
+      "sha256": "be5116a1b7c7fa5c8050b4db8730d5fa994c576b3eef72f69e10c5b2be077480",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round1_20261112/raw/pmc_cloud/PMC4979358/kyuh031211.ww4_2kb.pdf",
+      "sha256": "702f58495069dfe8ee7e3772dfd9ab26cdca96771cfe0009d4b424e0aee1e405",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round1_20261112/raw/pmc_cloud/PMC4979358/kyuh031211.ww1_default.pdf",
+      "sha256": "27ed9b9061599e025770d9d4d70fdce2020bd7b1d33c41210c7faf088c1be2b1",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round1_20261112/raw/pmc_cloud/PMC4979358/PMC4979358.1.xml",
+      "sha256": "a5e1b3b34a55ebf0211161457636c86f2e764cfcfb698adf4a7d986f64112723",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round1_20261112/raw/pa/Gao2018.html",
+      "sha256": "3dda4c41583ce0e467d7d36f98ee0f5a55a29c6e0407ec39c8d93309c58b0d71",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round3_health_model_pilot_20261112/results/incidence_age_sex_2025_2050.csv",
+      "sha256": "317e7c85b0da3498fcbddb31b1c7ea72642fce34c3f8845f9f06461ca4174e63",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round5_dynamic_calibration_20261112/results/model_validation_report.json",
+      "sha256": "16d9922f30c09fc132fceb72bae5469adaed9539ffc66365ca75766423730a67",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round1_20261112/handoff/continuation/source_data/gbd/IHME-GBD_2023_DATA-85af7c45-1.zip",
+      "sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round4_dynamic_health_model_20261112/raw/IHME-GBD_2023_DATA-353a02a2-1.zip",
+      "sha256": "9ba35729cab5994ad9ce05427228c71b127d8b4bf03db899681ef250b2a5e2b7",
+      "status": "PASS"
+    },
+    {
+      "path": "new_study/round4_dynamic_health_model_20261112/raw/IHME-GBD_2023_DATA-52b38bf7-1.zip",
+      "sha256": "dd38441e963a02f9f572afb56c8f2d4dfb39b58bc48b1c7ebff28d0c09fe835e",
+      "status": "PASS"
+    }
+  ],
+  "gbd": {
+    "source_path": "new_study/round1_20261112/handoff/continuation/source_data/gbd/IHME-GBD_2023_DATA-85af7c45-1.zip",
+    "citation": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.",
+    "internal_csv": "IHME-GBD_2023_DATA-85af7c45-1.csv",
+    "raw_rows": 4624,
+    "rate_rows": 64,
+    "status": "SOURCE_VERIFIED_MODEL_ESTIMATE"
+  },
+  "continuous_rr_knots": 104,
+  "scenario_variants": 8,
+  "scenario_status": {
+    "B0": "REFERENCE_PROJECTION_READY",
+    "P15": "INACTIVITY_MARGIN_AND_CATEGORY_RISK_ENVELOPE_READY; CLINICAL_EFFECT_BLOCKED",
+    "R1": "INACTIVITY_MARGIN_AND_CATEGORY_RISK_ENVELOPE_READY; CLINICAL_EFFECT_BLOCKED",
+    "R2": "BLOCKED_EXPOSURE_DISTRIBUTION",
+    "R3": "BLOCKED_EXPOSURE_DISTRIBUTION"
+  },
+  "clinical_effect_status": "BLOCKED_ENDPOINT_ALIGNMENT",
+  "other_outcomes": "BLOCKED_OUTCOME_RISK_MAPPING",
+  "ordering_requirement": "SPEC_CONFLICT_R3_VS_R2_ORDERING",
+  "round5_status": "BLOCKED_TRANSITION_CALIBRATION; NOT_EXECUTED",
+  "old_p15_regression_rows": 1664,
+  "old_p15_max_difference": 5.002220859751105e-12,
+  "pif_rows": 13312,
+  "incidence_rows": 13312,
+  "evidence_admission_is_separate_from_software_tests": true,
+  "current_tests": {
+    "run": 53,
+    "passed": 53,
+    "failed": 0
+  },
+  "prior_tests": {
+    "count": 85,
+    "status": "HISTORICAL_NOT_EXECUTED_THIS_ROUND"
+  },
+  "notebooks": {
+    "executed": 5,
+    "passed": 5,
+    "engine": "nbclient + real ipykernel"
+  },
+  "parameter_rows": 221,
+  "checks": [
+    {
+      "check_id": "locked_prior_inputs",
+      "category": "FILE_INTEGRITY",
+      "status": "PASS",
+      "evidence": "11 SHA checks"
+    },
+    {
+      "check_id": "old_rounds_unchanged",
+      "category": "FILE_INTEGRITY",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "check_id": "parameter_and_output_key_uniqueness",
+      "category": "FILE_INTEGRITY",
+      "status": "PASS",
+      "evidence": "Unique IDs/Cartesian output keys checked"
+    },
+    {
+      "check_id": "current_cra_software",
+      "category": "SOFTWARE",
+      "status": "PASS",
+      "evidence": "53 tests"
+    },
+    {
+      "check_id": "standard_jupyter_execution",
+      "category": "SOFTWARE",
+      "status": "PASS",
+      "evidence": "5 notebooks, nbclient + real ipykernel"
+    },
+    {
+      "check_id": "clinical_rr_gbd_endpoint_alignment",
+      "category": "SCIENTIFIC_ADMISSION",
+      "status": "NOT_CHECKED",
+      "evidence": "No separately audited incidence-only RR curve; GBD2023 primary disease appendix not acquired"
+    },
+    {
+      "check_id": "china_full_exposure_distribution",
+      "category": "SCIENTIFIC_ADMISSION",
+      "status": "NOT_CHECKED",
+      "evidence": "Only inactivity margins available; no individual or full category distribution"
+    },
+    {
+      "check_id": "universal_R3_dominates_R2_requirement",
+      "category": "SPECIFICATION",
+      "status": "FAIL",
+      "evidence": "550 maps to660 underR2 and600 underR3; formula contradicts universal rank"
+    },
+    {
+      "check_id": "other_outcome_risk_mapping",
+      "category": "SCIENTIFIC_ADMISSION",
+      "status": "NOT_CHECKED",
+      "evidence": "Endpoint mapping unadmitted"
+    },
+    {
+      "check_id": "natural_history_and_economic_execution",
+      "category": "SCOPE",
+      "status": "NOT_APPLICABLE",
+      "evidence": "No such module imported; current execution list contains CRA only"
+    }
+  ],
+  "check_count": 10,
+  "file_integrity_status": "PASS",
+  "scientific_admission_status": "BLOCKED",
+  "specification_conflict_count": 1,
+  "local_public_sources": [
+    {
+      "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round6_multiscenario_cra\\raw\\GBD2023_nonfatal_fulltext.xml",
+      "bytes": 1386791,
+      "sha256": "973d80a9dd1e241b8bf7f98d6015fc73434a70de2ceb82cad5c240e3a663c6e3",
+      "validation": "PASS",
+      "git_policy": "LOCAL_ONLY_PUBLIC_SOURCE"
+    },
+    {
+      "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round6_multiscenario_cra\\raw\\GBD_incidence_source_pointer.json",
+      "bytes": 613,
+      "sha256": "5560394466743ce57a24ce6793404633b4d2f2d8d0e67d542d519efeccf044f5",
+      "validation": "PASS",
+      "git_policy": "COMMIT_METADATA_ONLY"
+    },
+    {
+      "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round6_multiscenario_cra\\raw\\source_retrieval_log.json",
+      "bytes": 1235,
+      "sha256": "d4cb82fc2ff27ec6f4303cd87162098f1c9fa11e7bb2a3f34ebc908e8fff12ad",
+      "validation": "PASS",
+      "git_policy": "COMMIT_METADATA_ONLY"
+    }
+  ],
+  "user_unrelated_untracked_preserved": []
+}

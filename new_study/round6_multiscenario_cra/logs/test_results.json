@@ -1,0 +1,273 @@
+{
+  "tests_run": 53,
+  "failed": 0,
+  "errors": 0,
+  "status": "PASS",
+  "cases": [
+    {
+      "check_id": "test_01_baseline_pif_zero",
+      "status": "PASS",
+      "detail": "test_01_baseline_pif_zero (test_cra.CRATests.test_01_baseline_pif_zero) ... ok"
+    },
+    {
+      "check_id": "test_02_category_identity",
+      "status": "PASS",
+      "detail": "test_02_category_identity (test_cra.CRATests.test_02_category_identity) ... ok"
+    },
+    {
+      "check_id": "test_03_weight_conservation",
+      "status": "PASS",
+      "detail": "test_03_weight_conservation (test_cra.CRATests.test_03_weight_conservation) ... ok"
+    },
+    {
+      "check_id": "test_04_p15_target",
+      "status": "PASS",
+      "detail": "test_04_p15_target (test_cra.CRATests.test_04_p15_target) ... ok"
+    },
+    {
+      "check_id": "test_05_r1_threshold",
+      "status": "PASS",
+      "detail": "test_05_r1_threshold (test_cra.CRATests.test_05_r1_threshold) ... ok"
+    },
+    {
+      "check_id": "test_06_r2_zero",
+      "status": "PASS",
+      "detail": "test_06_r2_zero (test_cra.CRATests.test_06_r2_zero) ... ok"
+    },
+    {
+      "check_id": "test_07_r2_applies_to_inactive",
+      "status": "PASS",
+      "detail": "test_07_r2_applies_to_inactive (test_cra.CRATests.test_07_r2_applies_to_inactive) ... ok"
+    },
+    {
+      "check_id": "test_08_r3_original_branch",
+      "status": "PASS",
+      "detail": "test_08_r3_original_branch (test_cra.CRATests.test_08_r3_original_branch) ... ok"
+    },
+    {
+      "check_id": "test_09_r3_threshold_branch",
+      "status": "PASS",
+      "detail": "test_09_r3_threshold_branch (test_cra.CRATests.test_09_r3_threshold_branch) ... ok"
+    },
+    {
+      "check_id": "test_10_identical_distribution_same_result",
+      "status": "PASS",
+      "detail": "test_10_identical_distribution_same_result (test_cra.CRATests.test_10_identical_distribution_same_result) ... ok"
+    },
+    {
+      "check_id": "test_11_r3_dominates_r1",
+      "status": "PASS",
+      "detail": "test_11_r3_dominates_r1 (test_cra.CRATests.test_11_r3_dominates_r1) ... ok"
+    },
+    {
+      "check_id": "test_12_r3_r2_counterexample",
+      "status": "PASS",
+      "detail": "test_12_r3_r2_counterexample (test_cra.CRATests.test_12_r3_r2_counterexample) ... ok"
+    },
+    {
+      "check_id": "test_13_r3_dominates_r2_when_inactive_le500",
+      "status": "PASS",
+      "detail": "test_13_r3_dominates_r2_when_inactive_le500 (test_cra.CRATests.test_13_r3_dominates_r2_when_inactive_le500) ... ok"
+    },
+    {
+      "check_id": "test_14_bad_weights_close",
+      "status": "PASS",
+      "detail": "test_14_bad_weights_close (test_cra.CRATests.test_14_bad_weights_close) ... ok"
+    },
+    {
+      "check_id": "test_15_missing_distribution_close",
+      "status": "PASS",
+      "detail": "test_15_missing_distribution_close (test_cra.CRATests.test_15_missing_distribution_close) ... ok"
+    },
+    {
+      "check_id": "test_16_unadmitted_incidence_close",
+      "status": "PASS",
+      "detail": "test_16_unadmitted_incidence_close (test_cra.CRATests.test_16_unadmitted_incidence_close) ... ok"
+    },
+    {
+      "check_id": "test_17_other_endpoint_close",
+      "status": "PASS",
+      "detail": "test_17_other_endpoint_close (test_cra.CRATests.test_17_other_endpoint_close) ... ok"
+    },
+    {
+      "check_id": "test_18_source_locks",
+      "status": "PASS",
+      "detail": "test_18_source_locks (test_cra.CRATests.test_18_source_locks) ... ok"
+    },
+    {
+      "check_id": "test_19_population_total",
+      "status": "PASS",
+      "detail": "test_19_population_total (test_cra.CRATests.test_19_population_total) ... ok"
+    },
+    {
+      "check_id": "test_20_2025_weighted_baseline",
+      "status": "PASS",
+      "detail": "test_20_2025_weighted_baseline (test_cra.CRATests.test_20_2025_weighted_baseline) ... ok"
+    },
+    {
+      "check_id": "test_21_shared_coarse_source",
+      "status": "PASS",
+      "detail": "test_21_shared_coarse_source (test_cra.CRATests.test_21_shared_coarse_source) ... ok"
+    },
+    {
+      "check_id": "test_22_two_sexes_only",
+      "status": "PASS",
+      "detail": "test_22_two_sexes_only (test_cra.CRATests.test_22_two_sexes_only) ... ok"
+    },
+    {
+      "check_id": "test_23_95_alignment",
+      "status": "PASS",
+      "detail": "test_23_95_alignment (test_cra.CRATests.test_23_95_alignment) ... ok"
+    },
+    {
+      "check_id": "test_24_all_p15_age_sex_target",
+      "status": "PASS",
+      "detail": "test_24_all_p15_age_sex_target (test_cra.CRATests.test_24_all_p15_age_sex_target) ... ok"
+    },
+    {
+      "check_id": "test_25_post2030_fixed",
+      "status": "PASS",
+      "detail": "test_25_post2030_fixed (test_cra.CRATests.test_25_post2030_fixed) ... ok"
+    },
+    {
+      "check_id": "test_26_r2_not_filled_zero",
+      "status": "PASS",
+      "detail": "test_26_r2_not_filled_zero (test_cra.CRATests.test_26_r2_not_filled_zero) ... ok"
+    },
+    {
+      "check_id": "test_27_common_start_is_baseline",
+      "status": "PASS",
+      "detail": "test_27_common_start_is_baseline (test_cra.CRATests.test_27_common_start_is_baseline) ... ok"
+    },
+    {
+      "check_id": "test_28_common_end_equals_immediate",
+      "status": "PASS",
+      "detail": "test_28_common_end_equals_immediate (test_cra.CRATests.test_28_common_end_equals_immediate) ... ok"
+    },
+    {
+      "check_id": "test_29_mixture_not_rr_interpolation",
+      "status": "PASS",
+      "detail": "test_29_mixture_not_rr_interpolation (test_cra.CRATests.test_29_mixture_not_rr_interpolation) ... ok"
+    },
+    {
+      "check_id": "test_30_exact_knots_not_category_rr",
+      "status": "PASS",
+      "detail": "test_30_exact_knots_not_category_rr (test_cra.CRATests.test_30_exact_knots_not_category_rr) ... ok"
+    },
+    {
+      "check_id": "test_31_published_grid_dimensions",
+      "status": "PASS",
+      "detail": "test_31_published_grid_dimensions (test_cra.CRATests.test_31_published_grid_dimensions) ... ok"
+    },
+    {
+      "check_id": "test_32_no_tail_extrapolation",
+      "status": "PASS",
+      "detail": "test_32_no_tail_extrapolation (test_cra.CRATests.test_32_no_tail_extrapolation) ... ok"
+    },
+    {
+      "check_id": "test_33_no_automatic_interpolation",
+      "status": "PASS",
+      "detail": "test_33_no_automatic_interpolation (test_cra.CRATests.test_33_no_automatic_interpolation) ... ok"
+    },
+    {
+      "check_id": "test_34_wrong_domain_close",
+      "status": "PASS",
+      "detail": "test_34_wrong_domain_close (test_cra.CRATests.test_34_wrong_domain_close) ... ok"
+    },
+    {
+      "check_id": "test_35_identification_envelope_contains_all_active_allocations",
+      "status": "PASS",
+      "detail": "test_35_identification_envelope_contains_all_active_allocations (test_cra.CRATests.test_35_identification_envelope_contains_all_active_allocations) ... ok"
+    },
+    {
+      "check_id": "test_36_envelope_identity",
+      "status": "PASS",
+      "detail": "test_36_envelope_identity (test_cra.CRATests.test_36_envelope_identity) ... ok"
+    },
+    {
+      "check_id": "test_37_old_p15_reproduced",
+      "status": "PASS",
+      "detail": "test_37_old_p15_reproduced (test_cra.CRATests.test_37_old_p15_reproduced) ... ok"
+    },
+    {
+      "check_id": "test_38_no_new_unadmitted_events",
+      "status": "PASS",
+      "detail": "test_38_no_new_unadmitted_events (test_cra.CRATests.test_38_no_new_unadmitted_events) ... ok"
+    },
+    {
+      "check_id": "test_39_same_baseline_all_scenarios",
+      "status": "PASS",
+      "detail": "test_39_same_baseline_all_scenarios (test_cra.CRATests.test_39_same_baseline_all_scenarios) ... ok"
+    },
+    {
+      "check_id": "test_40_inclusive_six_year_window",
+      "status": "PASS",
+      "detail": "test_40_inclusive_six_year_window (test_cra.CRATests.test_40_inclusive_six_year_window) ... ok"
+    },
+    {
+      "check_id": "test_41_previous_rounds_unchanged",
+      "status": "PASS",
+      "detail": "test_41_previous_rounds_unchanged (test_cra.CRATests.test_41_previous_rounds_unchanged) ... ok"
+    },
+    {
+      "check_id": "test_42_no_natural_history_or_economic_imports",
+      "status": "PASS",
+      "detail": "test_42_no_natural_history_or_economic_imports (test_cra.CRATests.test_42_no_natural_history_or_economic_imports) ... ok"
+    },
+    {
+      "check_id": "test_43_registry_unique",
+      "status": "PASS",
+      "detail": "test_43_registry_unique (test_cra.CRATests.test_43_registry_unique) ... ok"
+    },
+    {
+      "check_id": "test_44_endpoint_matrix_complete",
+      "status": "PASS",
+      "detail": "test_44_endpoint_matrix_complete (test_cra.CRATests.test_44_endpoint_matrix_complete) ... ok"
+    },
+    {
+      "check_id": "test_45_repeat_numeric_results",
+      "status": "PASS",
+      "detail": "test_45_repeat_numeric_results (test_cra.CRATests.test_45_repeat_numeric_results) ... ok"
+    },
+    {
+      "check_id": "test_46_no_hemorrhagic_RR",
+      "status": "PASS",
+      "detail": "test_46_no_hemorrhagic_RR (test_cra.CRATests.test_46_no_hemorrhagic_RR) ... ok"
+    },
+    {
+      "check_id": "test_47_preserve_pointwise_UI_crossing_one",
+      "status": "PASS",
+      "detail": "test_47_preserve_pointwise_UI_crossing_one (test_cra.CRATests.test_47_preserve_pointwise_UI_crossing_one) ... ok"
+    },
+    {
+      "check_id": "test_48_no_negative_or_nonfinite_weights",
+      "status": "PASS",
+      "detail": "test_48_no_negative_or_nonfinite_weights (test_cra.CRATests.test_48_no_negative_or_nonfinite_weights) ... ok"
+    },
+    {
+      "check_id": "test_49_unknown_scenario_fails",
+      "status": "PASS",
+      "detail": "test_49_unknown_scenario_fails (test_cra.CRATests.test_49_unknown_scenario_fails) ... ok"
+    },
+    {
+      "check_id": "test_50_no_point_PIF_for_unknown_active_distribution",
+      "status": "PASS",
+      "detail": "test_50_no_point_PIF_for_unknown_active_distribution (test_cra.CRATests.test_50_no_point_PIF_for_unknown_active_distribution) ... ok"
+    },
+    {
+      "check_id": "test_51_fixed_2025_target_weighting",
+      "status": "PASS",
+      "detail": "test_51_fixed_2025_target_weighting (test_cra.CRATests.test_51_fixed_2025_target_weighting) ... ok"
+    },
+    {
+      "check_id": "test_52_b0_aggregation_equals_details",
+      "status": "PASS",
+      "detail": "test_52_b0_aggregation_equals_details (test_cra.CRATests.test_52_b0_aggregation_equals_details) ... ok"
+    },
+    {
+      "check_id": "test_53_paired_P15_risk_comparison",
+      "status": "PASS",
+      "detail": "test_53_paired_P15_risk_comparison (test_cra.CRATests.test_53_paired_P15_risk_comparison) ... ok"
+    }
+  ]
+}
