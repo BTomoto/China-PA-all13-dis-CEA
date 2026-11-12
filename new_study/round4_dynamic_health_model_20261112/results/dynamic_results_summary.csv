@@ -1,0 +1,3 @@
+year,disease,sex,age_group,scenario,incident_cases_averted,prevalent_patient_years_averted,disease_deaths_averted,YLD_averted,YLL_averted,DALY_averted,parameter_status,result_status
+,IHD,,,difference_vs_control,,,,,,,MISSING,BLOCKED_DYNAMIC_PARAMETERS
+,IS,,,difference_vs_control,,,,,,,MISSING,BLOCKED_DYNAMIC_PARAMETERS

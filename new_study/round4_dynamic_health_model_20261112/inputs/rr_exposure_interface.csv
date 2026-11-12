@@ -1,0 +1,3 @@
+disease,source,comparison,rr,lower,upper,model_denominator,model_type,category_rr_complete,age_sex_category_proportions,result_status
+IHD,Kyu 2016,<600 vs 600-3999 MET-min/week,1.19474313,1.128668172,1.264222503,all >=600 treated as risk 1,low-active-reference binary approximation,NO,MISSING,PILOT_CONDITIONAL_RR_DENOMINATOR
+IS,Kyu 2016,<600 vs 600-3999 MET-min/week,1.18623962,1.089324619,1.283697047,all >=600 treated as risk 1,low-active-reference binary approximation,NO,MISSING,PILOT_CONDITIONAL_RR_DENOMINATOR

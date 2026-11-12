@@ -1,0 +1,7 @@
+model: avoided_incidence_cohort
+period: 2025-2050
+incidence_source: verified_GBD_2023_rate
+rr_exposure_status: PILOT_CONDITIONAL_RR_DENOMINATOR
+dynamic_science_status: BLOCKED_DYNAMIC_PARAMETERS
+annual_timing: incident_entry_then_competing_exits
+synthetic_fixture: software_test_only

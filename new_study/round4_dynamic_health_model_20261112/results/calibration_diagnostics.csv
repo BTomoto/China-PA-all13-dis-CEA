@@ -1,0 +1,65 @@
+disease,sex,age,measure,implied_population,status
+Ischemic heart disease,Female,20-24 years,Incidence,32946413.460218083,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,25-29 years,Incidence,36427218.19631535,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,30-34 years,Incidence,50991728.29389689,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,35-39 years,Incidence,57409404.706836596,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,40-44 years,Incidence,44229497.46267496,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,45-49 years,Incidence,49050894.90582945,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,50-54 years,Incidence,58299142.27256799,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,55-59 years,Incidence,59332827.45972802,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,60-64 years,Incidence,40899032.515946805,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,65-69 years,Incidence,38613502.53348389,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,70-74 years,Incidence,31726780.792488087,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,75-79 years,Incidence,19557285.488179352,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,80-84 years,Incidence,12402090.248088326,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,85-89 years,Incidence,7366027.244071044,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,90-94 years,Incidence,2826046.013605,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Female,95+ years,Incidence,817888.0316857123,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,20-24 years,Incidence,37809781.14928315,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,25-29 years,Incidence,41562547.03582822,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,30-34 years,Incidence,56426224.68891262,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,35-39 years,Incidence,60809652.51525129,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,40-44 years,Incidence,46716567.11843908,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,45-49 years,Incidence,50693937.38286779,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,50-54 years,Incidence,60097790.081891,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,55-59 years,Incidence,58889923.94569988,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,60-64 years,Incidence,40529237.20599789,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,65-69 years,Incidence,37699359.74912079,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,70-74 years,Incidence,29328260.120770067,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,75-79 years,Incidence,17230285.42240851,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,80-84 years,Incidence,10062361.620572792,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,85-89 years,Incidence,5106160.790892116,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,90-94 years,Incidence,1702415.291695552,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic heart disease,Male,95+ years,Incidence,423704.3335875177,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,20-24 years,Incidence,32946413.460175548,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,25-29 years,Incidence,36427218.19631789,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,30-34 years,Incidence,50991728.29391948,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,35-39 years,Incidence,57409404.70682177,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,40-44 years,Incidence,44229497.46265559,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,45-49 years,Incidence,49050894.9058113,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,50-54 years,Incidence,58299142.27256842,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,55-59 years,Incidence,59332827.45972497,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,60-64 years,Incidence,40899032.51594303,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,65-69 years,Incidence,38613502.533484526,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,70-74 years,Incidence,31726780.79248757,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,75-79 years,Incidence,19557285.48817922,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,80-84 years,Incidence,12402090.248088304,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,85-89 years,Incidence,7366027.244071056,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,90-94 years,Incidence,2826046.0136050084,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Female,95+ years,Incidence,817888.0316857126,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,20-24 years,Incidence,37809781.149260014,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,25-29 years,Incidence,41562547.03585375,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,30-34 years,Incidence,56426224.688893184,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,35-39 years,Incidence,60809652.51524106,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,40-44 years,Incidence,46716567.11843452,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,45-49 years,Incidence,50693937.38286968,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,50-54 years,Incidence,60097790.08189438,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,55-59 years,Incidence,58889923.94570166,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,60-64 years,Incidence,40529237.20599804,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,65-69 years,Incidence,37699359.749120675,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,70-74 years,Incidence,29328260.120769765,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,75-79 years,Incidence,17230285.422408376,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,80-84 years,Incidence,10062361.620572776,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,85-89 years,Incidence,5106160.79089213,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,90-94 years,Incidence,1702415.2916955561,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive
+Ischemic stroke,Male,95+ years,Incidence,423704.33358751686,RATE_NUMBER_PAIR_PRESENT; WPP comparison is descriptive

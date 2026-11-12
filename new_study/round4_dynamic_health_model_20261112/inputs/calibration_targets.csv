@@ -1,0 +1,9 @@
+disease,ratio,point,lower,upper,status,interpretation
+IHD,Prevalence/Incidence,,,,BLOCKED_SOURCE_MISSING,"Descriptive calibration target, not an annual transition probability"
+IHD,Deaths/Prevalence,,,,BLOCKED_SOURCE_MISSING,"Descriptive calibration target, not an annual transition probability"
+IHD,YLD/Prevalence,,,,BLOCKED_SOURCE_MISSING,"Descriptive calibration target, not an annual transition probability"
+IHD,YLL/Deaths,,,,BLOCKED_SOURCE_MISSING,"Descriptive calibration target, not an annual transition probability"
+IS,Prevalence/Incidence,,,,BLOCKED_SOURCE_MISSING,"Descriptive calibration target, not an annual transition probability"
+IS,Deaths/Prevalence,,,,BLOCKED_SOURCE_MISSING,"Descriptive calibration target, not an annual transition probability"
+IS,YLD/Prevalence,,,,BLOCKED_SOURCE_MISSING,"Descriptive calibration target, not an annual transition probability"
+IS,YLL/Deaths,,,,BLOCKED_SOURCE_MISSING,"Descriptive calibration target, not an annual transition probability"

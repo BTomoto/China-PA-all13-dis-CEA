@@ -1,0 +1,27 @@
+[
+  {
+    "notebook": "01_rr_exposure_interface.ipynb",
+    "status": "PASS",
+    "stdout": "Equal exposure PIF: 0.0\n"
+  },
+  {
+    "notebook": "02_dynamic_input_validation.ipynb",
+    "status": "PASS",
+    "stdout": "Frozen rows: 1664 Rate/Number pairs: 64\n"
+  },
+  {
+    "notebook": "03_transition_calibration.ipynb",
+    "status": "PASS",
+    "stdout": "Blocked targets: 8\n"
+  },
+  {
+    "notebook": "04_multistate_lifetable_model.ipynb",
+    "status": "PASS",
+    "stdout": "Synthetic rows: 52 status: DYNAMIC_PILOT_PROVISIONAL\n"
+  },
+  {
+    "notebook": "05_dynamic_results_reconciliation.ipynb",
+    "status": "PASS",
+    "stdout": "IHD frozen 2025-2050: 547363.017\nIS frozen 2025-2050: 598423.448\nDynamic endpoints: BLOCKED_DYNAMIC_PARAMETERS\n"
+  }
+]

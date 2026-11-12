@@ -1,0 +1,13 @@
+{
+  "status": "BLOCKED_DYNAMIC_PARAMETERS",
+  "incidence_status": "PILOT_CONDITIONAL_RR_DENOMINATOR",
+  "incidence_rows": 1664,
+  "rate_number_pairs": 64,
+  "synthetic_test_rows": 1664,
+  "formal_gate": "BLOCKED_DYNAMIC_PARAMETERS: IHD/Male/20-24/duration=0",
+  "gbd_incidence_sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "started_utc_epoch": 1794469830.2130685,
+  "ended_utc_epoch": 1794469830.505979
+}

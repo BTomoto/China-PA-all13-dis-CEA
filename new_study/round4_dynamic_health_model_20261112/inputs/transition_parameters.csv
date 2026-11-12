@@ -1,0 +1,705 @@
+disease,parameter_id,parameter_name,age,sex,duration_since_incidence,point,lower,upper,source,source_year,source_population,parameter_role,admission_status,uncertainty_distribution,notes
+IHD,incidence,incidence_rate_per_100k,20-24,Male,0,5.0813262904,2.39420296787,9.78335401685,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,20-24,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,20-24,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,20-24,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,20-24,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,20-24,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,20-24,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,20-24,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,20-24,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,20-24,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,20-24,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,20-24,Male,0,9.154152735650001,4.605378937199999,15.458975635820002,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,20-24,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,20-24,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,20-24,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,20-24,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,20-24,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,20-24,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,20-24,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,20-24,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,20-24,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,20-24,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,25-29,Male,0,6.139973571570001,2.48753448259,11.85183149727,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,25-29,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,25-29,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,25-29,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,25-29,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,25-29,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,25-29,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,25-29,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,25-29,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,25-29,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,25-29,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,25-29,Male,0,12.214316139969998,6.1643374341,20.42914211809,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,25-29,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,25-29,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,25-29,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,25-29,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,25-29,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,25-29,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,25-29,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,25-29,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,25-29,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,25-29,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,30-34,Male,0,10.45994089021,6.4182925086200004,16.33755332718,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,30-34,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,30-34,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,30-34,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,30-34,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,30-34,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,30-34,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,30-34,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,30-34,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,30-34,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,30-34,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,30-34,Male,0,18.58411490311,11.833209188400001,27.164115644669998,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,30-34,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,30-34,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,30-34,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,30-34,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,30-34,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,30-34,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,30-34,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,30-34,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,30-34,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,30-34,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,35-39,Male,0,18.07361423538,10.30913985929,30.29006207175,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,35-39,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,35-39,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,35-39,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,35-39,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,35-39,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,35-39,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,35-39,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,35-39,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,35-39,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,35-39,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,35-39,Male,0,28.29058314245,16.669648259480002,43.02196618345,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,35-39,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,35-39,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,35-39,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,35-39,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,35-39,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,35-39,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,35-39,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,35-39,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,35-39,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,35-39,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,40-44,Male,0,30.98775354008,20.97491532298,43.17380006261,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,40-44,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,40-44,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,40-44,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,40-44,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,40-44,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,40-44,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,40-44,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,40-44,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,40-44,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,40-44,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,40-44,Male,0,49.876812195019994,35.89871444754,67.05684056371001,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,40-44,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,40-44,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,40-44,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,40-44,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,40-44,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,40-44,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,40-44,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,40-44,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,40-44,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,40-44,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,45-49,Male,0,50.73230025688,30.59077090073,76.45672066835,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,45-49,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,45-49,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,45-49,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,45-49,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,45-49,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,45-49,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,45-49,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,45-49,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,45-49,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,45-49,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,45-49,Male,0,84.08829809176,52.18629142444,123.24522979884,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,45-49,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,45-49,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,45-49,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,45-49,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,45-49,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,45-49,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,45-49,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,45-49,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,45-49,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,45-49,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,50-54,Male,0,74.42375696178999,49.681353391790005,102.68807595775,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,50-54,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,50-54,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,50-54,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,50-54,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,50-54,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,50-54,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,50-54,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,50-54,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,50-54,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,50-54,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,50-54,Male,0,154.39818241907,104.44030385843,205.44146087625998,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,50-54,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,50-54,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,50-54,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,50-54,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,50-54,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,50-54,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,50-54,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,50-54,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,50-54,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,50-54,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,55-59,Male,0,101.96760408236001,63.791441341580004,156.55969804559,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,55-59,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,55-59,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,55-59,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,55-59,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,55-59,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,55-59,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,55-59,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,55-59,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,55-59,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,55-59,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,55-59,Male,0,263.28770426024,170.46042183398,387.22009416624,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,55-59,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,55-59,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,55-59,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,55-59,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,55-59,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,55-59,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,55-59,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,55-59,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,55-59,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,55-59,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,60-64,Male,0,149.23039606516002,107.29215489072,210.89006887546998,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,60-64,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,60-64,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,60-64,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,60-64,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,60-64,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,60-64,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,60-64,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,60-64,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,60-64,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,60-64,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,60-64,Male,0,425.35152478686996,298.69182620957,577.06818819128,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,60-64,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,60-64,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,60-64,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,60-64,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,60-64,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,60-64,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,60-64,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,60-64,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,60-64,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,60-64,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,65-69,Male,0,215.65643220464,126.79253331553001,320.87750982376,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,65-69,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,65-69,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,65-69,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,65-69,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,65-69,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,65-69,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,65-69,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,65-69,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,65-69,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,65-69,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,65-69,Male,0,636.99701856738,383.45700598369,955.30222115126,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,65-69,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,65-69,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,65-69,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,65-69,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,65-69,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,65-69,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,65-69,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,65-69,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,65-69,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,65-69,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,70-74,Male,0,431.95215984521,297.70824541818996,601.7460316034,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,70-74,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,70-74,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,70-74,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,70-74,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,70-74,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,70-74,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,70-74,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,70-74,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,70-74,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,70-74,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,70-74,Male,0,931.46569618255,655.81430799498,1367.31791534506,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,70-74,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,70-74,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,70-74,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,70-74,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,70-74,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,70-74,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,70-74,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,70-74,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,70-74,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,70-74,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,75-79,Male,0,815.26310831029,489.4930571648,1274.55953160274,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,75-79,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,75-79,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,75-79,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,75-79,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,75-79,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,75-79,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,75-79,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,75-79,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,75-79,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,75-79,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,75-79,Male,0,1300.86163600507,894.06095873287,1807.48387978879,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,75-79,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,75-79,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,75-79,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,75-79,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,75-79,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,75-79,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,75-79,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,75-79,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,75-79,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,75-79,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,80-84,Male,0,1740.59717815146,1245.98910687212,2314.96309921065,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,80-84,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,80-84,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,80-84,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,80-84,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,80-84,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,80-84,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,80-84,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,80-84,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,80-84,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,80-84,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,80-84,Male,0,1649.29988967457,1183.6128438262501,2231.36977489907,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,80-84,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,80-84,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,80-84,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,80-84,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,80-84,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,80-84,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,80-84,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,80-84,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,80-84,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,80-84,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,85-89,Male,0,3336.49403093109,2071.3274720738,4969.05219466107,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,85-89,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,85-89,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,85-89,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,85-89,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,85-89,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,85-89,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,85-89,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,85-89,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,85-89,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,85-89,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,85-89,Male,0,2002.6497339058099,1511.31039967646,2561.5393150365503,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,85-89,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,85-89,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,85-89,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,85-89,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,85-89,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,85-89,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,85-89,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,85-89,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,85-89,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,85-89,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,90-94,Male,0,5561.35051414091,3902.9793216235503,7635.731839689421,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,90-94,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,90-94,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,90-94,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,90-94,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,90-94,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,90-94,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,90-94,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,90-94,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,90-94,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,90-94,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,90-94,Male,0,2335.6307075733803,1683.3539639034702,3005.43406345917,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,90-94,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,90-94,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,90-94,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,90-94,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,90-94,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,90-94,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,90-94,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,90-94,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,90-94,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,90-94,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,95+,Male,0,8626.29357578971,4866.4707835481695,13128.28610661641,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,95+,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,95+,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,95+,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,95+,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,95+,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,95+,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,95+,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,95+,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,95+,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,95+,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,95+,Male,0,2637.44525476328,1803.31298435471,3670.06541290383,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,95+,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,95+,Male,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,95+,Male,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,95+,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,95+,Male,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,95+,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,95+,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,95+,Male,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,95+,Male,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,95+,Male,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,20-24,Female,0,4.80271143,1.97418535731,9.512077391390001,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,20-24,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,20-24,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,20-24,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,20-24,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,20-24,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,20-24,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,20-24,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,20-24,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,20-24,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,20-24,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,20-24,Female,0,7.84476424921,3.59219781986,14.887437102729999,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,20-24,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,20-24,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,20-24,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,20-24,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,20-24,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,20-24,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,20-24,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,20-24,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,20-24,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,20-24,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,25-29,Female,0,4.96104673913,2.00383630243,10.025675559749999,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,25-29,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,25-29,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,25-29,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,25-29,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,25-29,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,25-29,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,25-29,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,25-29,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,25-29,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,25-29,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,25-29,Female,0,9.61126908572,4.28824121177,17.37678695425,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,25-29,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,25-29,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,25-29,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,25-29,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,25-29,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,25-29,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,25-29,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,25-29,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,25-29,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,25-29,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,30-34,Female,0,5.921707828400001,3.1819180138100003,11.21196770269,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,30-34,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,30-34,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,30-34,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,30-34,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,30-34,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,30-34,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,30-34,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,30-34,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,30-34,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,30-34,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,30-34,Female,0,13.3093235415,7.204408128940001,20.23147541801,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,30-34,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,30-34,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,30-34,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,30-34,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,30-34,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,30-34,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,30-34,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,30-34,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,30-34,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,30-34,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,35-39,Female,0,7.6259251236,3.84830916309,13.90713492913,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,35-39,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,35-39,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,35-39,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,35-39,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,35-39,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,35-39,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,35-39,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,35-39,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,35-39,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,35-39,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,35-39,Female,0,18.77296810968,11.02637267585,30.18719316027,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,35-39,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,35-39,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,35-39,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,35-39,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,35-39,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,35-39,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,35-39,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,35-39,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,35-39,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,35-39,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,40-44,Female,0,11.185076975320001,6.800935710699999,17.70305449208,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,40-44,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,40-44,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,40-44,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,40-44,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,40-44,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,40-44,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,40-44,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,40-44,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,40-44,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,40-44,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,40-44,Female,0,29.57588099366,19.4892843926,42.18880799238,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,40-44,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,40-44,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,40-44,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,40-44,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,40-44,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,40-44,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,40-44,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,40-44,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,40-44,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,40-44,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,45-49,Female,0,17.2163672675,9.51342116081,27.84591992404,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,45-49,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,45-49,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,45-49,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,45-49,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,45-49,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,45-49,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,45-49,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,45-49,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,45-49,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,45-49,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,45-49,Female,0,46.26716448637,26.20931450442,70.23443719371,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,45-49,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,45-49,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,45-49,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,45-49,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,45-49,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,45-49,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,45-49,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,45-49,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,45-49,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,45-49,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,50-54,Female,0,28.613464997700003,18.020713688220003,40.42651058636,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,50-54,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,50-54,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,50-54,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,50-54,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,50-54,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,50-54,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,50-54,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,50-54,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,50-54,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,50-54,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,50-54,Female,0,84.9034138756,58.64752565836999,117.79977002719,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,50-54,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,50-54,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,50-54,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,50-54,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,50-54,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,50-54,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,50-54,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,50-54,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,50-54,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,50-54,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,55-59,Female,0,45.57110723115,27.88237827798,71.31909997186,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,55-59,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,55-59,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,55-59,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,55-59,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,55-59,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,55-59,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,55-59,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,55-59,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,55-59,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,55-59,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,55-59,Female,0,145.537651595,93.48649086628001,213.03028059782002,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,55-59,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,55-59,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,55-59,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,55-59,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,55-59,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,55-59,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,55-59,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,55-59,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,55-59,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,55-59,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,60-64,Female,0,83.63938626696,60.06713619809,114.82590200178,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,60-64,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,60-64,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,60-64,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,60-64,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,60-64,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,60-64,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,60-64,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,60-64,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,60-64,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,60-64,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,60-64,Female,0,237.72829269526,170.99271075022,330.63209067854,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,60-64,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,60-64,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,60-64,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,60-64,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,60-64,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,60-64,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,60-64,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,60-64,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,60-64,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,60-64,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,65-69,Female,0,143.98179309991,83.9783665733,211.27636334721,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,65-69,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,65-69,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,65-69,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,65-69,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,65-69,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,65-69,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,65-69,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,65-69,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,65-69,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,65-69,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,65-69,Female,0,360.34835495693,228.82411778739,535.30481567652,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,65-69,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,65-69,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,65-69,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,65-69,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,65-69,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,65-69,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,65-69,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,65-69,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,65-69,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,65-69,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,70-74,Female,0,316.41816661605,217.39651530257,436.61141726428,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,70-74,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,70-74,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,70-74,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,70-74,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,70-74,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,70-74,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,70-74,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,70-74,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,70-74,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,70-74,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,70-74,Female,0,541.51631580283,390.1289184703,749.7999029943401,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,70-74,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,70-74,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,70-74,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,70-74,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,70-74,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,70-74,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,70-74,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,70-74,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,70-74,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,70-74,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,75-79,Female,0,612.28322433919,369.7792980781,944.3020701795999,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,75-79,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,75-79,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,75-79,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,75-79,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,75-79,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,75-79,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,75-79,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,75-79,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,75-79,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,75-79,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,75-79,Female,0,786.30020451385,516.62136944511,1100.05636318712,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,75-79,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,75-79,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,75-79,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,75-79,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,75-79,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,75-79,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,75-79,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,75-79,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,75-79,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,75-79,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,80-84,Female,0,1244.74002289246,896.26118538916,1670.96489739537,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,80-84,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,80-84,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,80-84,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,80-84,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,80-84,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,80-84,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,80-84,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,80-84,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,80-84,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,80-84,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,80-84,Female,0,1065.00920076147,777.86745143859,1417.4130450928,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,80-84,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,80-84,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,80-84,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,80-84,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,80-84,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,80-84,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,80-84,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,80-84,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,80-84,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,80-84,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,85-89,Female,0,2265.0042056643,1395.88037755347,3387.89316711266,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,85-89,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,85-89,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,85-89,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,85-89,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,85-89,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,85-89,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,85-89,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,85-89,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,85-89,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,85-89,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,85-89,Female,0,1395.62190111492,1043.32277647213,1757.3173127072,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,85-89,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,85-89,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,85-89,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,85-89,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,85-89,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,85-89,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,85-89,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,85-89,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,85-89,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,85-89,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,90-94,Female,0,3749.5219359002103,2620.59649883901,5164.65255460922,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,90-94,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,90-94,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,90-94,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,90-94,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,90-94,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,90-94,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,90-94,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,90-94,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,90-94,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,90-94,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,90-94,Female,0,1720.2743827831,1247.45492818032,2303.98476771006,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,90-94,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,90-94,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,90-94,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,90-94,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,90-94,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,90-94,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,90-94,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,90-94,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,90-94,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,90-94,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IHD,incidence,incidence_rate_per_100k,95+,Female,0,5872.746924621651,3311.00960536733,8940.22765734428,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IHD,prevalence,prevalence,95+,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IHD,disease_specific_mortality,disease_specific_mortality,95+,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IHD,all_cause_mortality,all_cause_mortality,95+,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IHD,remission,remission,95+,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,recurrence,recurrence,95+,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IHD,disease_survival,disease_survival,95+,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IHD,excess_mortality,excess_mortality,95+,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IHD,case_fatality,case_fatality,95+,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IHD,disability_weight_or_yld,disability_weight_or_yld,95+,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IHD,standard_remaining_life_expectancy,standard_remaining_life_expectancy,95+,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
+IS,incidence,incidence_rate_per_100k,95+,Female,0,2007.13100501691,1342.11242696673,2832.3788992721197,GBD 2023 verified incidence ZIP,2023,China; All Population,DIRECT_INPUT,DIRECT_INPUT,,95+ GBD rate aligns with WPP 95-99 plus 100+ population
+IS,prevalence,prevalence,95+,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Raw 2023 export unavailable
+IS,disease_specific_mortality,disease_specific_mortality,95+,Female,ALL,,,,GBD 2023 requested,2023,China,CALIBRATION_TARGET,BLOCKED,,Not a transition probability
+IS,all_cause_mortality,all_cause_mortality,95+,Female,ALL,,,,WPP/China life table requested,,,BLOCKED,BLOCKED,,Competing risk by age-sex-year
+IS,remission,remission,95+,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,recurrence,recurrence,95+,Female,ALL,,,,Longitudinal cohort required,,,BLOCKED,BLOCKED,,Disease-specific definition and duration required
+IS,disease_survival,disease_survival,95+,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Time since incidence required
+IS,excess_mortality,excess_mortality,95+,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Separate from all-cause competing risk
+IS,case_fatality,case_fatality,95+,Female,ALL,,,,Registry/cohort required,,,BLOCKED,BLOCKED,,Acute interval and denominator required
+IS,disability_weight_or_yld,disability_weight_or_yld,95+,Female,ALL,,,,GBD 2023 YLD requested,2023,China,CALIBRATION_TARGET,BLOCKED,,YLD/prevalence is descriptive only
+IS,standard_remaining_life_expectancy,standard_remaining_life_expectancy,95+,Female,ALL,,,,GBD standard life table requested,2023,China,BLOCKED,BLOCKED,,Not interchangeable with China life table
