@@ -1,0 +1,6 @@
+﻿rule_id,outcome,include,exclude,status
+C01,T2D,diabetes-specific uncomplicated management,IHD|stroke|other cardiovascular complications,MANDATORY
+C02,IHD|ischemic stroke,separate disease-specific direct medical cost,costs counted in T2D complication rows,MANDATORY
+C03,hypertension,outpatient|drugs|follow-up|monitoring,IHD|stroke|renal complications,MANDATORY
+C04,dementia,,total social cost; main analysis,EXCLUDED
+C05,all cancers,site-specific diagnosis/treatment/first-year cost,other cancer-site proxy or international social cost,MANDATORY

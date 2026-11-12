@@ -1,0 +1,12 @@
+﻿gap_id,domain,required_item,acquisition_route,current_impact,status
+G01,GBD,Four missing 2018–2023 GBD 2023 raw exports or same-definition replacement; exact filters in download requirements,USER_AUTHENTICATED_EXPORT,All non-IHD/IS-incidence recent outcomes remain SOURCE_MISSING,OPEN
+G02,GBD,2023 sex × five-year age Rate data (20–24 to 100+) and complete 70+ UI,USER_AUTHENTICATED_EXPORT,Demographic disease projection blocked; Number-only 70+ aggregation cannot supply rate/UI,OPEN
+G03,RR,Kyu appendix 4 study list: confirm diabetes studies adult type 2,PUBLIC_SOURCE_REVIEW,T2D RR CONDITIONAL,OPEN
+G04,GBD,Colon-only 2023 cause burden; avoid colon and rectum aggregate,USER_AUTHENTICATED_EXPORT,Colon core CONDITIONAL,OPEN
+G05,RR,Schuch full adult comparison and effect measure from article/supplement,PUBLIC_SOURCE_REVIEW,Depression CONDITIONAL,OPEN
+G06,GBD,Esophageal adenocarcinoma and gastric cardia subtype burden,USER_AUTHENTICATED_EXPORT,Both HOLD,OPEN
+G07,GBD,Hypertension incidence/prevalence sex-age China data with definitions,SOURCE_SEARCH,Hypertension module BLOCKED,OPEN
+G08,COST,"IHD/stroke/depression/T2D/colon candidate observation period, boundaries, coverage, 2025 CNY conversion",SOURCE_SEARCH,All medical costs NOT_ESTIMATED,OPEN
+G09,COST,Other disease-specific Chinese direct medical cost and coverage evidence,SOURCE_SEARCH,No substitution with other cancer/social cost,OPEN
+G10,RR,Subtype-specific ICH/SAH RR if ever considered,WORK_FUTURE_DECISION,Both excluded until subtype RR,OPEN
+G11,PA,2018→2025 legacy 22-rate derivation file,USER_PROVIDE_IF_AVAILABLE,Legacy only; main baseline already reproducible,OPEN

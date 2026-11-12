@@ -32,3 +32,7 @@ Keep the folder structure intact. After changing the Excel workbook, restart the
 ## 新研究第一轮数据整理
 
 见 [新研究第一轮数据整理](new_study/round1_20261112/README.md)：独立分支的数据原件、候选CSV、来源与SHA256、52行可用性表、缺口和检查。旧研究保持原位；未运行正式模型。
+
+# 第二轮数据整理（2026-11-12）
+
+在分支 `codex/data-round2-20261112` 上新增 [第二轮研究目录](new_study/round2_20261112/README.md)。该目录落实 Work v1 的人口、暴露、RR、病种结局、GBD来源和直接医疗费用准入规则；第一轮证据在 `new_study/round1_20261112/`，旧研究文件保留。第二轮仍是候选接口，不是正式健康或CEA结果。

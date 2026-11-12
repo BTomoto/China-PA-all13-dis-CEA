@@ -1,0 +1,49 @@
+{
+  "branch": "codex/data-round2-20261112",
+  "base_commit": "94e893ab90bfab75866eeff19d501afdf76739b4",
+  "decision_version": "2026-11-12_Work_v1",
+  "counts": {
+    "population_rows": 884,
+    "crosswalk_rows": 34,
+    "baseline_rows": 34,
+    "rr_rows": 15,
+    "disease_endpoint_rows": 90,
+    "gbd_endpoint_gate_rows": 72,
+    "gbd_direct_verified_rows": 12296,
+    "gbd_comparison_method_counts": {
+      "direct_same_export": 12296,
+      "70+ point sum only; interval not reconstructed": 1216,
+      "source export absent": 10068
+    },
+    "gbd_missing_download_groups": 4,
+    "cost_legacy_candidates": 17
+  },
+  "checks": {
+    "WPP_2025_20plus_exact": true,
+    "population_unique_sex_age_year": true,
+    "population_sexes_only": true,
+    "crosswalk_unique_and_complete": true,
+    "age_20_29_same_18_29_rate": true,
+    "both_not_model_input": true,
+    "all_probabilities_0_1": true,
+    "main_category_not_exact_600": true,
+    "ICH_SAH_no_IS_RR": true,
+    "female_specific_only": true,
+    "colon_not_colorectal": true,
+    "dementia_excluded": true,
+    "depression_deaths_YLL_NA": true,
+    "nonadmitted_no_zero": true,
+    "GBD_whitelist_direct_only": true,
+    "GBD_2023_recent_IS_IHD_only": true,
+    "GBD_recent_direct_gate_exactly_two": true,
+    "GBD_depression_death_YLL_NA": true,
+    "cost_quantity_unit_alignment": true,
+    "costs_not_estimated": true,
+    "no_formal_model": true,
+    "round1_and_legacy_paths_unchanged": true,
+    "required_files_present": true
+  },
+  "passed": 23,
+  "total": 23,
+  "note": "No formal model, PSA or cost aggregation executed; git preservation checked separately."
+}

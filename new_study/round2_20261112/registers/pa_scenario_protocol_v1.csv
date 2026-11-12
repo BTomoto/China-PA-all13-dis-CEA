@@ -1,0 +1,4 @@
+﻿scenario_id,scenario_label,population_years,exposure_rule,target_activity,admission_status,limitations
+comparison,constant_age_sex_prevalence,2025–2050,Keep 2018 observed sex × coarse-age rates mapped to five-year age groups constant,,ADMIT,Annual number changes with WPP age-sex structure; not observed 2025–2050 exposure
+main_counterfactual,shift_insufficient_to_low_active,2025–2050,All adults with insufficient physical activity are shifted to low-active category,600–3999 MET-min/week,ADMIT,"Category shift, not exact 600 point effect"
+legacy_trends,structural_sensitivity_candidate,2025–2050,"Legacy 0%, +0.42%, +0.84%, +1.26% trend proposals",,HOLD,"+0.84% source, definition and China applicability require review; no PSA admission"
