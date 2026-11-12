@@ -1,0 +1,12 @@
+﻿filter_id,filter_dimension,requested_value,capability_status,evidence,model_use_status,action
+GBD-LOC-CHINA,location,6:China,CONFIRMED_IN_ARCHIVED_EXPORT,round1 recovered GBD exports,ALLOWED,reconfirm only when making a new export
+GBD-POP-ALL,population,1:All Population,CONFIRMED_IN_ARCHIVED_EXPORT,round1 recovered GBD exports,ALLOWED,reconfirm in authenticated menu
+GBD-SEX-MF,sex,Male|Female,CONFIRMED_IN_ARCHIVED_EXPORT,round1 recovered direct matches,REQUIRED,do not add Both as third model input
+GBD-AGE-20-69,age,five-year groups 20-24 through 65-69,CONFIRMED_IN_ARCHIVED_EXPORT,round1 recovered exports,REQUIRED,retain five-year groups
+GBD-AGE-70PLUS-FINE,age,70-74 through 100+,NOT_CHECKED_IN_LIVE_TOOL,recovered files contain a 70+ aggregate in relevant paths,REQUIRED,user must confirm every fine-age menu item
+GBD-METRIC-NUMBER,metric,Number,CONFIRMED_IN_ARCHIVED_EXPORT,round1 recovered exports,ALLOWED,download with complete query record
+GBD-METRIC-RATE,metric,Rate,NOT_CHECKED_IN_LIVE_TOOL,not established by archived row matches,REQUIRED_FOR_CONSTANT_RATE_PROJECTION,confirm and export or document absence
+GBD-CAUSE-COLON,cause,colon cancer alone,NOT_CHECKED_IN_LIVE_TOOL,legacy data use colon and rectum combined,UNSUPPORTED_FOR_REQUESTED_MODEL_IF_ONLY_COMBINED,confirm cause hierarchy; do not apply colon RR to combined burden
+GBD-CAUSE-IS,cause,ischemic stroke,CONFIRMED_IN_ARCHIVED_EXPORT,132 incidence rows directly matched in round1,ALLOWED_FOR_ISCHEMIC_RR,other endpoints still require source verification
+GBD-CAUSE-ICH-SAH,cause,ICH|SAH,NOT_CHECKED_IN_LIVE_TOOL,no subtype RR admitted,UNSUPPORTED_FOR_ISCHEMIC_RR,retain raw data only; no IS RR linkage
+GBD-DEP-DEATH-YLL,measure,depression Deaths|YLL,NOT_APPLICABLE_TO_STUDY_PROTOCOL,Work decision,UNSUPPORTED_FOR_REQUESTED_MODEL,do not download as required model input; leave NOT_APPLICABLE

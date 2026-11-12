@@ -1,0 +1,7 @@
+﻿step,menu_item,selection_or_check,record,status
+1,Dataset/release,GBD 2023 Results,screenshot and citation,USER_LOGIN_REQUIRED
+2,Location/population/sex/year,China; All Population; Male and Female; 2023,complete filter screenshot,USER_LOGIN_REQUIRED
+3,Age,each five-year age 20-24 through 100+,mark each selectable/not selectable,USER_LOGIN_REQUIRED
+4,Metric,Rate and Number,mark each selectable/not selectable,USER_LOGIN_REQUIRED
+5,Cause/measure,test every row in gbd_new_model_detailed_requests.csv; especially colon-only and subtype causes,exact menu labels/IDs and unavailable items,USER_LOGIN_REQUIRED
+6,Download,split exports if needed,"original ZIP/CSV, citation, query screenshot, download date, SHA256",USER_LOGIN_REQUIRED

@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "check_id": "FILE-001",
+      "description": "corrected cost_id values are unique",
+      "status": "PASS",
+      "evidence": "19"
+    },
+    {
+      "check_id": "FILE-002",
+      "description": "link_id values are unique",
+      "status": "PASS",
+      "evidence": "17"
+    },
+    {
+      "check_id": "FILE-003",
+      "description": "comparison has one row per corrected cost candidate",
+      "status": "PASS",
+      "evidence": "comparison=19 cost=19"
+    },
+    {
+      "check_id": "FILE-004",
+      "description": "non-admitted links carry no verified amount/currency/year/period/unit",
+      "status": "PASS",
+      "evidence": "five source-derived fields checked"
+    },
+    {
+      "check_id": "FILE-005",
+      "description": "admitted assignments satisfy all four exact-match flags",
+      "status": "PASS",
+      "evidence": "source, amount, currency, definition"
+    },
+    {
+      "check_id": "FILE-006",
+      "description": "legacy T2D values do not inherit 2019",
+      "status": "PASS",
+      "evidence": "3583/6056/10164 CNY"
+    },
+    {
+      "check_id": "FILE-007",
+      "description": "legacy CRC 3447 USD does not inherit 2014",
+      "status": "PASS",
+      "evidence": "DC-COLON-2020"
+    },
+    {
+      "check_id": "FILE-008",
+      "description": "dementia 6225 USD is not exact-verified",
+      "status": "PASS",
+      "evidence": "Jia calculation=6223.83"
+    },
+    {
+      "check_id": "FILE-009",
+      "description": "17 legacy values plus 2 evidence-only candidates are preserved",
+      "status": "PASS",
+      "evidence": "19"
+    },
+    {
+      "check_id": "FILE-010",
+      "description": "source evidence_id values are unique",
+      "status": "PASS",
+      "evidence": "8"
+    },
+    {
+      "check_id": "FILE-011",
+      "description": "admitted amount, currency, price year and cost unit equal the linked evidence row",
+      "status": "PASS",
+      "evidence": "direct field-by-field comparison"
+    },
+    {
+      "check_id": "FILE-012",
+      "description": "formal model output absent by design",
+      "status": "NOT_APPLICABLE",
+      "evidence": "audit/data round only"
+    }
+  ],
+  "summary": {
+    "PASS": 11,
+    "FAIL": 0,
+    "NOT_CHECKED": 0,
+    "NOT_APPLICABLE": 1
+  }
+}

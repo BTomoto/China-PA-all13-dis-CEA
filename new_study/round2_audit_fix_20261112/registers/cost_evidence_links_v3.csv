@@ -1,0 +1,18 @@
+﻿link_id,cost_id,evidence_id,outcome_id,link_type,same_original_study,exact_amount_match,exact_currency_match,exact_cost_definition_match,assignment_allowed,link_reason
+LINK-DC-IHD-CN-2012,DC-IHD-CN-2012,COST-IHD-VERIFY,coronary_heart_disease,CANDIDATE_LINK,TRUE,TRUE,TRUE,FALSE,FALSE,"Same source and amount, but legacy annual patient-year is not identical to treated-patient scope requiring annualisation review."
+LINK-DC-STROKE-CN-2015,DC-STROKE-CN-2015,COST-STROKE-VERIFY,stroke,EXACT_LINK,TRUE,TRUE,TRUE,TRUE,TRUE,"Same original study, exact amount, currency and cost definition; source fields may be carried without filling missing values."
+LINK-DC-T2D-NOCOMP-2007,DC-T2D-NOCOMP-2007,COST-T2D-NOCOMP-VERIFY,type2_diabetes,EXACT_LINK,TRUE,TRUE,TRUE,TRUE,TRUE,"Same original study, exact amount, currency and cost definition; source fields may be carried without filling missing values."
+LINK-DC-T2D-COMP-2007,DC-T2D-COMP-2007,,type2_diabetes,NO_MATCHING_EVIDENCE,FALSE,FALSE,FALSE,FALSE,FALSE,No evidence row for 6056 CNY; no source-derived fields may be inherited.
+LINK-DC-T2D-ALL-2007,DC-T2D-ALL-2007,COST-T2D-MEAN-VERIFY,type2_diabetes,EXACT_LINK,TRUE,TRUE,TRUE,TRUE,TRUE,"Same original study, exact amount, currency and cost definition; source fields may be carried without filling missing values."
+LINK-DC-HTN-PROXY-2020,DC-HTN-PROXY-2020,,hypertension,NO_MATCHING_EVIDENCE,FALSE,FALSE,FALSE,FALSE,FALSE,No explicit exact evidence match; source-derived fields remain blank.
+LINK-DC-HTN-CN-2011,DC-HTN-CN-2011,,hypertension,NO_MATCHING_EVIDENCE,FALSE,FALSE,FALSE,FALSE,FALSE,No explicit exact evidence match; source-derived fields remain blank.
+LINK-DC-DEP-CN-2015,DC-DEP-CN-2015,COST-DEP-VERIFY,depression,EXACT_LINK,TRUE,TRUE,TRUE,FALSE,FALSE,No explicit exact evidence match; source-derived fields remain blank.
+LINK-DC-DEM-CN-2015,DC-DEM-CN-2015,COST-AD-TOTAL-VERIFY,dementia,CONTEXT_ONLY,TRUE,FALSE,TRUE,FALSE,FALSE,6225 USD is not an exact Jia Table 2 amount; 19144.36*32.51%=6223.83 only approximates it.
+LINK-DC-BLADDER-2020,DC-BLADDER-2020,,bladder_cancer,NO_MATCHING_EVIDENCE,FALSE,FALSE,FALSE,FALSE,FALSE,No explicit exact evidence match; source-derived fields remain blank.
+LINK-DC-BREAST-2020,DC-BREAST-2020,,breast_cancer,NO_MATCHING_EVIDENCE,FALSE,FALSE,FALSE,FALSE,FALSE,No explicit exact evidence match; source-derived fields remain blank.
+LINK-DC-COLON-2020,DC-COLON-2020,COST-CRC-NEW2014,colon_cancer,CONTEXT_ONLY,FALSE,FALSE,FALSE,FALSE,FALSE,"3447 USD and 61829 CNY are different studies, amounts, currencies and cost definitions."
+LINK-DC-ENDOMETRIAL-2020,DC-ENDOMETRIAL-2020,,endometrial_cancer,NO_MATCHING_EVIDENCE,FALSE,FALSE,FALSE,FALSE,FALSE,No explicit exact evidence match; source-derived fields remain blank.
+LINK-DC-OESOPH-2020,DC-OESOPH-2020,,oesophageal_cancer,NO_MATCHING_EVIDENCE,FALSE,FALSE,FALSE,FALSE,FALSE,No explicit exact evidence match; source-derived fields remain blank.
+LINK-DC-GASTRIC-2020,DC-GASTRIC-2020,,gastric_cancer,NO_MATCHING_EVIDENCE,FALSE,FALSE,FALSE,FALSE,FALSE,No explicit exact evidence match; source-derived fields remain blank.
+LINK-DC-RENAL-2020,DC-RENAL-2020,,renal_cancer,NO_MATCHING_EVIDENCE,FALSE,FALSE,FALSE,FALSE,FALSE,No explicit exact evidence match; source-derived fields remain blank.
+LINK-DC-DEM-CN-SOCIAL-2015,DC-DEM-CN-SOCIAL-2015,COST-AD-TOTAL-VERIFY,dementia,EXACT_LINK,TRUE,TRUE,TRUE,TRUE,TRUE,"Same original study, exact amount, currency and cost definition; source fields may be carried without filling missing values."

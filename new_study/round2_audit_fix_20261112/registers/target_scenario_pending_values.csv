@@ -1,0 +1,5 @@
+﻿parameter_id,value,unit,status,reason
+p_reference_2010,,probability,WORK_DECISION_PENDING,comparison path not selected
+p_target_2030,,probability,WORK_DECISION_PENDING,must equal 0.85*p_reference_2010 after comparable reference selected
+attainment_gap_2025_to_2030,,probability or relative change,WORK_DECISION_PENDING,2025 start and target not on a selected common path
+annual_attainment_path,,rule,WORK_DECISION_PENDING,linear/uniform path is not a WHO requirement

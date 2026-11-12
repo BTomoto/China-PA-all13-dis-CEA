@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "check_id": "SCI-COST-EXACT-LINK",
+      "description": "Cost source fields only carried after exact source/amount/currency/definition match",
+      "status": "PASS",
+      "evidence": "Most candidates remain not model-ready"
+    },
+    {
+      "check_id": "SCI-DING-BASE-INPUT",
+      "description": "China disease-specific Ding base inputs recovered",
+      "status": "FAIL",
+      "evidence": "Supplement not acquired; per-case China values blank"
+    },
+    {
+      "check_id": "SCI-FORMAL-MODEL",
+      "description": "Formal model run",
+      "status": "NOT_APPLICABLE",
+      "evidence": "Prohibited by task boundary"
+    },
+    {
+      "check_id": "SCI-GBD-LIVE-FILTERS",
+      "description": "All new-model GBD filters confirmed in authenticated live tool",
+      "status": "NOT_CHECKED",
+      "evidence": "User login required"
+    },
+    {
+      "check_id": "SCI-TARGET-COMPARABILITY",
+      "description": "2010 target and 20+ model start on a selected comparable path",
+      "status": "FAIL",
+      "evidence": "Work has not selected bridge path"
+    }
+  ],
+  "summary": {
+    "PASS": 1,
+    "FAIL": 2,
+    "NOT_CHECKED": 1,
+    "NOT_APPLICABLE": 1
+  }
+}

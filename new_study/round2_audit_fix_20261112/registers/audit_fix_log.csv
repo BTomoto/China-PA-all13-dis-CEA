@@ -1,0 +1,8 @@
+﻿fix_id,area,prior_issue,revision,status
+AF-001,cost linkage,outcome_id last-row lookup cross-assigned evidence,explicit cost_id/evidence_id link plus four exact-match gates,FIXED
+AF-002,T2D,3583/6056/10164 inherited 2019,all three source-verified price years blank; 2019 record retained separately,FIXED
+AF-003,CRC,3447 USD inherited 2014 from 61829 CNY,legacy verified year blank; 61829 CNY retained separately,FIXED
+AF-004,dementia,6225 USD treated as verified,NOT_VERIFIED_EXACT; Jia-derived value is 6223.83,FIXED
+AF-005,validation,integrity and science gates mixed; rerun could duplicate checks,separate deterministic/upsert JSON reports with unique check_id,FIXED
+AF-006,2010 target,gap wording implied joint sex-age table universally required,CURRENT_COMPARISON_PATH_INCOMPATIBLE with multiple bridge options,FIXED
+AF-007,GBD,filter availability not separated,"confirmed archived, live unchecked, and study-unsupported states separated",FIXED

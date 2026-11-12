@@ -1,0 +1,6 @@
+﻿check_id,gate,status,scope,remaining_issue
+SCI-COST-EXACT-LINK,Cost source fields only carried after exact source/amount/currency/definition match,PASS,cost_admission_audit_v3.csv,Most candidates remain not model-ready
+SCI-DING-BASE-INPUT,China disease-specific Ding base inputs recovered,FAIL,Ding appendix pp27/31,Supplement not acquired; per-case China values blank
+SCI-TARGET-COMPARABILITY,2010 target and 20+ model start on a selected comparable path,FAIL,target bridge,Work has not selected bridge path
+SCI-GBD-LIVE-FILTERS,All new-model GBD filters confirmed in authenticated live tool,NOT_CHECKED,GBD 2023 menu,User login required
+SCI-FORMAL-MODEL,Formal model run,NOT_APPLICABLE,this audit-fix round,Prohibited by task boundary
