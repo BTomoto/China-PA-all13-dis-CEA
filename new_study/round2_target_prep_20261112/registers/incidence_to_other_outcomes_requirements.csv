@@ -1,0 +1,5 @@
+﻿destination,needed,existing_evidence,method_gate,model_ready
+Prevalent patient-years,"Disease-specific incidence, remission, survival, mortality, duration, lag and baseline prevalence by sex-age-year",GBD prevalence Number candidate lacks recent raw; no transition matrix,WORK_PENDING,NO
+Deaths,Cause-specific fatality or mortality RR; lag/competing mortality or Work-approved proportional attribution,Kyu incidence/events RR does not separately estimate deaths,WORK_PENDING,NO
+YLL|YLD|DALY,Cause/endpoint-specific GBD rates or counts with valid attribution method and UI treatment,2018–2023 exports missing except IHD/IS incidence Number,WORK_PENDING,NO
+Direct medical cost,"Matched health quantity, annual/first-year cost, coverage, price year, overlapping complication boundaries","T2D2019 and CRC2014 remain candidate, no coverage",WORK_PENDING,NO

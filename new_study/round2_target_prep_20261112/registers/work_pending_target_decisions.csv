@@ -1,0 +1,7 @@
+﻿id,decision_topic,evidence_or_options,decision_status,implementation_value,reason_not_frozen
+TD1,Comparable target metric,2010 China-standardized 18+ vs WHO-standardized modeled 18+ vs new 20+ modeled; harmonized 20+ series needed,PENDING_WORK,,WHO target does not prescribe this China model implementation
+TD2,2025–2030 yearly path,Candidate linear or other path; no path is mandated by WHO target,PENDING_WORK,,WHO target does not prescribe this China model implementation
+TD3,Sex-age allocation,"Common relative change, burden-targeted allocation, or optimized allocation require Work choice and 2010 joint baseline",PENDING_WORK,,WHO target does not prescribe this China model implementation
+TD4,Who crosses recommendation,Binary insufficient prevalence alone lacks within-category MET distribution,PENDING_WORK,,WHO target does not prescribe this China model implementation
+TD5,Already-active distribution,Hold fixed or modify requires full category distribution and Work decision,PENDING_WORK,,WHO target does not prescribe this China model implementation
+TD6,Post-2030 persistence,"Maintain, decay, or further improve requires Work decision",PENDING_WORK,,WHO target does not prescribe this China model implementation

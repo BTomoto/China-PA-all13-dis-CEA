@@ -1,0 +1,124 @@
+{
+  "branch": "codex/data-round2-target-prep-20261112",
+  "base_commit": "67addc23590666461ea065294c382da5a72e7287",
+  "date": "2026-11-12",
+  "checks": [
+    {
+      "id": "branch_base",
+      "status": "PASS",
+      "evidence": "branch=codex/data-round2-target-prep-20261112; merge_base=67addc23590666461ea065294c382da5a72e7287"
+    },
+    {
+      "id": "2010_reference_value",
+      "status": "PASS",
+      "evidence": "Zhang Table 2: 17.9 (16.3–19.5), adults 18+, China 2010 age standard"
+    },
+    {
+      "id": "2010_sex_age_joint",
+      "status": "FAIL",
+      "evidence": "Only sex and age separately; no joint cells for 20+ target"
+    },
+    {
+      "id": "target_numeric_release",
+      "status": "NOT_APPLICABLE",
+      "evidence": "Comparability failed; no numeric target or attainment gap released"
+    },
+    {
+      "id": "scenario_formula",
+      "status": "PASS",
+      "evidence": "0.85 times 2010 reference; not 2025 or percentage-point subtraction"
+    },
+    {
+      "id": "fine_age_shared_parameter",
+      "status": "PASS",
+      "evidence": "Copied coarse rates have same source id and CI"
+    },
+    {
+      "id": "population_source_columns",
+      "status": "PASS",
+      "evidence": "Each row marks PopMale or PopFemale"
+    },
+    {
+      "id": "RR_effect_type_Schuch",
+      "status": "PASS",
+      "evidence": "Adult subgroup adjusted OR 0.78 (0.70–0.87); not RR"
+    },
+    {
+      "id": "Kyu_all_diabetes_type2",
+      "status": "NOT_CHECKED",
+      "evidence": "Search strategy says type 2; Table C generic diabetes and ages 15+; study-level complete definition not confirmed"
+    },
+    {
+      "id": "endpoint_six_way_method",
+      "status": "FAIL",
+      "evidence": "Work has not authorized automatic same-PIF application"
+    },
+    {
+      "id": "GBD_2023_live_cause_age_capability",
+      "status": "NOT_CHECKED",
+      "evidence": "Older generic guide only; actual logged-in 2023 menu not inspected"
+    },
+    {
+      "id": "Jia_6225_exact_chain",
+      "status": "FAIL",
+      "evidence": "Table 2 and 32.51% share available; 19,144.36*0.3251=6,223.83, not exact 6,225"
+    },
+    {
+      "id": "model_run",
+      "status": "NOT_CHECKED",
+      "evidence": "No runtime execution audit; builder contains data-register operations only"
+    },
+    {
+      "id": "prior_round_files_preserved",
+      "status": "PASS",
+      "evidence": "No tracked path differences in first/second round"
+    },
+    {
+      "id": "required_files_exist",
+      "status": "PASS",
+      "evidence": "24 required paths"
+    },
+    {
+      "id": "Jia_pdf_signature",
+      "status": "PASS",
+      "evidence": "PDF signature; 728083 bytes"
+    },
+    {
+      "id": "population_2025_total",
+      "status": "PASS",
+      "evidence": "2025 20+ sex-age sum = 1,113,252,964"
+    },
+    {
+      "id": "population_source_columns",
+      "status": "PASS",
+      "evidence": "884 rows mapped to official sex column"
+    },
+    {
+      "id": "exposure_CI_and_shared_id",
+      "status": "PASS",
+      "evidence": "34 mapped cells share 12 sex/coarse-age source parameters"
+    },
+    {
+      "id": "no_numeric_target_released",
+      "status": "PASS",
+      "evidence": "Target numeric cells and attainment gaps empty"
+    },
+    {
+      "id": "no_model_ready",
+      "status": "PASS",
+      "evidence": "No RR or endpoint model_ready"
+    },
+    {
+      "id": "hypertension_four_NA",
+      "status": "PASS",
+      "evidence": "Hypertension death/YLL/YLD/DALY N/A"
+    }
+  ],
+  "status_counts": {
+    "PASS": 15,
+    "FAIL": 3,
+    "NOT_APPLICABLE": 1,
+    "NOT_CHECKED": 3
+  },
+  "note": "FAIL describes an evidence gate, not a failed file-integrity operation."
+}

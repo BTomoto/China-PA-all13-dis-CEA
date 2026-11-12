@@ -1,0 +1,3 @@
+﻿source,country,year,measure,value_thousand_INT_dollars,lower_thousand_INT_dollars,upper_thousand_INT_dollars,role,source_url
+Ding et al. Lancet 2016 Table 1,China,2013,Direct health-care costs attributable to physical inactivity,3075139,1194333,6635493,PUBLISHED_OUTPUT_REFERENCE_NOT_MODEL_INPUT,https://www.icsspe.org/system/files/Ding%20et%20al.%20-%20The%20economic%20burden%20of%20physical%20inactivity%20a%20global%20analysis.pdf
+Ding et al. Lancet 2016 Table 1,China,2013,Indirect productivity costs attributable to physical inactivity,1783000,622150,3555485,PUBLISHED_OUTPUT_REFERENCE_NOT_MODEL_INPUT,https://www.icsspe.org/system/files/Ding%20et%20al.%20-%20The%20economic%20burden%20of%20physical%20inactivity%20a%20global%20analysis.pdf

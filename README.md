@@ -36,3 +36,7 @@ Keep the folder structure intact. After changing the Excel workbook, restart the
 # 第二轮数据整理（2026-11-12）
 
 在分支 `codex/data-round2-20261112` 上新增 [第二轮研究目录](new_study/round2_20261112/README.md)。该目录落实 Work v1 的人口、暴露、RR、病种结局、GBD来源和直接医疗费用准入规则；第一轮证据在 `new_study/round1_20261112/`，旧研究文件保留。第二轮仍是候选接口，不是正式健康或CEA结果。
+
+# 第二轮审计修订与WHO目标准备
+
+独立分支 `codex/data-round2-target-prep-20261112` 的[修订目录](new_study/round2_target_prep_20261112/README.md)记录2010年目标基准、口径不一致、情景待决参数、RR/结局准入修订、Jia费用核查及GBD人工下载要求。前两轮目录原位保留，未运行正式模型。

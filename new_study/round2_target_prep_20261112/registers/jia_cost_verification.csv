@@ -1,0 +1,8 @@
+﻿item,cases,amount_usd,formula,derived_usd,status,source_location,source_url
+Jia 2018 Table 2 outpatient,2138,2501.18,,,SOURCE_VERIFIED,Table 2 page 487,https://news.ccmu.edu.cn/docs/2018-06/20180621160034890292.pdf
+Jia 2018 Table 2 hospitalization,1304,9692.09,,,SOURCE_VERIFIED,Table 2 page 487,https://news.ccmu.edu.cn/docs/2018-06/20180621160034890292.pdf
+Jia 2018 Table 2 out of pocket,3023,468.97,,,SOURCE_VERIFIED,Table 2 page 487,https://news.ccmu.edu.cn/docs/2018-06/20180621160034890292.pdf
+Jia 2018 annual total social per AD patient,3046,19144.36,,,SOURCE_VERIFIED,Table 2 page 487; Results,https://news.ccmu.edu.cn/docs/2018-06/20180621160034890292.pdf
+Direct medical share of national total,,,"19,144.36 * 0.3251",6223.83,APPROXIMATE_DERIVATION_NOT_6225_EXACT,Results 32.51%; rounded aggregate share,https://news.ccmu.edu.cn/docs/2018-06/20180621160034890292.pdf
+Legacy direct medical amount,,6225,Exact original derivation not documented,,NOT_RESTORED_EXACT,Legacy cost candidate only,
+Jia model admission,,,,,EXCLUDED_MAIN_DEMENTIA,Work exclusion; AD not all dementia; cost population and coverage differ,https://news.ccmu.edu.cn/docs/2018-06/20180621160034890292.pdf

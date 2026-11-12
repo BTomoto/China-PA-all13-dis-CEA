@@ -1,0 +1,6 @@
+﻿item,url,attempt,date,status,file,sha256
+Jia2018_fulltext.pdf,https://news.ccmu.edu.cn/docs/2018-06/20180621160034890292.pdf,Original CCMU URL returned 404; alternate CCMU news URL downloaded,2026-11-12,DOWNLOADED_VERIFIED,raw/Jia2018_fulltext.pdf,b43a84a95e723b85f14720d51f311f83d76f886b750824f2ce10ebd022dba13a
+RAND_RR4291.pdf,https://www.rand.org/content/dam/rand/pubs/research_reports/RR4200/RR4291/RAND_RR4291.pdf,Public report accessible via web index; direct local download returned CloudFront 403,2026-11-12,TEXT_REVIEWED_FILE_NOT_ARCHIVED,,
+Kyu appendix 4,https://pmc.ncbi.nlm.nih.gov/articles/PMC4979358/,Read first-round archived supplementary PDF; no redownload,2026-11-12,EXISTING_FILE_REVIEWED,round1_20261112/raw/pmc_cloud/PMC4979358/kyuh031211.ww4_2kb.pdf,702f58495069dfe8ee7e3772dfd9ab26cdca96771cfe0009d4b424e0aee1e405
+Schuch 2018,https://pubmed.ncbi.nlm.nih.gov/29690792/,Publisher abstract/metadata reviewed; old saved HTML is verification page,2026-11-12,ABSTRACT_ONLY,,
+Ding2016_fulltext.pdf,https://www.icsspe.org/system/files/Ding%20et%20al.%20-%20The%20economic%20burden%20of%20physical%20inactivity%20a%20global%20analysis.pdf,Public PDF indexed and Table 1 text reviewed; direct download rejected invalid remote certificate (NotTimeValid); no TLS bypass,2026-11-12,TEXT_REVIEWED_FILE_NOT_ARCHIVED,,
