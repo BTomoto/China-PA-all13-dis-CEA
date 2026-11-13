@@ -1,0 +1,6 @@
+module,status,value,reason
+direct_medical,NOT_ESTIMATED,,"new first-year IS evidence extracted; selected survivors, source calendar prices and treated coverage need alignment"
+absenteeism_presenteeism,NOT_ESTIMATED,,no admitted China causal PA dose-to-WPAI function; RAND mainland extrapolation not assumed
+premature_mortality_labour,NOT_ESTIMATED,,mortality source mapping plus employment-age-sex and retirement/replacement unresolved
+GDP_equivalent,NOT_ESTIMATED,,not calculated; wages do not equal output
+macro_GDP,NOT_ESTIMATED,,NOT_APPLICABLE; CGE excluded

@@ -1,0 +1,6 @@
+disease,evaluated_doses,max_absolute_RR_difference,max_relative_difference,effect_on_exact600_bounds,interpretation
+IHD,3061,0.0011726708083475978,0.001359166225970658,0.0,numerical interpolation sensitivity only;600 is an original node; no exposure-weighted result sensitivity claimed
+IS,3061,0.0011981987740324884,0.0013880077256823275,0.0,numerical interpolation sensitivity only;600 is an original node; no exposure-weighted result sensitivity claimed
+breast_cancer,3061,2.533642292368299e-05,2.6201744345562633e-05,0.0,numerical interpolation sensitivity only;600 is an original node; no exposure-weighted result sensitivity claimed
+colon_cancer,3061,0.00036429645215918516,0.00042476829107297525,0.0,numerical interpolation sensitivity only;600 is an original node; no exposure-weighted result sensitivity claimed
+T2D,3061,0.0003942254850513027,0.0005179641230583776,0.0,numerical interpolation sensitivity only;600 is an original node; no exposure-weighted result sensitivity claimed

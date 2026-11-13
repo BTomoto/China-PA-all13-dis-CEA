@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "reviewed_images": [
+    "figures/2030_identification_envelopes.png",
+    "figures/kyu_published_grid.png"
+  ],
+  "source_pages_rendered_and_inspected": [
+    "Kyu Appendix4 page22 Carlsson row",
+    "Kyu Appendix4 page79 TableF"
+  ],
+  "findings": "labels/captions readable; endpoints visible; no clipping or invented point estimates; source600RR IHD.909 IS.910 verified visually; Carlsson selected subtype not resolved by Appendix table alone",
+  "scope": "visual/data transcription review; NOT scientific main-analysis admission"
+}

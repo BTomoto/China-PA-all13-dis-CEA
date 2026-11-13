@@ -1,0 +1,40 @@
+[
+  {
+    "file": "GBD2021_low_PA_methods.pdf",
+    "url": "https://www.healthdata.org/sites/default/files/methods_appendices/2021/lojustin_activity_writeup_gbd2020_AC_updated0131.pdf",
+    "status": "DOWNLOAD_FAILED",
+    "error": "not expected source format",
+    "seconds": 11.28
+  },
+  {
+    "file": "China_first_year_IS_CNSR3.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11420908/fullTextXML",
+    "status": "DOWNLOADED",
+    "sha256": "ce0da4143ba3df56e91fab98cf2aab3b048a24023f5cdc9240abe8bfb9e036f5",
+    "bytes": 126381,
+    "seconds": 8.81
+  },
+  {
+    "file": "China_CHNS_CVD_projection.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5850940/fullTextXML",
+    "status": "DOWNLOAD_FAILED",
+    "error": "HTTP Error 500: ",
+    "seconds": 3.94
+  },
+  {
+    "file": "China_CKB_PA_phenome.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12277735/fullTextXML",
+    "status": "DOWNLOADED",
+    "sha256": "b1236576fc84fa8aa13b7df06d4be5062de464f1abfc597263288c529fca9703",
+    "bytes": 116622,
+    "seconds": 21.32
+  },
+  {
+    "file": "GBD2019_lowPA_external_reference.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10286621/fullTextXML",
+    "status": "DOWNLOADED",
+    "sha256": "7fb48233bdb3d9feb1b080fd7dad2d089aa42e8c427f6954ee4f758c15b72ffd",
+    "bytes": 95110,
+    "seconds": 9.61
+  }
+]

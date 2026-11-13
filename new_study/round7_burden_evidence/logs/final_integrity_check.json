@@ -1,0 +1,12 @@
+{
+  "software_integrity": "PASS",
+  "notebooks_executed": 5,
+  "notebook_errors": 0,
+  "finalizer_check_ids_unique": true,
+  "repeated_check_results_identical": true,
+  "old_tracked_files_changed": 0,
+  "original_locked_inputs_verified": 11,
+  "scientific_gates": "separate:3FAIL,1NOT_CHECKED; no main point result release",
+  "figure_visual_qa": "PASS",
+  "publication": "only Round7 code, deidentified aggregate derivatives and factual evidence extractions; raw sources local only"
+}

@@ -1,0 +1,960 @@
+[
+  {
+    "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round4_dynamic_health_model_20261112\\raw\\IHME-GBD_2023_DATA-353a02a2-1.zip",
+    "sha256": "9ba35729cab5994ad9ce05427228c71b127d8b4bf03db899681ef250b2a5e2b7",
+    "member": "IHME-GBD_2023_DATA-353a02a2-1.csv",
+    "rows": 800,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Deaths",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)",
+        "YLLs (Years of Life Lost)"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70+ years",
+        "70-74 years",
+        "75+ years",
+        "75-79 years",
+        "80+ years",
+        "80-84 years",
+        "85+ years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "493",
+        "495"
+      ],
+      "cause_name": [
+        "Ischemic heart disease",
+        "Ischemic stroke"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "year": [
+        "2023"
+      ]
+    }
+  },
+  {
+    "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round4_dynamic_health_model_20261112\\raw\\IHME-GBD_2023_DATA-51aa28ea-1.zip",
+    "sha256": "6f7d3a842df26e3186f98cb340219d6d1a550437978933d70e65d7e5a7cad466",
+    "member": "IHME-GBD_2023_DATA-51aa28ea-1.csv",
+    "rows": 300,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Deaths",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)",
+        "YLLs (Years of Life Lost)"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years"
+      ],
+      "cause_id": [
+        "493"
+      ],
+      "cause_name": [
+        "Ischemic heart disease"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "year": [
+        "2023"
+      ]
+    }
+  },
+  {
+    "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round4_dynamic_health_model_20261112\\raw\\IHME-GBD_2023_DATA-52b38bf7-1.zip",
+    "sha256": "dd38441e963a02f9f572afb56c8f2d4dfb39b58bc48b1c7ebff28d0c09fe835e",
+    "member": "IHME-GBD_2023_DATA-52b38bf7-1.csv",
+    "rows": 400,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Deaths",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)",
+        "YLLs (Years of Life Lost)"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70+ years",
+        "70-74 years",
+        "75+ years",
+        "75-79 years",
+        "80+ years",
+        "80-84 years",
+        "85+ years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "294"
+      ],
+      "cause_name": [
+        "All causes"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "year": [
+        "2023"
+      ]
+    }
+  },
+  {
+    "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round3_health_model_pilot_20261112\\raw\\IHME-GBD_2023_DATA-85af7c45-1.zip",
+    "sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
+    "member": "IHME-GBD_2023_DATA-85af7c45-1.csv",
+    "rows": 4624,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "Incidence"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70+ years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "493",
+        "495"
+      ],
+      "cause_name": [
+        "Ischemic heart disease",
+        "Ischemic stroke"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "year": [
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ]
+    }
+  },
+  {
+    "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round1_20261112\\handoff\\continuation\\source_data\\gbd\\IHME-GBD_2023_DATA-29b34249-1.zip",
+    "sha256": "99cdaa5c4967f3894478e574182ffc75c3dd2aba86714ba126ba482f9428e7de",
+    "member": "IHME-GBD_2023_DATA-29b34249-1.csv",
+    "rows": 1024,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Incidence",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "567"
+      ],
+      "cause_name": [
+        "Depressive disorders"
+      ],
+      "metric_name": [
+        "Number"
+      ],
+      "year": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ]
+    }
+  },
+  {
+    "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round1_20261112\\handoff\\continuation\\source_data\\gbd\\IHME-GBD_2023_DATA-4fe62769-1.zip",
+    "sha256": "a673ac8c73a4be2c6d1858a7c214158e8e8b4452aa546296a931b366c4401b05",
+    "member": "IHME-GBD_2023_DATA-4fe62769-1.csv",
+    "rows": 16768,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Deaths",
+        "Incidence",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)",
+        "YLLs (Years of Life Lost)"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "411",
+        "414",
+        "441",
+        "471",
+        "474",
+        "493",
+        "495",
+        "496",
+        "497",
+        "543",
+        "976"
+      ],
+      "cause_name": [
+        "Alzheimer's disease and other dementias",
+        "Bladder cancer",
+        "Colon and rectum cancer",
+        "Diabetes mellitus type 2",
+        "Esophageal cancer",
+        "Intracerebral hemorrhage",
+        "Ischemic heart disease",
+        "Ischemic stroke",
+        "Kidney cancer",
+        "Stomach cancer",
+        "Subarachnoid hemorrhage"
+      ],
+      "metric_name": [
+        "Number"
+      ],
+      "year": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ]
+    }
+  },
+  {
+    "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round1_20261112\\handoff\\continuation\\source_data\\gbd\\IHME-GBD_2023_DATA-85af7c45-1.zip",
+    "sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
+    "member": "IHME-GBD_2023_DATA-85af7c45-1.csv",
+    "rows": 4624,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "Incidence"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70+ years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "493",
+        "495"
+      ],
+      "cause_name": [
+        "Ischemic heart disease",
+        "Ischemic stroke"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "year": [
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ]
+    }
+  },
+  {
+    "path": "E:\\工作目录\\China-PA-13\\Analysis\\new_study\\round1_20261112\\handoff\\continuation\\source_data\\gbd\\IHME-GBD_2023_DATA-cd550c69-1.zip",
+    "sha256": "e90b5fe9f64657bee52ab63efba40684a4233e8c0f66d7b358207ca7d504955b",
+    "member": "IHME-GBD_2023_DATA-cd550c69-1.csv",
+    "rows": 1536,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Deaths",
+        "Incidence",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)",
+        "YLLs (Years of Life Lost)"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "429",
+        "435"
+      ],
+      "cause_name": [
+        "Breast cancer",
+        "Uterine cancer"
+      ],
+      "metric_name": [
+        "Number"
+      ],
+      "year": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ]
+    }
+  },
+  {
+    "path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\身体活动不足分析\\research_repo\\new_study\\round3_health_model_pilot_20261112\\raw\\IHME-GBD_2023_DATA-85af7c45-1.zip",
+    "sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
+    "member": "IHME-GBD_2023_DATA-85af7c45-1.csv",
+    "rows": 4624,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "Incidence"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70+ years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "493",
+        "495"
+      ],
+      "cause_name": [
+        "Ischemic heart disease",
+        "Ischemic stroke"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "year": [
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ]
+    }
+  },
+  {
+    "path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\身体活动不足分析\\research_repo\\new_study\\round1_20261112\\handoff\\continuation\\source_data\\gbd\\IHME-GBD_2023_DATA-29b34249-1.zip",
+    "sha256": "99cdaa5c4967f3894478e574182ffc75c3dd2aba86714ba126ba482f9428e7de",
+    "member": "IHME-GBD_2023_DATA-29b34249-1.csv",
+    "rows": 1024,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Incidence",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "567"
+      ],
+      "cause_name": [
+        "Depressive disorders"
+      ],
+      "metric_name": [
+        "Number"
+      ],
+      "year": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ]
+    }
+  },
+  {
+    "path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\身体活动不足分析\\research_repo\\new_study\\round1_20261112\\handoff\\continuation\\source_data\\gbd\\IHME-GBD_2023_DATA-4fe62769-1.zip",
+    "sha256": "a673ac8c73a4be2c6d1858a7c214158e8e8b4452aa546296a931b366c4401b05",
+    "member": "IHME-GBD_2023_DATA-4fe62769-1.csv",
+    "rows": 16768,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Deaths",
+        "Incidence",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)",
+        "YLLs (Years of Life Lost)"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "411",
+        "414",
+        "441",
+        "471",
+        "474",
+        "493",
+        "495",
+        "496",
+        "497",
+        "543",
+        "976"
+      ],
+      "cause_name": [
+        "Alzheimer's disease and other dementias",
+        "Bladder cancer",
+        "Colon and rectum cancer",
+        "Diabetes mellitus type 2",
+        "Esophageal cancer",
+        "Intracerebral hemorrhage",
+        "Ischemic heart disease",
+        "Ischemic stroke",
+        "Kidney cancer",
+        "Stomach cancer",
+        "Subarachnoid hemorrhage"
+      ],
+      "metric_name": [
+        "Number"
+      ],
+      "year": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ]
+    }
+  },
+  {
+    "path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\身体活动不足分析\\research_repo\\new_study\\round1_20261112\\handoff\\continuation\\source_data\\gbd\\IHME-GBD_2023_DATA-85af7c45-1.zip",
+    "sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
+    "member": "IHME-GBD_2023_DATA-85af7c45-1.csv",
+    "rows": 4624,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "Incidence"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female",
+        "Male"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70+ years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "493",
+        "495"
+      ],
+      "cause_name": [
+        "Ischemic heart disease",
+        "Ischemic stroke"
+      ],
+      "metric_name": [
+        "Number",
+        "Rate"
+      ],
+      "year": [
+        "1990",
+        "1991",
+        "1992",
+        "1993",
+        "1994",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ]
+    }
+  },
+  {
+    "path": "C:\\Users\\Windows11\\Documents\\ChatGPT\\身体活动不足分析\\research_repo\\new_study\\round1_20261112\\handoff\\continuation\\source_data\\gbd\\IHME-GBD_2023_DATA-cd550c69-1.zip",
+    "sha256": "e90b5fe9f64657bee52ab63efba40684a4233e8c0f66d7b358207ca7d504955b",
+    "member": "IHME-GBD_2023_DATA-cd550c69-1.csv",
+    "rows": 1536,
+    "contains_risk_dimension": false,
+    "dimensions": {
+      "population_group_name": [
+        "All Population"
+      ],
+      "measure_name": [
+        "DALYs (Disability-Adjusted Life Years)",
+        "Deaths",
+        "Incidence",
+        "Prevalence",
+        "YLDs (Years Lived with Disability)",
+        "YLLs (Years of Life Lost)"
+      ],
+      "location_name": [
+        "China"
+      ],
+      "sex_name": [
+        "Female"
+      ],
+      "age_name": [
+        "20-24 years",
+        "25-29 years",
+        "30-34 years",
+        "35-39 years",
+        "40-44 years",
+        "45-49 years",
+        "50-54 years",
+        "55-59 years",
+        "60-64 years",
+        "65-69 years",
+        "70-74 years",
+        "75-79 years",
+        "80-84 years",
+        "85-89 years",
+        "90-94 years",
+        "95+ years"
+      ],
+      "cause_id": [
+        "429",
+        "435"
+      ],
+      "cause_name": [
+        "Breast cancer",
+        "Uterine cancer"
+      ],
+      "metric_name": [
+        "Number"
+      ],
+      "year": [
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017"
+      ]
+    }
+  }
+]

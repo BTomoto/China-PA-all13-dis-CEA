@@ -1,0 +1,182 @@
+[
+  {
+    "file": "raw/GBD2021_low_PA_methods.pdf",
+    "url": "https://www.healthdata.org/sites/default/files/methods_appendices/2021/lojustin_activity_writeup_gbd2020_AC_updated0131.pdf",
+    "acquisition_status": "DOWNLOAD_FAILED",
+    "local_bytes_archived": false,
+    "file_obtained_utc": "",
+    "sha256": "",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/China_first_year_IS_CNSR3.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11420908/fullTextXML",
+    "acquisition_status": "DOWNLOADED",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T16:51:42.658610+00:00",
+    "sha256": "ce0da4143ba3df56e91fab98cf2aab3b048a24023f5cdc9240abe8bfb9e036f5",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/China_CHNS_CVD_projection.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5850940/fullTextXML",
+    "acquisition_status": "DOWNLOAD_FAILED",
+    "local_bytes_archived": false,
+    "file_obtained_utc": "",
+    "sha256": "",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/China_CKB_PA_phenome.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12277735/fullTextXML",
+    "acquisition_status": "DOWNLOADED",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T16:51:55.172870+00:00",
+    "sha256": "b1236576fc84fa8aa13b7df06d4be5062de464f1abfc597263288c529fca9703",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/GBD2019_lowPA_external_reference.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10286621/fullTextXML",
+    "acquisition_status": "DOWNLOADED",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T16:51:43.460584+00:00",
+    "sha256": "7fb48233bdb3d9feb1b080fd7dad2d089aa42e8c427f6954ee4f758c15b72ffd",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/China_CHNS_CVD_projection.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5850940/",
+    "acquisition_status": "PRESENT_NOT_OVERWRITTEN",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T16:56:06.483974+00:00",
+    "sha256": "1e11191cfe6bec7d172368f999fbfe76a580e79259f1b6be31509cfb340b9931",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/China_CHNS_supplement.pdf",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5850940.1/NIHMS800634-supplement-supplement_1.pdf",
+    "acquisition_status": "DOWNLOAD_FAILED",
+    "local_bytes_archived": false,
+    "file_obtained_utc": "",
+    "sha256": "",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/Brazil_CRA_Kyu_mortality.html",
+    "url": "https://oup.silverchair-cdn.com/article-minimal/5139677",
+    "acquisition_status": "PRESENT_NOT_OVERWRITTEN",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T16:56:06.420732+00:00",
+    "sha256": "c13c1a74909dc53714c7a76e5f9257ceceffc53561aaf263585e8261a469eb37",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/Morocco_CRA_Kyu.html",
+    "url": "https://www.cdc.gov/pcd/issues/2026/25_0352.htm",
+    "acquisition_status": "DOWNLOAD_FAILED",
+    "local_bytes_archived": false,
+    "file_obtained_utc": "",
+    "sha256": "",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/NBS_2025_wages.html",
+    "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260515_1963707.html",
+    "acquisition_status": "PRESENT_NOT_OVERWRITTEN",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T16:56:03.819553+00:00",
+    "sha256": "4ce7e6bf8fe69d52babb53f26ae55359b100f47c977c523ccf9ec630e41cf20a",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/China_ACS_first_year_abstract.html",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30770126/",
+    "acquisition_status": "PRESENT_NOT_OVERWRITTEN",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T16:56:04.677810+00:00",
+    "sha256": "15cebe1c1bec561db182625f7cfcda95197d189b1e78b9a15dc2dd91c2191a6e",
+    "content_status": "CHALLENGE_NOT_ARTICLE",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/RAND_productivity_primary.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7719903/fullTextXML",
+    "acquisition_status": "PRESENT_NOT_OVERWRITTEN",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T16:56:06.560670+00:00",
+    "sha256": "581c890296e115ff5b413fa6c83f1be4339e38b02783688a048264084ff19ca2",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/China_T2D_incident_complications.html",
+    "url": "https://link.springer.com/article/10.1007/s13300-020-00967-y",
+    "acquisition_status": "PRESENT_NOT_OVERWRITTEN",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T17:15:11.444299+00:00",
+    "sha256": "a7c4498e9dd3c1ce52e6a2ce3303fc196be0da095d0680ede4ce2603ba998ab6",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/CHNS_supplement_direct.pdf",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/5850940/bin/NIHMS800634-supplement-supplement_1.pdf",
+    "acquisition_status": "DOWNLOAD_FAILED",
+    "local_bytes_archived": false,
+    "file_obtained_utc": "",
+    "sha256": "",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/Schuch2018_abstract.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29690792%20AND%20SRC:MED&format=json&resultType=core",
+    "acquisition_status": "DOWNLOADED",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T17:20:38.343631+00:00",
+    "sha256": "097f45691606a4c0a557fcba8c8b78aeaefb4397054a1399a6e1afa34e01b1a8",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/Liu2017_abstract.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28348016%20AND%20SRC:MED&format=json&resultType=core",
+    "acquisition_status": "DOWNLOADED",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T17:20:37.919441+00:00",
+    "sha256": "fbf10f5cc6421a1119a6c96013e9655e11ba5605834928668a64bb04fc60625c",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/Carlsson2007_abstract.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17096113%20AND%20SRC:MED&format=json&resultType=core",
+    "acquisition_status": "DOWNLOADED",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T17:20:38.152225+00:00",
+    "sha256": "bf05b8531538dee0e11b74deaa13c1d028c48c5015c0849a3001fa6a044a6f89",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  },
+  {
+    "file": "raw/ACS2019_abstract.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30770126%20AND%20SRC:MED&format=json&resultType=core",
+    "acquisition_status": "DOWNLOADED",
+    "local_bytes_archived": true,
+    "file_obtained_utc": "2026-11-12T17:20:37.822494+00:00",
+    "sha256": "0579f3e6ca5e2b8804d508c2deb8265fe1feda53d1315ddc6bf345328d05518e",
+    "content_status": "SEE_CONTENT_CHECKS_AND_EVIDENCE_REGISTER",
+    "distribution_permission": "NOT_ASSUMED; local archive only"
+  }
+]

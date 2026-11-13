@@ -1,0 +1,14 @@
+{
+  "baseline_cells": 9984,
+  "baseline_totals": 312,
+  "scenario_rows": 428,
+  "attributable_rows": 8,
+  "decomposition_rows": 9984,
+  "population_2025": 1113252964,
+  "p2025": 0.2196605152043413,
+  "baseline_commit": "1a2a8f11a0dd5c813d2cd35b18e906ea66dedc50",
+  "branch": "codex/burden-evidence-round7",
+  "executed_at": "2026-11-12T17:24:39.714059+00:00",
+  "modules": "Round7 CRA only",
+  "point_estimates_released": false
+}

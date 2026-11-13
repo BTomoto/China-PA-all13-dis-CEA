@@ -1,0 +1,42 @@
+[
+  {
+    "file": "China_CHNS_CVD_projection.html",
+    "status": "CONTENT_VERIFIED",
+    "required_content_tokens": [
+      "CHNS",
+      "3999"
+    ]
+  },
+  {
+    "file": "Brazil_CRA_Kyu_mortality.html",
+    "status": "CONTENT_VERIFIED",
+    "required_content_tokens": [
+      "Kyu",
+      "Relative risk estimates"
+    ]
+  },
+  {
+    "file": "NBS_2025_wages.html",
+    "status": "CONTENT_VERIFIED",
+    "required_content_tokens": [
+      "129441",
+      "71590"
+    ]
+  },
+  {
+    "file": "China_ACS_first_year_abstract.html",
+    "status": "NOT_VERIFIED_OR_CHALLENGE",
+    "required_content_tokens": [
+      "20771",
+      "22877"
+    ]
+  },
+  {
+    "file": "China_T2D_incident_complications.html",
+    "status": "CONTENT_VERIFIED",
+    "required_content_tokens": [
+      "114,847",
+      "complication"
+    ]
+  }
+]

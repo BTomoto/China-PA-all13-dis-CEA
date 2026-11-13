@@ -1,0 +1,7 @@
+{"baseline_cells": 9984, "baseline_totals": 312, "scenario_rows": 428, "attributable_rows": 8, "decomposition_rows": 9984, "population_2025": 1113252964, "p2025": 0.2196605152043413}
+EXECUTED 01_evidence_review.ipynb
+EXECUTED 02_baseline_attributable_burden.ipynb
+EXECUTED 03_multiscenario_benefits.ipynb
+EXECUTED 04_economic_evidence.ipynb
+EXECUTED 05_validation_and_figures.ipynb
+FINALIZED 74 files; scientific evidence gates are distinct from execution checks

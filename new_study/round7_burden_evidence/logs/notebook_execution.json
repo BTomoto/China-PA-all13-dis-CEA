@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01_evidence_review.ipynb",
+    "status": "EXECUTED",
+    "seconds": 1.48,
+    "executed_cells": 2
+  },
+  {
+    "file": "02_baseline_attributable_burden.ipynb",
+    "status": "EXECUTED",
+    "seconds": 1.31,
+    "executed_cells": 2
+  },
+  {
+    "file": "03_multiscenario_benefits.ipynb",
+    "status": "EXECUTED",
+    "seconds": 1.32,
+    "executed_cells": 2
+  },
+  {
+    "file": "04_economic_evidence.ipynb",
+    "status": "EXECUTED",
+    "seconds": 1.31,
+    "executed_cells": 2
+  },
+  {
+    "file": "05_validation_and_figures.ipynb",
+    "status": "EXECUTED",
+    "seconds": 2.35,
+    "executed_cells": 2
+  }
+]

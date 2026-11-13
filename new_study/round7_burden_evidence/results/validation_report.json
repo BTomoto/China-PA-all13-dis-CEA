@@ -1,0 +1,136 @@
+{
+  "base_commit": "1a2a8f11a0dd5c813d2cd35b18e906ea66dedc50",
+  "branch": "codex/burden-evidence-round7",
+  "checks": [
+    {
+      "id": "POP2025",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "EXPOSURE2025",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "GRID_NO_BOTH_OR_DUPLICATES",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "FIXED2025_WEIGHT_TARGET",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "PROBABILITIES_PATH_SHARED_OBSERVATIONS",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "PUBLISHED_NODES_POSITIVE_MONOTONE",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "INTERPOLATION_COMPARISON_EXECUTED",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "SUPPORT_NO_EXTRAPOLATION",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "VALID_GATE_ACTUALLY_PASSES",
+      "status": "PASS",
+      "category": "SCIENTIFIC_PERMISSION_TEST",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "INVALID_ENDPOINT_REJECTED",
+      "status": "PASS",
+      "category": "SCIENTIFIC_PERMISSION_TEST",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "ICH_SAH_REJECT_IS_CURVE",
+      "status": "PASS",
+      "category": "SCIENTIFIC_PERMISSION_TEST",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "P15_IDENTITY_R3_GE_R1_AND_R2_COUNTEREXAMPLE",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "DETAIL_TOTAL_RECONCILIATION_AND_BOUNDS",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "MISSING_NOT_ZERO",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "UNIQUE_REGISTER_IDS",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "HISTORICAL_FILES_AND_HASHES_UNCHANGED",
+      "status": "PASS",
+      "category": "FILE_AND_COMPUTATION",
+      "evidence": "executed assertion"
+    },
+    {
+      "id": "NATIONAL_FINE_EXPOSURE",
+      "status": "FAIL",
+      "category": "SCIENTIFIC_EVIDENCE_GATE",
+      "evidence": "No applicable weighted dose distribution recovered; national point estimates not identified"
+    },
+    {
+      "id": "MORTALITY_CURVE_DIRECT",
+      "status": "FAIL",
+      "category": "SCIENTIFIC_EVIDENCE_GATE",
+      "evidence": "No mortality-only fitted Kyu grid; public CRA precedent supports labelled structural sensitivity only"
+    },
+    {
+      "id": "GBD_RISK_FILTER_MENU",
+      "status": "NOT_CHECKED",
+      "category": "SCIENTIFIC_EVIDENCE_GATE",
+      "evidence": "No authenticated risk-menu interaction performed this round; supported filters not invented"
+    },
+    {
+      "id": "MEDICAL_NATIONAL2025",
+      "status": "FAIL",
+      "category": "SCIENTIFIC_EVIDENCE_GATE",
+      "evidence": "Source amount verified, national treated/survivor coverage and uniform priceyear unresolved"
+    },
+    {
+      "id": "NATURAL_HISTORY_CEA_PSA",
+      "status": "NOT_APPLICABLE",
+      "category": "SCOPE",
+      "evidence": "No such functions/modules imported or executed"
+    }
+  ],
+  "computational_failures": 0,
+  "scientific_gate_failures": 3,
+  "scientific_point_release": "BLOCKED_EXPOSURE_AND_ENDPOINT_SPECIFIC_RELEASE",
+  "test_pass_is_not_scientific_admission": true
+}

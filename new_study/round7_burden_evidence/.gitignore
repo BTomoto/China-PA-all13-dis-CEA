@@ -1,0 +1,6 @@
+raw/
+__pycache__/
+.runtime/
+!logs/
+!logs/*.json
+!logs/*.log

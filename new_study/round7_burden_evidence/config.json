@@ -1,0 +1,40 @@
+{
+  "base_commit": "1a2a8f11a0dd5c813d2cd35b18e906ea66dedc50",
+  "branch": "codex/burden-evidence-round7",
+  "population": "new_study/round2_20261112/registers/population_input_whitelist_v1.csv",
+  "exposure": "new_study/round2_target_prep_20261112/registers/exposure_crosswalk_ci_v2.csv",
+  "gbd": [
+    "new_study/round1_20261112/handoff/continuation/source_data/gbd/IHME-GBD_2023_DATA-85af7c45-1.zip",
+    "new_study/round4_dynamic_health_model_20261112/raw/IHME-GBD_2023_DATA-353a02a2-1.zip"
+  ],
+  "main_year": 2030,
+  "scenarios": {
+    "B0": "identity",
+    "P15": "proportional split: inactive fraction alpha(year) moves to EXACT 600",
+    "R1": "max(x,600)",
+    "R2": "1.2*x",
+    "R3": "600 if baseline x<600 else 1.2*x"
+  },
+  "P15_alpha": "min(0.15,max(0,0.03*(year-2025)))",
+  "primary_point_results": "NOT_IDENTIFIED_WITH_BINARY_MARGIN_ONLY",
+  "mortality_sensitivity_age": "30-69 only; public CRA precedent; no direct mortality curve claimed",
+  "instantaneous_risk_response": "STRUCTURAL_ASSUMPTION_NO_LAG",
+  "cumulative_windows": [
+    [
+      2025,
+      2029
+    ],
+    [
+      2025,
+      2030
+    ],
+    [
+      2025,
+      2034
+    ],
+    [
+      2025,
+      2050
+    ]
+  ]
+}

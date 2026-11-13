@@ -1,0 +1,102 @@
+[
+  {
+    "original_zip": "new_study/round1_20261112/handoff/continuation/source_data/gbd/IHME-GBD_2023_DATA-85af7c45-1.zip",
+    "sha256": "64e613442f4269bb79ff36e26a7069ad5da36a1abc8de566be58f49c3aa6805e",
+    "GBD_version": "2023",
+    "rate_year": 2023,
+    "location": "China",
+    "population_group": "All Population",
+    "sex": [
+      "Female",
+      "Male"
+    ],
+    "age": [
+      "20-24",
+      "25-29",
+      "30-34",
+      "35-39",
+      "40-44",
+      "45-49",
+      "50-54",
+      "55-59",
+      "60-64",
+      "65-69",
+      "70-74",
+      "75-79",
+      "80-84",
+      "85-89",
+      "90-94",
+      "95+"
+    ],
+    "measure": [
+      "Incidence"
+    ],
+    "cause": [
+      "IHD",
+      "IS"
+    ],
+    "metric": "Rate per100000",
+    "required_columns": [
+      "val",
+      "lower",
+      "upper"
+    ],
+    "verified_selected_rate_rows": 64,
+    "citation": {
+      "citation.txt": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.\r\n"
+    },
+    "query_evidence": "verified file dimensions; prior query records preserved in Round4; no new authenticated download claimed"
+  },
+  {
+    "original_zip": "new_study/round4_dynamic_health_model_20261112/raw/IHME-GBD_2023_DATA-353a02a2-1.zip",
+    "sha256": "9ba35729cab5994ad9ce05427228c71b127d8b4bf03db899681ef250b2a5e2b7",
+    "GBD_version": "2023",
+    "rate_year": 2023,
+    "location": "China",
+    "population_group": "All Population",
+    "sex": [
+      "Female",
+      "Male"
+    ],
+    "age": [
+      "20-24",
+      "25-29",
+      "30-34",
+      "35-39",
+      "40-44",
+      "45-49",
+      "50-54",
+      "55-59",
+      "60-64",
+      "65-69",
+      "70-74",
+      "75-79",
+      "80-84",
+      "85-89",
+      "90-94",
+      "95+"
+    ],
+    "measure": [
+      "DALY",
+      "Deaths",
+      "Prevalence",
+      "YLD",
+      "YLL"
+    ],
+    "cause": [
+      "IHD",
+      "IS"
+    ],
+    "metric": "Rate per100000",
+    "required_columns": [
+      "val",
+      "lower",
+      "upper"
+    ],
+    "verified_selected_rate_rows": 320,
+    "citation": {
+      "citation.txt": "GBD Results tool:\r\nUse the following to cite data included in this download:\r\nGlobal Burden of Disease Collaborative Network.\r\nGlobal Burden of Disease Study 2023 (GBD 2023) Results.\r\nSeattle, United States: Institute for Health Metrics and Evaluation (IHME), 2024.\r\nAvailable from https://vizhub.healthdata.org/gbd-results/.\r\n"
+    },
+    "query_evidence": "verified file dimensions; prior query records preserved in Round4; no new authenticated download claimed"
+  }
+]

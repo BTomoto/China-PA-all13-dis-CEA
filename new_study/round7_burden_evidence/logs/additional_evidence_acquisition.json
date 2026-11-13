@@ -1,0 +1,84 @@
+[
+  {
+    "file": "China_CHNS_CVD_projection.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5850940/",
+    "status": "PRESENT_NOT_OVERWRITTEN",
+    "sha256": "1e11191cfe6bec7d172368f999fbfe76a580e79259f1b6be31509cfb340b9931"
+  },
+  {
+    "file": "China_CHNS_supplement.pdf",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5850940.1/NIHMS800634-supplement-supplement_1.pdf",
+    "status": "DOWNLOAD_FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "Brazil_CRA_Kyu_mortality.html",
+    "url": "https://oup.silverchair-cdn.com/article-minimal/5139677",
+    "status": "PRESENT_NOT_OVERWRITTEN",
+    "sha256": "c13c1a74909dc53714c7a76e5f9257ceceffc53561aaf263585e8261a469eb37"
+  },
+  {
+    "file": "Morocco_CRA_Kyu.html",
+    "url": "https://www.cdc.gov/pcd/issues/2026/25_0352.htm",
+    "status": "DOWNLOAD_FAILED",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "NBS_2025_wages.html",
+    "url": "https://www.stats.gov.cn/sj/zxfb/202605/t20260515_1963707.html",
+    "status": "PRESENT_NOT_OVERWRITTEN",
+    "sha256": "4ce7e6bf8fe69d52babb53f26ae55359b100f47c977c523ccf9ec630e41cf20a"
+  },
+  {
+    "file": "China_ACS_first_year_abstract.html",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30770126/",
+    "status": "PRESENT_NOT_OVERWRITTEN",
+    "sha256": "15cebe1c1bec561db182625f7cfcda95197d189b1e78b9a15dc2dd91c2191a6e"
+  },
+  {
+    "file": "RAND_productivity_primary.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7719903/fullTextXML",
+    "status": "PRESENT_NOT_OVERWRITTEN",
+    "sha256": "581c890296e115ff5b413fa6c83f1be4339e38b02783688a048264084ff19ca2"
+  },
+  {
+    "file": "China_T2D_incident_complications.html",
+    "url": "https://link.springer.com/article/10.1007/s13300-020-00967-y",
+    "status": "PRESENT_NOT_OVERWRITTEN",
+    "sha256": "a7c4498e9dd3c1ce52e6a2ce3303fc196be0da095d0680ede4ce2603ba998ab6"
+  },
+  {
+    "file": "CHNS_supplement_direct.pdf",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/5850940/bin/NIHMS800634-supplement-supplement_1.pdf",
+    "status": "DOWNLOAD_FAILED",
+    "error": "NOT_PDF"
+  },
+  {
+    "file": "Schuch2018_abstract.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29690792%20AND%20SRC:MED&format=json&resultType=core",
+    "status": "DOWNLOADED",
+    "sha256": "097f45691606a4c0a557fcba8c8b78aeaefb4397054a1399a6e1afa34e01b1a8",
+    "bytes": 26120
+  },
+  {
+    "file": "Liu2017_abstract.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28348016%20AND%20SRC:MED&format=json&resultType=core",
+    "status": "DOWNLOADED",
+    "sha256": "fbf10f5cc6421a1119a6c96013e9655e11ba5605834928668a64bb04fc60625c",
+    "bytes": 12024
+  },
+  {
+    "file": "Carlsson2007_abstract.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17096113%20AND%20SRC:MED&format=json&resultType=core",
+    "status": "DOWNLOADED",
+    "sha256": "bf05b8531538dee0e11b74deaa13c1d028c48c5015c0849a3001fa6a044a6f89",
+    "bytes": 6705
+  },
+  {
+    "file": "ACS2019_abstract.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30770126%20AND%20SRC:MED&format=json&resultType=core",
+    "status": "DOWNLOADED",
+    "sha256": "0579f3e6ca5e2b8804d508c2deb8265fe1feda53d1315ddc6bf345328d05518e",
+    "bytes": 8286
+  }
+]
