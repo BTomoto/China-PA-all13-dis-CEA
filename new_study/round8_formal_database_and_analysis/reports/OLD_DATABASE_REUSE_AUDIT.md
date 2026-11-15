@@ -1,0 +1,5 @@
+# 旧库复用
+
+检查两份完整工作簿、规定目录、历史源代码及Git路径历史。共登记238个文件/工作表/入口。根目录部分input/config为虚拟路径，旧公开模型由input_schema.json和Public_model_inputs.xlsx在运行时生成；本轮直接读工作簿而未运行旧模型。59张原工作表迁入database/legacy_tables，保留政策成本等仅归档。旧GBD共23580行，保留逐行核验标签并优先用新原始细率替换同键。原ZIP未找回不等于数据不存在。
+
+来源文件SHA与新表对应见old_to_new_crosswalk.csv及source_manifest.csv。没有联系第三方，没有新GBD下载要求。

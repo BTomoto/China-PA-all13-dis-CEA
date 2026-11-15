@@ -1,0 +1,23 @@
+variant,year,sex,age_group,population,p_inactive,population_million,inactive_persons,p_active,result_status,evidence_tier,outcome_admission,formal_point_estimate,conditional_result,structural_range,limitation
+Medium,2025,Female,20-24,36299577,0.2477,36.3,8991405.2229,0.7523,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,25-29,38427453,0.2502,38.43,9614548.7406,0.7498,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,30-34,46450906,0.3219,46.45,14952546.6414,0.6781,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,35-39,58246668,0.2447,58.25,14252959.6596,0.7553,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,40-44,49820497,0.1913,49.82,9530661.0761,0.8087,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,45-49,45295721,0.1728,45.3,7827100.5888,0.8272,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,50-54,57034156,0.1638,57.03,9342194.7528,0.8362,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,55-59,58561241,0.1724,58.56,10095957.9484,0.8276,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,60-64,47741355,0.1807,47.74,8626862.8485,0.8193,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,65-69,36668389,0.1757,36.67,6442635.9473,0.8243,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Female,70+,79698689,0.2382,79.7,18984227.7198,0.7618,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,20-24,42526154,0.2484,42.53,10563496.6536,0.7516,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,25-29,44377128,0.3154,44.38,13996546.1712,0.6846,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,30-34,52145495,0.2896,52.15,15101335.352,0.7104,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,35-39,63281938,0.2445,63.28,15472433.841,0.7555,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,40-44,52676266,0.2365,52.68,12457936.909,0.7635,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,45-49,47064933,0.179,47.06,8424623.007,0.821,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,50-54,58045378,0.1886,58.05,10947358.2908,0.8114,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,55-59,58103255,0.2338,58.1,13584541.019,0.7662,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,60-64,45994643,0.2474,45.99,11379074.6782,0.7526,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,65-69,33383372,0.2865,33.38,9564336.078,0.7135,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved
+Medium,2025,Male,70+,61409750,0.3756,61.41,23065502.1,0.6244,MODEL_BASELINE,LEGACY_MODEL_EXPOSURE,FORMAL,True,False,False,Legacy model values; not observed 2025; transformation chain unresolved

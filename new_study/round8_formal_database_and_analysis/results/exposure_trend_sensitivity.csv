@@ -1,0 +1,4 @@
+scenario,status,parameter,reason,result_status,evidence_tier,outcome_admission,formal_point_estimate,conditional_result,structural_range,limitation
+STABLE,CALCULATED,0,Main model,DESCRIPTIVE_INPUT_OR_TOTAL,SEE_DATABASE_SOURCE_MANIFEST,NOT_A_CAUSAL_ENDPOINT_RESULT,False,False,False,Descriptive source/total table; see field-specific methods and primary result tables
+IMPROVING,NOT_ESTIMATED,,No validated China trend parameter in inspected old source chain,DESCRIPTIVE_INPUT_OR_TOTAL,SEE_DATABASE_SOURCE_MANIFEST,NOT_A_CAUSAL_ENDPOINT_RESULT,False,False,False,Descriptive source/total table; see field-specific methods and primary result tables
+WORSENING,NOT_ESTIMATED,0.0084,Legacy0.84% source/definition not validated; do not upgrade assumption,DESCRIPTIVE_INPUT_OR_TOTAL,SEE_DATABASE_SOURCE_MANIFEST,NOT_A_CAUSAL_ENDPOINT_RESULT,False,False,False,Descriptive source/total table; see field-specific methods and primary result tables

@@ -1,0 +1,9 @@
+# 数据字典
+
+database CSV是模型入口；Excel为同值浏览，不提供独立计算逻辑。variable_id标识源记录；source_id与文件SHA定位来源；origin_path是仓库相对路径，source_file指原导出名称。val/lower/upper保留原字段，空值不等于0。GBD Rate单位为每10万人；Number按measure区分事件、死亡、现患人数和健康年。source_status与outcome_admission分离。
+
+PAF_B0是模型二分类反事实归因分数。remaining_attributable_fraction_B0_denominator使用B0公共分母；不是通常以干预人口疾病率为分母的PAF。PIF是同年干预减少占B0总负担比例。baseline_total是未归因的疾病总量；attributable_B0、benefit和remaining_burden相互对应但不能跨单位相加。benefit_percent_of_baseline为百分数，benefit_rate_per100000以同年适用人口为分母。累计事件是年度反事实之和，可能涉及同一人在不同年份的事件。
+
+FORMAL：当前指定二分类假设下正式发病点估计。CONDITIONAL_CRA_MAPPING：额外疾病亚型或fatal/disability映射假设，另列。BLOCKED_OUTCOME_MISMATCH：未通过风险接口，归因结果空白。NOT_APPLICABLE：结局不适用。疾病总负担的可用性不由风险接口是否通过决定。M1_BINARY、M2_LEGACY_PA、M3_FIXED_RATE、M4_WPP_REBASED详见METHODS_STATIC_CRA.md。
+
+R1即时转类；P15_GRADUAL逐步15%；P15_IMMEDIATE立即15%。同一2030目标的时间路径不同；6/10/26年窗口分别截至2030/2034/2050。Low/High为已归档WPP变体，70+细结构保留Medium，是条件性敏感性。RR端点敏感性不是结果95%UI。不得把缺失UI视为0或合并lower/upper。

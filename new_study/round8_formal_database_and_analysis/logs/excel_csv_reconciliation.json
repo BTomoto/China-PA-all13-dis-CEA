@@ -1,0 +1,87 @@
+[
+  {
+    "sheet": "population",
+    "rows": 2028,
+    "status": "PASS"
+  },
+  {
+    "sheet": "pa_binary_exposure",
+    "rows": 22,
+    "status": "PASS"
+  },
+  {
+    "sheet": "pa_published_validation",
+    "rows": 21,
+    "status": "PASS"
+  },
+  {
+    "sheet": "gbd_burden",
+    "rows": 15904,
+    "status": "PASS"
+  },
+  {
+    "sheet": "gbd_cases",
+    "rows": 9544,
+    "status": "PASS"
+  },
+  {
+    "sheet": "rr_admitted",
+    "rows": 4,
+    "status": "PASS"
+  },
+  {
+    "sheet": "rr_evidence_all",
+    "rows": 15,
+    "status": "PASS"
+  },
+  {
+    "sheet": "disease_mapping",
+    "rows": 16,
+    "status": "PASS"
+  },
+  {
+    "sheet": "medical_cost_candidates",
+    "rows": 16,
+    "status": "PASS"
+  },
+  {
+    "sheet": "productivity_candidates",
+    "rows": 8,
+    "status": "PASS"
+  },
+  {
+    "sheet": "source_manifest",
+    "rows": 179,
+    "status": "PASS"
+  },
+  {
+    "sheet": "old_to_new_crosswalk",
+    "rows": 238,
+    "status": "PASS"
+  },
+  {
+    "sheet": "transformation_log",
+    "rows": 7,
+    "status": "PASS"
+  },
+  {
+    "sheet": "formal_input_admission",
+    "rows": 39,
+    "status": "PASS"
+  },
+  {
+    "sheet": "conditional_inputs",
+    "rows": 184,
+    "status": "PASS"
+  },
+  {
+    "sheet": "excluded_legacy_inputs",
+    "rows": 15,
+    "status": "PASS"
+  },
+  {
+    "sheet": "genuine_remaining_gaps",
+    "rows": 5,
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,1 @@
+Python/matplotlib; quantitative figures 2-7 use only FORMAL incidence results (IHD, IS, female breast). Figure1 schematic. 180mm wide, editable SVG/PDF and PNG preview. Deterministic point estimates, no error bars or simulated data. Source CSV and figure data accompany each image. Conditional DALYs are not mixed into formal figures.

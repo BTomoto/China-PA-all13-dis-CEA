@@ -1,0 +1,15 @@
+{
+  "base_commit": "0aaa68fd8cf7bfd2230d02c28abcdb90e5fa6a37",
+  "branch": "codex/formal-database-and-analysis-round8",
+  "main_exposure": "legacy_22_model_rates_with_official_WPP_weights",
+  "active_category_assumption": ">=600 represented by Kyu low-active risk",
+  "main_population": "Medium",
+  "main_rate": "constant_2023",
+  "scenario": {
+    "B0": 0,
+    "P15_GRADUAL": "min(.15,.03*(year-2025))",
+    "P15_IMMEDIATE": 0.15,
+    "R1": 1
+  },
+  "no_psa": true
+}

@@ -1,0 +1,8 @@
+domain,transformation
+PA,Preserve 22 values; replace population weights; no interpolation of observed 2018 rates
+WPP,Medium official five-year PopMale/PopFemale; Low/High archive interpolation; aggregate only for matching old GBD70+
+GBD,"Prefer direct detailed Rate for IHD/IS; other Number / historical WPP2023 forms explicitly rebased rates, not original IHME rates"
+RR,c<1 active/inactive; inverse CI endpoints reversed
+PAF,common baseline denominator for PAF_scenario; PIF = PAF_B0 - remaining_attributable_fraction
+DALY,YLL+YLD point sum; never sum uncertainty interval limits
+cost,Keep cost_id/evidence_id links; no disease-only source inheritance

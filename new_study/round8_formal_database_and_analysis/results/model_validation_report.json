@@ -1,0 +1,223 @@
+{
+  "branch": "codex/formal-database-and-analysis-round8",
+  "base_commit": "0aaa68fd8cf7bfd2230d02c28abcdb90e5fa6a37",
+  "checks": [
+    {
+      "id": "WPP2025",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Official Medium male/female sum"
+    },
+    {
+      "id": "population_grid",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "3 variants x26 years x22 cells; finer Medium retained in database"
+    },
+    {
+      "id": "PA_22_unique",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Legacy model source copied intact; no synthesized 2018 fine-age observations"
+    },
+    {
+      "id": "PA_source_unchanged",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Numeric source preservation within CSV precision"
+    },
+    {
+      "id": "probabilities",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "All model probabilities"
+    },
+    {
+      "id": "PIF_no_change",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Independent formula boundary"
+    },
+    {
+      "id": "PIF_direction",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "All admitted cells"
+    },
+    {
+      "id": "benefit_le_total",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "No avoided events exceed total"
+    },
+    {
+      "id": "B0_zero",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Actual baseline self comparison"
+    },
+    {
+      "id": "P15_R1_identity",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Common baseline denominator: exact mathematical identity"
+    },
+    {
+      "id": "P15_le_R1",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "All matched cells, not R3 vsR2"
+    },
+    {
+      "id": "immediate_ge_gradual",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Immediate same endpoint target"
+    },
+    {
+      "id": "no_male_female_cancer",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Female-specific burden and attributed results"
+    },
+    {
+      "id": "ICH_SAH_blocked",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "No IS RR on hemorrhagic stroke"
+    },
+    {
+      "id": "colon_CRC_not_mapped",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Aggregate CRC totals retained; no colon RR application"
+    },
+    {
+      "id": "blocked_blank",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Actually rejected disease endpoints have blank benefits; detail only includes admitted calculations"
+    },
+    {
+      "id": "nonfatal_depression",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Not applicable rather than numeric0"
+    },
+    {
+      "id": "source_keys_unique",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Exact raw export takes precedence over same legacy key"
+    },
+    {
+      "id": "admission_keys_unique",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "One specific gate per disease endpoint"
+    },
+    {
+      "id": "risk_direction",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Inverse interval endpoints swapped"
+    },
+    {
+      "id": "PAF_denominator_equivalence",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Independent risk-mixture difference versus common baseline PAF subtraction"
+    },
+    {
+      "id": "exact_cost_link_integrity",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "All exact cost matches require four matching fields plus assignment permission"
+    },
+    {
+      "id": "DALY_YLL_YLD",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Conditional DALY point reconciliation; no UI addition"
+    },
+    {
+      "id": "cumulative_matches_annual",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "All three inclusive windows versus separately saved annual totals"
+    },
+    {
+      "id": "decomposition_matches_national",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Cross-endpoint software reconciliation only; not an epidemiological combined total"
+    },
+    {
+      "id": "source_hashes",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Every inspected source still matches migration hash"
+    },
+    {
+      "id": "old_files_unchanged",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "Tracked prior files compared to baseline"
+    },
+    {
+      "id": "admitted_incidence_runs",
+      "status": "PASS",
+      "gate": "science",
+      "evidence": "Positive acceptance test plus rejected subtype/sex tests"
+    },
+    {
+      "id": "binary_active_approximation",
+      "status": "CONDITIONAL",
+      "gate": "science",
+      "evidence": "Low-active risk represents all>=600 by explicit binary study assumption; not observed pooled active RR"
+    },
+    {
+      "id": "legacy_exposure_provenance",
+      "status": "CONDITIONAL",
+      "gate": "science",
+      "evidence": "Researcher authorized 22 legacy model probabilities;2018->2025 chain not recovered"
+    },
+    {
+      "id": "burden_endpoint_transport",
+      "status": "CONDITIONAL",
+      "gate": "science",
+      "evidence": "Deaths/YLL/YLD/DALY separately conditional under generic CRA assumptions; no direct endpoint RR claim"
+    },
+    {
+      "id": "economic_admission",
+      "status": "FAIL",
+      "gate": "science",
+      "evidence": "No jointly qualified national price-year/coverage/cost endpoint combination; economic values blank"
+    },
+    {
+      "id": "no_natural_history_CEA_PSA",
+      "status": "PASS",
+      "gate": "scope",
+      "evidence": "New runner calls migration, deterministic fraction arithmetic, plots, notebooks only; no legacy executable import"
+    },
+    {
+      "id": "Excel_CSV_equal",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "17 worksheets compared cellwise"
+    },
+    {
+      "id": "Notebook_executed",
+      "status": "PASS",
+      "gate": "software",
+      "evidence": "nbclient execution logs for all5 notebooks"
+    }
+  ],
+  "software_failures": 0,
+  "scientific_status": "FORMAL_INCIDENCE_WITH_DECLARED_BINARY_ASSUMPTIONS_AND_SEPARATE_CONDITIONAL_CRA",
+  "models_not_run": [
+    "natural_history",
+    "CEA",
+    "PSA"
+  ]
+}

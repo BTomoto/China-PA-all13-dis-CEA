@@ -1,0 +1,19 @@
+{
+  "population": "database/population.csv",
+  "pa_binary_exposure": "database/pa_binary_exposure.csv",
+  "pa_published_validation": "database/pa_published_validation.csv",
+  "gbd_burden": "database/gbd_burden.csv",
+  "gbd_cases": "database/gbd_cases.csv",
+  "rr_admitted": "database/rr_admitted.csv",
+  "rr_evidence_all": "database/rr_evidence_all.csv",
+  "disease_mapping": "database/disease_mapping.csv",
+  "medical_cost_candidates": "database/medical_cost_candidates.csv",
+  "productivity_candidates": "database/productivity_candidates.csv",
+  "source_manifest": "database/source_manifest.csv",
+  "old_to_new_crosswalk": "database/old_to_new_crosswalk.csv",
+  "transformation_log": "database/transformation_log.csv",
+  "formal_input_admission": "database/formal_input_admission.csv",
+  "conditional_inputs": "database/conditional_inputs.csv",
+  "excluded_legacy_inputs": "database/excluded_legacy_inputs.csv",
+  "genuine_remaining_gaps": "database/genuine_remaining_gaps.csv"
+}

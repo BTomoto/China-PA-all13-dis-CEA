@@ -1,0 +1,17 @@
+check_id,check_name,expected,observed,status,sheet,notes
+QC001,2025 sex-age population strata,22,22.0,PASS,population_projection,Expected 11 ages × 2 sexes.
+QC002,2025 population total,1063188925,1063188925.0,PASS,population_projection,Validated existing model baseline.
+QC003,PA sex-age strata,22,22.0,PASS,PA_binary_20plus,Expected 11 ages × 2 sexes.
+QC004,PA probability sums,all 1.0,22.0,PASS,PA_binary_20plus,Formula check in probability_sum column.
+QC005,Beta parameters positive,22,22.0,PASS,PA_binary_20plus,Required for PSA.
+QC006,Lancet outcome count,13,13.0,PASS,RR_main,One RR per outcome.
+QC007,Disease mapping outcomes,13,13.0,PASS,disease_mapping,Components not counted as outcomes.
+QC008,Stroke component causes,3,3.0,PASS,disease_mapping,"IS, ICH and SAH."
+QC009,GBD burden rows,5712.0,5712.0,PASS,GBD_burden,Model-ready table.
+QC010,GBD burden component rows,6768.0,6768.0,PASS,GBD_burden_components,Component table.
+QC011,GBD case rows,3036.0,3036.0,PASS,GBD_incidence_prevalence,Model-ready table.
+QC012,Future main population blanks,330,330.0,PASS,population_projection,15 future years × 22 strata intentionally pending.
+QC013,S7 unique cost,No,,PASS,policy_costs,S7 excluded from frontier.
+QC014,Hypertension GBD substitution,,,PASS,disease_mapping,Hypertensive heart disease not used.
+QC015,Depression fatal outcomes,Excluded/structural zero,,PASS,disease_mapping,Deaths and YLL not modelled.
+QC016,RR crossing 1 truncation,No truncation,,PASS,RR_main / uncertainty_parameters,Negative PAF/PIF draws permitted.

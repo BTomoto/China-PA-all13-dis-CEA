@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="506.16pt" height="232.502063pt" viewBox="0 0 506.16 232.502063" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T10:08:20.826894</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 232.502063 
+L 506.16 232.502063 
+L 506.16 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g id="patch_2">
+     <path d="M 17.0352 88.643513 
+L 129.3852 88.643513 
+Q 131.7852 88.643513 131.7852 86.243513 
+L 131.7852 70.161263 
+Q 131.7852 67.761263 129.3852 67.761263 
+L 17.0352 67.761263 
+Q 14.6352 67.761263 14.6352 70.161263 
+L 14.6352 86.243513 
+Q 14.6352 88.643513 17.0352 88.643513 
+z
+" style="fill: #edf2f7; stroke: #53687c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(17.0352 75.981263)">Archived aggregate data</text>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(17.0352 84.653513)">22-cell exposure + WPP + GBD</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_3">
+     <path d="M 189.1512 88.586888 
+L 276.29495 88.586888 
+Q 278.69495 88.586888 278.69495 86.186888 
+L 278.69495 70.311638 
+Q 278.69495 67.911638 276.29495 67.911638 
+L 189.1512 67.911638 
+Q 186.7512 67.911638 186.7512 70.311638 
+L 186.7512 86.186888 
+Q 186.7512 88.586888 189.1512 88.586888 
+z
+" style="fill: #edf2f7; stroke: #53687c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(189.1512 76.135388)">Row-specific source and</text>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(189.1512 84.596888)">outcome admission</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_4">
+     <path d="M 361.2672 88.633763 
+L 450.6397 88.633763 
+Q 453.0397 88.633763 453.0397 86.233763 
+L 453.0397 70.171013 
+Q 453.0397 67.771013 450.6397 67.771013 
+L 361.2672 67.771013 
+Q 358.8672 67.771013 358.8672 70.171013 
+L 358.8672 86.233763 
+Q 358.8672 88.633763 361.2672 88.633763 
+z
+" style="fill: #edf2f7; stroke: #53687c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(361.2672 76.088513)">Binary static CRA</text>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(361.2672 84.643763)">common B0 denominator</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_5">
+     <path d="M 17.0352 184.530938 
+L 100.17145 184.530938 
+Q 102.57145 184.530938 102.57145 182.130938 
+L 102.57145 166.353188 
+Q 102.57145 163.953188 100.17145 163.953188 
+L 17.0352 163.953188 
+Q 14.6352 163.953188 14.6352 166.353188 
+L 14.6352 182.130938 
+Q 14.6352 184.530938 17.0352 184.530938 
+z
+" style="fill: #edf2f7; stroke: #53687c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(17.0352 172.079438)">Formal incidence</text>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(17.0352 180.540938)">IHD / IS / female breast</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_6">
+     <path d="M 189.1512 184.731938 
+L 309.6562 184.731938 
+Q 312.0562 184.731938 312.0562 182.331938 
+L 312.0562 166.152187 
+Q 312.0562 163.752188 309.6562 163.752188 
+L 189.1512 163.752188 
+Q 186.7512 163.752188 186.7512 166.152187 
+L 186.7512 182.331938 
+Q 186.7512 184.731938 189.1512 184.731938 
+z
+" style="fill: #edf2f7; stroke: #53687c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(189.1512 171.975938)">Conditional fatal/disability</text>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(189.1512 180.648188)">CRA mapping reported separately</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_7">
+     <path d="M 361.2672 184.636313 
+L 448.42595 184.636313 
+Q 450.82595 184.636313 450.82595 182.236313 
+L 450.82595 166.154063 
+Q 450.82595 163.754063 448.42595 163.754063 
+L 361.2672 163.754063 
+Q 358.8672 163.754063 358.8672 166.154063 
+L 358.8672 182.236313 
+Q 358.8672 184.636313 361.2672 184.636313 
+z
+" style="fill: #edf2f7; stroke: #53687c; stroke-linejoin: miter"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(361.2672 171.974063)">Economic evidence gate</text>
+    <text style="font-size: 8px; font-family: 'Arial'" transform="translate(361.2672 180.646313)">no unqualified multiplier</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.8px; font-family: 'Arial'; text-anchor: middle" x="253.08" y="15.062063" transform="rotate(-0 253.08 15.062063)">Figure 1. Static comparative risk assessment</text>
+   </g>
+  </g>
+ </g>
+</svg>

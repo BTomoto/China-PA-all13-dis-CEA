@@ -1,0 +1,37 @@
+[
+  {
+    "notebook": "01_database_migration",
+    "executed": true,
+    "code_cells": 2,
+    "error_count": 0,
+    "seconds": 2.404
+  },
+  {
+    "notebook": "02_baseline_burden",
+    "executed": true,
+    "code_cells": 2,
+    "error_count": 0,
+    "seconds": 1.418
+  },
+  {
+    "notebook": "03_multiscenario",
+    "executed": true,
+    "code_cells": 2,
+    "error_count": 0,
+    "seconds": 5.665
+  },
+  {
+    "notebook": "04_economic_admission",
+    "executed": true,
+    "code_cells": 2,
+    "error_count": 0,
+    "seconds": 1.509
+  },
+  {
+    "notebook": "05_validation_figures",
+    "executed": true,
+    "code_cells": 2,
+    "error_count": 0,
+    "seconds": 2.232
+  }
+]
