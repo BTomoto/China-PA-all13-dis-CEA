@@ -135,6 +135,10 @@ def finalize():
  js('results/model_validation_report.json',dict(branch=BRANCH,base_commit=BASE,checks=tests,software_failures=sum(t['gate']=='software' and t['status']=='FAIL' for t in tests),scientific_status='FORMAL_INCIDENCE_WITH_DECLARED_BINARY_ASSUMPTIONS_AND_SEPARATE_CONDITIONAL_CRA',models_not_run=['natural_history','CEA','PSA']))
  rows=[]
  for p in sorted(HERE.rglob('*')):
-  if p.is_file() and not any(x in p.parts for x in ['__pycache__','node_modules','.ipynb_checkpoints','runtime']) and p.name!='SHA256SUMS.csv':rows.append(dict(path=p.relative_to(HERE).as_posix(),bytes=p.stat().st_size,sha256=sha(p)))
+  if p.is_file() and not any(x in p.parts for x in ['__pycache__','node_modules','.ipynb_checkpoints','runtime']) and p.name!='SHA256SUMS.csv' and not p.name.endswith('.inspect.ndjson'):
+   if p.suffix in ['.ipynb','.md']:
+    data=p.read_bytes(); normalized=data.replace(b'\r\n',b'\n')
+    if data!=normalized:p.write_bytes(normalized)
+   rows.append(dict(path=p.relative_to(HERE).as_posix(),bytes=p.stat().st_size,sha256=sha(p)))
  save(pd.DataFrame(rows),'SHA256SUMS.csv')
  return tests
